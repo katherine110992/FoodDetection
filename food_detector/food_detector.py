@@ -31,17 +31,12 @@ class FoodDetector:
         clean_text = self.text_analysis.remove_puntuation(clean_text)
         # 6. Tokenize
         token_text = self.text_analysis.spanish_tokenizer(clean_text)
-        # print(token_text)
         # 7. Stem
         stemmed_text = self.text_analysis.spanish_stemmer(token_text)
-        # print(stemmed_text)
         # 8. POS
         tagged_text = self.text_analysis.part_of_speech(stemmed_text)
-        # print(tagged_text)
         # 9. Remove stopwords
         final_token_text, final_tagged_text = self.text_analysis.remove_stop_words(tagged_text)
-        # print(final_token_text)
-        # print(final_tagged_text)
         # 10. Create anagrams
         final_anagrams = {}
         final_text = ' '.join(final_token_text)
@@ -73,15 +68,18 @@ class FoodDetector:
         # print(food_anagrams)
         # 11.2. Look in hashtags
         for hashtag in hashtags:
-            if hashtag in self.what_list:
-                hashtags_with_what_words.append(hashtag)
-                about_food = True
+            for word in self.what_list:
+                if word in hashtag:
+                    hashtags_with_what_words.append(hashtag)
+                    about_food = True
+                    break
         # print(hashtags_with_what_words)
         # 11.3. Look in user_mentions
         for alias in user_mentions:
-            if alias in self.what_list:
-                user_mentions_with_words.append(alias)
-                about_food = True
+            for word in self.what_list:
+                if word in alias:
+                    user_mentions_with_words.append(alias)
+                    about_food = True
         # print(user_mentions_with_words)
         result = {
             "about_food": about_food,

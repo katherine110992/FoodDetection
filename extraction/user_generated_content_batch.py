@@ -1,11 +1,12 @@
 import calendar
 import copy
+import csv
 import datetime
 import os
+from collections import Counter
 from datetime import timedelta
 from time import time
-
-from list_generation.generate_final_lists import generate_csv_files
+from u_generic.utils import Utils
 
 from food_detector.food_detector_thread import FoodDetectorThread
 
@@ -42,6 +43,31 @@ def detect_food_in_batch():
         p_file.write("------------------------  YEAR " + str(year) + "  ------------------------\n")
         p_file.flush()
         for month in int_months:
+            dates = Utils().get_query_dates_per_year_and_month(year, month)
+            start_date = dates[0]
+            finish_date = dates[1]
+            generation_date = dates[2]
+            clear_collection(semi_structured_access, "conversation_current_period", p_file)
+            aggregate_start_time = time()
+            p_file.write("Aggregating conversation_current_period by dates\n")
+            p_file.flush()
+            semi_structured_access.aggregate_data("conversation", "conversation_current_period",
+                                                       "all_by_dates", [start_date, finish_date])
+            elapsed_time = time() - aggregate_start_time
+            p_file.write("Aggregate conversation_current_period time: "
+                                   + str(timedelta(seconds=elapsed_time)) + '\n')
+            p_file.flush()
+            count = semi_structured_access.count_from_database("conversation_current_period", "all", [])
+            p_file.write("Total conversations from current period: " + str(count) + "\n")
+            p_file.flush()
+            reindex_start_time = time()
+            semi_structured_access.reindex_collection("conversation_current_period")
+            elapsed_time = time() - reindex_start_time
+            p_file.write("Reindex conversation_current_period time: "
+                                   + str(timedelta(seconds=elapsed_time)) + '\n')
+            p_file.flush()
+
+
             days = calendar.monthrange(year, month)[1]
             start_day = 1
             raw_data_month = char_months[month_index]
@@ -197,5 +223,158 @@ def generate_food_detector_threads(semi_structured_access, p_file):
                text_not_about_food]
     return results
 
+
+def generate_csv_files(start_time, p_file):
+    # Create finals CSV
+    # Open anagrams file
+    anagrams_with_food_words_file = open("anagrams_with_food_words.txt")
+    anagrams_with_food_words = anagrams_with_food_words_file.read().splitlines()
+    final_anagrams_with_food_words = []
+    # Calculate frequencies for anagrams_with_food_words
+    for anagram_line in anagrams_with_food_words:
+        fields = anagram_line.split("\t")
+        final_anagrams_with_food_words.append(fields[2])
+    anagrams_with_food_words_counter = Counter(final_anagrams_with_food_words).most_common()
+    anagrams_with_food_words_sorted = sorted(anagrams_with_food_words_counter, key=lambda tup: tup[0])
+    # Save into csv
+    date = datetime.datetime.today().strftime("%Y_%m_%d-%H_%M_%S")
+    with open(date + " - anagrams_with_food_words", 'w', encoding='utf-8-sig', newline='') as csv_file:
+        header = ["anagram", "frequency"]
+        writer = csv.DictWriter(csv_file, fieldnames=header, delimiter=';', quoting=csv.QUOTE_ALL, doublequote=True)
+        writer.writeheader()
+        for anagram in anagrams_with_food_words_sorted:
+            row = {
+                "anagram": anagram[0],
+                "frequency": anagram[1]
+            }
+            writer.writerow(row)
+        csv_file.close()
+    anagrams_with_food_words_file.close()
+    execution_time = time() - start_time
+    p_file.write("Write anagrams_with_food_words.cvs time: " + str(timedelta(seconds=execution_time)) + "\n")
+    p_file.flush()
+    # Open user_mentions_about_food file
+    user_mentions_about_food_file = open("user_mentions_about_food.txt")
+    user_mentions_about_food = user_mentions_about_food_file.read().splitlines()
+    # Calculate frequencies for user_mentions_about_food
+    user_mentions_about_food_counter = Counter(user_mentions_about_food).most_common()
+    user_mentions_about_food_sorted = sorted(user_mentions_about_food_counter, key=lambda tup: tup[0])
+    # Save into csv
+    date = datetime.datetime.today().strftime("%Y_%m_%d-%H_%M_%S")
+    with open(date + " - user_mentions_about_food", 'w', encoding='utf-8-sig', newline='') as csv_file:
+        header = ["alias", "frequency"]
+        writer = csv.DictWriter(csv_file, fieldnames=header, delimiter=';', quoting=csv.QUOTE_ALL, doublequote=True)
+        writer.writeheader()
+        for anagram in user_mentions_about_food_sorted:
+            row = {
+                "alias": anagram[0],
+                "frequency": anagram[1]
+            }
+            writer.writerow(row)
+        csv_file.close()
+    user_mentions_about_food_file.close()
+    execution_time = time() - start_time
+    p_file.write("Write user_mentions_about_food.cvs time: " + str(timedelta(seconds=execution_time)) + "\n")
+    p_file.flush()
+    # Open user_mentions_with_food_words file
+    user_mentions_with_food_file = open("user_mentions_with_food_words.txt")
+    user_mentions_with_food_words = user_mentions_with_food_file.read().splitlines()
+    # Calculate frequencies for user_mentions_with_food_words
+    user_mentions_with_food_words_counter = Counter(user_mentions_with_food_words).most_common()
+    user_mentions_with_food_words_sorted = sorted(user_mentions_with_food_words_counter, key=lambda tup: tup[0])
+    # Save into csv
+    date = datetime.datetime.today().strftime("%Y_%m_%d-%H_%M_%S")
+    with open(date + " - user_mentions_with_food_words", 'w', encoding='utf-8-sig', newline='') as csv_file:
+        header = ["alias", "frequency"]
+        writer = csv.DictWriter(csv_file, fieldnames=header, delimiter=';', quoting=csv.QUOTE_ALL, doublequote=True)
+        writer.writeheader()
+        for anagram in user_mentions_with_food_words_sorted:
+            row = {
+                "alias": anagram[0],
+                "frequency": anagram[1]
+            }
+            writer.writerow(row)
+        csv_file.close()
+    user_mentions_with_food_file.close()
+    execution_time = time() - start_time
+    p_file.write(
+        "Write user_mentions_with_food_words.cvs time: " + str(timedelta(seconds=execution_time)) + "\n")
+    p_file.flush()
+    # Open hashtags_about_food file
+    hashtags_about_food_file = open("hashtags_about_food.txt")
+    hashtags_about_food = hashtags_about_food_file.read().splitlines()
+    # Calculate frequencies for hashtags_about_food
+    hashtags_about_food_counter = Counter(hashtags_about_food).most_common()
+    hashtags_about_food_sorted = sorted(hashtags_about_food_counter, key=lambda tup: tup[0])
+    # Save into csv
+    date = datetime.datetime.today().strftime("%Y_%m_%d-%H_%M_%S")
+    with open(date + " - hashtags_about_food", 'w', encoding='utf-8-sig', newline='') as csv_file:
+        header = ["hashtag", "frequency"]
+        writer = csv.DictWriter(csv_file, fieldnames=header, delimiter=';', quoting=csv.QUOTE_ALL, doublequote=True)
+        writer.writeheader()
+        for anagram in hashtags_about_food_sorted:
+            row = {
+                "hashtag": anagram[0],
+                "frequency": anagram[1]
+            }
+            writer.writerow(row)
+        csv_file.close()
+    hashtags_about_food_file.close()
+    execution_time = time() - start_time
+    p_file.write("Write hashtags_about_food.cvs time: " + str(timedelta(seconds=execution_time)) + "\n")
+    p_file.flush()
+    # Open hashtags_with_food_words file
+    hashtags_with_food_words_file = open("hashtags_with_food_words.txt")
+    hashtags_with_food_words = hashtags_with_food_words_file.read().splitlines()
+    # Calculate frequencies for hashtags_with_food_words
+    hashtags_with_food_words_counter = Counter(hashtags_with_food_words).most_common()
+    hashtags_with_food_words_sorted = sorted(hashtags_with_food_words_counter, key=lambda tup: tup[0])
+    # Save into csv
+    date = datetime.datetime.today().strftime("%Y_%m_%d-%H_%M_%S")
+    with open(date + " - hashtags_with_food_words", 'w', encoding='utf-8-sig', newline='') as csv_file:
+        header = ["hashtag", "frequency"]
+        writer = csv.DictWriter(csv_file, fieldnames=header, delimiter=';', quoting=csv.QUOTE_ALL, doublequote=True)
+        writer.writeheader()
+        for anagram in hashtags_with_food_words_sorted:
+            row = {
+                "hashtag": anagram[0],
+                "frequency": anagram[1]
+            }
+            writer.writerow(row)
+        csv_file.close()
+    hashtags_with_food_words_file.close()
+    execution_time = time() - start_time
+    p_file.write("Write hashtags_with_food_words.cvs time: " + str(timedelta(seconds=execution_time)) + "\n")
+    p_file.flush()
+    # Open what_words file
+    what_words_file = open("what_words.txt")
+    what_words = what_words_file.read().splitlines()
+    # Calculate frequencies for what_words
+    what_words_counter = Counter(what_words).most_common()
+    what_words_sorted = sorted(what_words_counter, key=lambda tup: tup[0])
+    # Save into csv
+    date = datetime.datetime.today().strftime("%Y_%m_%d-%H_%M_%S")
+    with open(date + " - what_words", 'w', encoding='utf-8-sig', newline='') as csv_file:
+        header = ["word", "frequency"]
+        writer = csv.DictWriter(csv_file, fieldnames=header, delimiter=';', quoting=csv.QUOTE_ALL, doublequote=True)
+        writer.writeheader()
+        for anagram in what_words_sorted:
+            row = {
+                "word": anagram[0],
+                "frequency": anagram[1]
+            }
+            writer.writerow(row)
+        csv_file.close()
+    what_words_file.close()
+    execution_time = time() - start_time
+    p_file.write("Write what_words.cvs time: " + str(timedelta(seconds=execution_time)) + "\n")
+    p_file.flush()
+    execution_time = time() - start_time
+    p_file.write("Write text_not_about_food.cvs time: " + str(timedelta(seconds=execution_time)) + "\n")
+    p_file.flush()
+    execution_time = time() - start_time
+    p_file.write("Total execution time: " + str(timedelta(seconds=execution_time)) + "\n")
+    p_file.flush()
+    p_file.close()
 
 detect_food_in_batch()
