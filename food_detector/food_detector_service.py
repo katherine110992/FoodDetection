@@ -39,7 +39,7 @@ class FoodDetectorService:
                                     final_food_anagrams = []
                                     for word in result["food_anagrams"]:
                                         final_food_anagrams.append(raw_data_id + "\t" + result['final_text'] + "\t"
-                                                                   + word + "\t" + result["food_anagrams"][word] + "\n")
+                                                                   + word + "\t" + result["food_anagrams"][word])
                                     final_result = {
                                         "about_food": result['about_food'],
                                         "text": result["text"] + "\t" + result["clean_text"],
