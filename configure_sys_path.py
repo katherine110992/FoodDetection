@@ -1,4 +1,5 @@
 import sys
 
-sys.path.append("/SSD/deployments/FoodDetector")
+sys.path.append("/SSD/deployments/FoodDetection/")
+sys.path.append("/SSD/deployments/FoodDetection")
 print(sys.path)
