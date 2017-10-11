@@ -134,7 +134,7 @@ def generate_food_detector_threads(semi_structured_access, p_file):
     p_file.write("Total raw data per date: " + str(total_raw_data) + "\n")
     p_file.flush()
     # 4. Calculate thread numbers
-    thread_number = 100
+    thread_number = 15
     if total_raw_data != 0:
         fill_number = int(total_raw_data / thread_number)
         threads_number = int(total_raw_data / fill_number)
