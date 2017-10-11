@@ -167,4 +167,4 @@ start_time = time()
 date = datetime.datetime.today().strftime("%Y_%m_%d-%H_%M_%S")
 path_to_file = date + " - SeedListGenerator_Performance.txt"
 performance_file = open(path_to_file, 'a')
-generate_csv_files(start_time, performance_file)
+# generate_csv_files(start_time, performance_file)
