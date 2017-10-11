@@ -34,7 +34,7 @@ class FoodDetector:
         # print(token_text)
         # 7. Stem
         stemmed_text = self.text_analysis.spanish_stemmer(token_text)
-        print(stemmed_text)
+        # print(stemmed_text)
         # 8. POS
         tagged_text = self.text_analysis.part_of_speech(stemmed_text)
         # print(tagged_text)
