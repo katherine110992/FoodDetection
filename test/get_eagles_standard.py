@@ -33,8 +33,8 @@ for tag in tags:
 # text = "me comi 3 pedazos con una malta con arroz"
 # text = "queso con chocolate caliente."
 # text = "en zamora se exhibe y comercializa desde hoy presentacion chocolate gourmet"
-
-text = "jajajajaja $90.000 7:00pm maldita... estas lejos, baby."
+# text = "jajajajaja $90.000 7:00pm maldita... estas lejos, baby."
+text = "#kcacolombia https://t.co/9vgki1tgsu	apple re cago los emojis en ios10 beta 4\nhora de las noticias insolitas, mundo curioso en la papaya de oxigeno 100.4 \n#papayacuriosa"
 import re
 text = re.sub('(.:00)', '', text)
 

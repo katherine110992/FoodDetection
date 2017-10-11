@@ -115,12 +115,13 @@ class FoodDetector:
                     if end == -1:
                         end = len(text)
                     text_to_remove = text[start:end]
-                    if len(text_to_remove) != 1:
+                    if len(text_to_remove) > 2:
                         if character == "#":
                             hashtags.append(text_to_remove)
                         elif character == "@":
                             user_mentions.append(text_to_remove)
                     text = text.replace(text_to_remove, "")
+                    text = ' '.join(text.split())
         text = text.strip(' ')
         text = ' '.join(text.split())
         return text, hashtags, user_mentions

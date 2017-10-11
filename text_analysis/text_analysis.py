@@ -63,7 +63,7 @@ class TextAnalysis:
     def remove_puntuation(text):
         punctuation = {'/', '"', '(', ')', '.', ',', '%', ';', '?', '¿', '!', '¡', "'",
                        ':', '$', '&', '>', '<', '-', '_', '°', '|', '¬', '\\', '*', '+',
-                       '[', ']', '{', '}', '=', '\n', '&amp', '&gt', '&lt'}
+                       '[', ']', '{', '}', '=', '\n', '\t', '&amp', '&gt', '&lt', '-'}
         for sign in punctuation:
             text = text.replace(sign, ' ')
         text = text.strip().replace('     ', ' ').replace('    ', ' ').replace('   ', ' ').replace('  ', ' ')
