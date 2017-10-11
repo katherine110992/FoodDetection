@@ -17,8 +17,8 @@ def generate_csv_files(start_time, performance_file):
     final_anagrams_with_food_words = []
     # Calculate frequencies for anagrams_with_food_words
     for anagram_line in anagrams_with_food_words:
-        if anagram_line != "\n":
-            fields = anagram_line.split("\t")
+        fields = anagram_line.split("\t")
+        if len(fields) > 0:
             final_anagrams_with_food_words.append(fields[2])
     anagrams_with_food_words_counter = Counter(final_anagrams_with_food_words).most_common()
     anagrams_with_food_words_sorted = sorted(anagrams_with_food_words_counter, key=lambda tup: tup[0])
