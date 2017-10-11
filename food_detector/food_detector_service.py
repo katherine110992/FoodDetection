@@ -1,9 +1,9 @@
-import copy
-from food_detector.food_detector import FoodDetector
 import codecs
-import food_detection_root
-import os
 import configparser
+import os
+
+import food_detection_root
+from food_detector.food_detector import FoodDetector
 
 
 class FoodDetectorService:

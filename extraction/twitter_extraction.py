@@ -1,8 +1,10 @@
+import sys
+import time
+
+import twitter
+
 from food_detector.food_detector_service import FoodDetectorService
 from u_logging.logging import Logging
-import twitter
-import time
-import sys
 
 
 class NetworkAnalysisTwitter:

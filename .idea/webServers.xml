@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5c40ad0f-b2a7-417d-a7d9-93d8d1398885" name="Hercules" url="http://25.113.230.152">
+        <fileTransfer host="25.113.230.152" port="22" accessType="SFTP" username="caoba_admin">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

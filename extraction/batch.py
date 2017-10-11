@@ -1,15 +1,17 @@
-from dao_semi_structured_data_access.semi_structured_data_access import SemiStructuredDataAccess
-from food_detector.food_detector_service import FoodDetectorService
-from food_detector.food_detector_thread import FoodDetectorThread
-from collections import Counter
-import datetime
 import calendar
+import copy
+import csv
+import datetime
+import os
+from collections import Counter
 from datetime import timedelta
 from time import time
-import csv
+
+from food_detector.food_detector_thread import FoodDetectorThread
+
 import food_detection_root
-import os
-import copy
+from dao_semi_structured_data_access.semi_structured_data_access import SemiStructuredDataAccess
+from food_detector.food_detector_service import FoodDetectorService
 
 
 def detect_food_in_batch():

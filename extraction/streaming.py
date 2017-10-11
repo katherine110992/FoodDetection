@@ -1,10 +1,11 @@
+import ast
+import configparser
+import os
+import sys
+
+import food_detection_root
 from extraction.twitter_extraction import NetworkAnalysisTwitter
 from u_logging.logging import Logging
-import food_detection_root
-import configparser
-import ast
-import sys
-import os
 
 
 def run_streaming():

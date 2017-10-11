@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Hercules">
+    <serverData>
+      <paths name="Hercules">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/SSD/deployments/DataAccessObject" local="$PROJECT_DIR$/../DataAccessObject" web="/" />
+            <mapping deploy="/SSD/deployments/FoodDetection" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/SSD/deployments/Utils" local="$PROJECT_DIR$/../Utils" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

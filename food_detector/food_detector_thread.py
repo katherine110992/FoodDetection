@@ -1,8 +1,9 @@
-from food_detector.food_detector_service import FoodDetectorService
+import copy
 from datetime import timedelta
 from threading import Thread
 from time import time
-import copy
+
+from food_detector.food_detector_service import FoodDetectorService
 
 
 class FoodDetectorThread(Thread):
