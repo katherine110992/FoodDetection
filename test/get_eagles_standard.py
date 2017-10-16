@@ -34,18 +34,80 @@ for tag in tags:
 # text = "queso con chocolate caliente."
 # text = "en zamora se exhibe y comercializa desde hoy presentacion chocolate gourmet"
 # text = "jajajajaja $90.000 7:00pm maldita... estas lejos, baby."
-text = "#kcacolombia https://t.co/9vgki1tgsu	apple re cago los emojis en ios10 beta 4\nhora de las noticias insolitas, mundo curioso en la papaya de oxigeno 100.4 \n#papayacuriosa"
+# text = "##kcacolombia https://t.co/9vgki1tgsu	apple re cago los emojis en ios10 beta 4\nhora de las noticias insolitas, mundo curioso en la papaya de oxigeno 100.4 \n#papayacuriosa"
+# text = "@perezjhonatan17  no pienso discutir con alguien que no le gusta el aguacate pero si el jugo de mora y tomate, adios hombre horrible"
+# text = "@Radioacktiva_ @juankiss67 Buena tarde @juankiss67 saludo desde el centro de Bogota, este integrante de la tropa te https://t.co/DrmuIKuqyS"
+# text = "@ICETEX Buen dia. Cuando se realiza el desembolso del fondo para el acceso a educacion superior para victimas del conflicto armado? Gracias."
+text = "#almuerzo##dieta##comersaludable en En Algun Lugar Del Mundo https://t.co/0vTJafidwc"
+text = "tajada jajajaja #trabajosihay #lideres @xsalo_ @deportecali @shelsetatiana @d_ospina1"
+text = text.lower()
+print(text)
+text = re.sub('(#)+', ' #', text)
+print(text)
+user_mentions = []
+hashtags = []
+characters = ["#", "@", "http"]
+for character in characters:
+    print(character)
+    count_character = text.count(character)
+    print(count_character)
+    if count_character > 0:
+        while count_character > 0:
+            print(count_character)
+            print(character)
+            start = text.find(character)
+            end = text.find(" ", start)
+            if end == -1:
+                end = len(text)
+            text_to_remove = text[start:end]
+            print(text.count(text_to_remove))
+            print(text_to_remove)
+            if character == "#":
+                hashtags.append(text_to_remove)
+            elif character == "@":
+                user_mentions.append(text_to_remove)
+            text = text.replace(text_to_remove, "")
+            text = ' '.join(text.split())
+            count_character = text.count(character)
+text = text.strip(' ')
+text = ' '.join(text.split())
+print(text)
+print(user_mentions)
+print(hashtags)
+
+path = food_detection_root.ROOT_DIR + os.path.sep + 'data' + os.path.sep
+what_food_list_file = codecs.open(path + "list - what_food.txt", encoding='utf-8')
+what_food_list = what_food_list_file.read().splitlines()
+hashtags_with_what_words = []
+for hashtag in hashtags:
+    for word in what_food_list:
+        if word in hashtag:
+            print(word)
+            hashtags_with_what_words.append(hashtag)
+            about_food = True
+            break
+print(hashtags_with_what_words)
+user_mentions_with_words = []
+# 11.3. Look in user_mentions
+for alias in user_mentions:
+    for word in what_food_list:
+        if word in alias:
+            print(word)
+            user_mentions_with_words.append(alias)
+            about_food = True
+print(user_mentions_with_words)
+
+
 import re
-text = re.sub('(.:00)', '', text)
 
 punctuation = {'/', '"', '(', ')', '.', ',', '%', ';', '?', '¿', '!', '¡', "'",
                            ':', '#', '$', '&', '>', '<', '-', '_', '°', '|', '¬', '\\', '*', '+',
                            '[', ']', '{', '}', '=', '\n', '&amp', '&gt', '&lt', '@'}
-text = re.sub('(ja)+', '', text)
+text = re.sub('(ja){2,}', '', text)
 print(text)
 tokenized_text = nltk.word_tokenize(text, "spanish")
 print(tokenized_text)
-
+"""
 stemmer = PorterStemmer()
 stemmed_list = list()
 for word in tokenized_text:
@@ -76,6 +138,7 @@ for pos_text in processed_text:
                 final_text.append(word)
                 final_tagged_text[word] = pos_text[word]
 print(final_tagged_text)
+print("here")
 print(final_text)
 
 path = food_detection_root.ROOT_DIR + os.path.sep + 'data' + os.path.sep
@@ -110,7 +173,8 @@ for anagram in final_anagrams:
 
 print(food_anagrams)
 
-conversation_id = "12345"
-line = conversation_id + "\t" + text
+conversation_id = "198"
+line = conversation_id + "  " + text
 for anagram in food_anagrams:
-    print(line + "\t" + anagram + "\t" + food_anagrams[anagram])
+    print(line + "  " + anagram + "  " + food_anagrams[anagram])
+"""

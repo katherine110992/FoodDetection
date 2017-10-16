@@ -36,9 +36,10 @@ def detect_food_in_batch():
     what_words_file = open(path + "what_words.txt", 'a')
     text_about_food_file = open(path + "text_about_food.txt", 'a')
     text_not_about_food_file = open(path + "text_not_about_food.txt", 'a')
-    years = [2016, 2017]
-    int_months = [8, 9]
-    char_months = ["Aug", "Sep"]
+    # years = [2016, 2017]
+    # int_months = [8, 9]
+    years = [2016]
+    int_months = [8]
     # Process each month from each year
     for year in years:
         month_index = 0
@@ -49,63 +50,51 @@ def detect_food_in_batch():
             dates = Utils().get_query_dates_per_year_and_month(year, month)
             start_date = dates[0]
             finish_date = dates[1]
-            generation_date = dates[2]
-            clear_collection(semi_structured_access, "conversation_current_period", p_file)
-            aggregate_start_time = time()
-            p_file.write("Aggregating conversation_current_period by dates\n")
-            p_file.flush()
-            semi_structured_access.aggregate_data("conversation", "conversation_current_period",
-                                                       "all_by_dates", [start_date, finish_date])
-            elapsed_time = time() - aggregate_start_time
-            p_file.write("Aggregate conversation_current_period time: "
-                                   + str(timedelta(seconds=elapsed_time)) + '\n')
-            p_file.flush()
-            count = semi_structured_access.count_from_database("conversation_current_period", "all", [])
-            p_file.write("Total conversations from current period: " + str(count) + "\n")
-            p_file.flush()
-            reindex_start_time = time()
-            semi_structured_access.reindex_collection("conversation_current_period")
-            elapsed_time = time() - reindex_start_time
-            p_file.write("Reindex conversation_current_period time: "
-                                   + str(timedelta(seconds=elapsed_time)) + '\n')
-            p_file.flush()
-            month_results = generate_food_detector_threads(semi_structured_access, p_file)
-            p_file.write("Saving results for Month" + "\n")
-            p_file.flush()
-            aux_anagrams_with_food_words = copy.deepcopy(month_results[0])
-            for word in aux_anagrams_with_food_words:
-                anagrams_with_food_words_file.write(word + "\n")
-                anagrams_with_food_words_file.flush()
-            aux_user_mentions_about_food = copy.deepcopy(month_results[1])
-            for word in aux_user_mentions_about_food:
-                user_mentions_about_food_file.write(word + "\n")
-                user_mentions_about_food_file.flush()
-            aux_user_mentions_with_food_words = copy.deepcopy(month_results[2])
-            for word in aux_user_mentions_with_food_words:
-                user_mentions_with_food_words_file.write(word + "\n")
-                user_mentions_with_food_words_file.flush()
-            aux_hashtags_about_food = copy.deepcopy(month_results[3])
-            for word in aux_hashtags_about_food:
-                hashtags_about_food_file.write(word + "\n")
-                hashtags_about_food_file.flush()
-            aux_hashtags_with_food_words = copy.deepcopy(month_results[4])
-            for word in aux_hashtags_with_food_words:
-                hashtags_with_food_words_file.write(word + "\n")
-                hashtags_with_food_words_file.flush()
-            aux_what_words = copy.deepcopy(month_results[5])
-            for word in aux_what_words:
-                what_words_file.write(word + "\n")
-                what_words_file.flush()
-            aux_text_about_food = copy.deepcopy(month_results[6])
-            for word in aux_text_about_food:
-                text_about_food_file.write(word + "\n")
-                text_about_food_file.flush()
-            aux_text_not_about_food = copy.deepcopy(month_results[7])
-            for word in aux_text_not_about_food:
-                text_not_about_food_file.write(word + "\n")
-                text_not_about_food_file.flush()
+            days = calendar.monthrange(year, month)[1]
+            days_times = 1
+            month_times = int(days / days_times)
+            start_days_count = 1
+            end_days_count = 1
+            for aux_days in range(0, month_times):
+                start_days_count = end_days_count
+                day_start_date = start_date.replace(day=start_days_count)
+                end_days_count += days_times
+                if end_days_count <= days:
+                    day_finish_date = day_start_date.replace(day=end_days_count)
+                else:
+                    day_finish_date = finish_date
+                print(day_finish_date)
+                # Aggregate conversations
+                clear_collection(semi_structured_access, "conversation_current_period", p_file)
+                aggregate_start_time = time()
+                p_file.write("Aggregating conversation_current_period by dates\n")
+                p_file.flush()
+                semi_structured_access.aggregate_data("conversation", "conversation_current_period",
+                                                      "all_by_dates", [day_start_date,
+                                                                       day_finish_date])
+                elapsed_time = time() - aggregate_start_time
+                p_file.write("Aggregate conversation_current_period time: "
+                             + str(timedelta(seconds=elapsed_time)) + '\n')
+                p_file.flush()
+                count = semi_structured_access.count_from_database("conversation_current_period", "all", [])
+                p_file.write("Total user generated content from " + str(day_start_date) + " to "
+                             + str(day_finish_date) + ": " + str(count) + "\n")
+                p_file.flush()
+                if count != 0:
+                    reindex_start_time = time()
+                    semi_structured_access.reindex_collection("conversation_current_period")
+                    elapsed_time = time() - reindex_start_time
+                    p_file.write("Reindex conversation_current_period time: "
+                                 + str(timedelta(seconds=elapsed_time)) + '\n')
+                    p_file.flush()
+                    # Get conversations by hour
+                    get_conversations_from_dates(day_start_date, day_finish_date,
+                                                 anagrams_with_food_words_file, user_mentions_about_food_file,
+                                                 user_mentions_with_food_words_file, hashtags_about_food_file,
+                                                 hashtags_with_food_words_file, what_words_file, text_about_food_file,
+                                                 text_not_about_food_file, p_file)
             month_execution_time = time() - month_start_time
-            p_file.write("Saving results for month " + str(month) + ". Execution time "
+            p_file.write("Process month " + str(month) + ". Execution time "
                                    + str(timedelta(seconds=month_execution_time)) + "\n")
             p_file.flush()
             month_index += 1
@@ -114,7 +103,53 @@ def detect_food_in_batch():
     generate_csv_files(start_time, p_file)
 
 
-def generate_food_detector_threads(semi_structured_access, p_file):
+def get_conversations_from_dates(day_start_date, day_finish_date, anagrams_with_food_words_file,
+                                 user_mentions_about_food_file, user_mentions_with_food_words_file,
+                                 hashtags_about_food_file, hashtags_with_food_words_file, what_words_file,
+                                 text_about_food_file, text_not_about_food_file, p_file):
+    period_time = time()
+    period_results = generate_food_detector_threads(day_start_date, day_finish_date, p_file)
+    p_file.write("Saving results for period" + "\n")
+    p_file.flush()
+    aux_anagrams_with_food_words = copy.deepcopy(period_results[0])
+    for word in aux_anagrams_with_food_words:
+        anagrams_with_food_words_file.write(word + "\n")
+        anagrams_with_food_words_file.flush()
+    aux_user_mentions_about_food = copy.deepcopy(period_results[1])
+    for word in aux_user_mentions_about_food:
+        user_mentions_about_food_file.write(word + "\n")
+        user_mentions_about_food_file.flush()
+    aux_user_mentions_with_food_words = copy.deepcopy(period_results[2])
+    for word in aux_user_mentions_with_food_words:
+        user_mentions_with_food_words_file.write(word + "\n")
+        user_mentions_with_food_words_file.flush()
+    aux_hashtags_about_food = copy.deepcopy(period_results[3])
+    for word in aux_hashtags_about_food:
+        hashtags_about_food_file.write(word + "\n")
+        hashtags_about_food_file.flush()
+    aux_hashtags_with_food_words = copy.deepcopy(period_results[4])
+    for word in aux_hashtags_with_food_words:
+        hashtags_with_food_words_file.write(word + "\n")
+        hashtags_with_food_words_file.flush()
+    aux_what_words = copy.deepcopy(period_results[5])
+    for word in aux_what_words:
+        what_words_file.write(word + "\n")
+        what_words_file.flush()
+    aux_text_about_food = copy.deepcopy(period_results[6])
+    for word in aux_text_about_food:
+        text_about_food_file.write(word + "\n")
+        text_about_food_file.flush()
+    aux_text_not_about_food = copy.deepcopy(period_results[7])
+    for word in aux_text_not_about_food:
+        text_not_about_food_file.write(word + "\n")
+        text_not_about_food_file.flush()
+    period_execution_time = time() - period_time
+    p_file.write("Period execution time: " + str(timedelta(seconds=period_execution_time)) + "\n")
+    p_file.flush()
+    return
+
+
+def generate_food_detector_threads(day_start_date, day_finish_date, p_file):
     # 3. Initialize accumulation variables
     anagrams_with_food_words = []
     user_mentions_about_food = []
@@ -124,62 +159,30 @@ def generate_food_detector_threads(semi_structured_access, p_file):
     what_words = []
     text_about_food = []
     text_not_about_food = []
-    # 3. Get all raw data per date
-    conversations = semi_structured_access.get_from_database('conversation_current_period', "all", [])
-    total_conversations = conversations.count()
-    p_file.write("Total raw data per date: " + str(total_conversations) + "\n")
-    p_file.flush()
-    # 4. Calculate thread numbers
-    thread_number = 80
-    if total_conversations != 0:
-        fill_number = int(total_conversations / thread_number)
-        threads_number = int(total_conversations / fill_number)
-    else:
-        fill_number = 0
-        threads_number = 0
-    # 5. Create threads names
-    raw_data_count_start = 0
-    raw_data_count_end = fill_number
-    filling_counter = 2
-    threads_names = []
-    threads_raw_data_range = []
-    aux_count_name = 0
-    for aux_count_name in range(0, threads_number):
-        threads_names.append("Thread_" + str(aux_count_name))
-        if raw_data_count_end == total_conversations:
-            raw_data_count_end -= 1
-        threads_raw_data_range.append((raw_data_count_start, raw_data_count_end))
-        raw_data_count_start = raw_data_count_end + 1
-        raw_data_count_end = fill_number * filling_counter
-        filling_counter += 1
-    if raw_data_count_end - fill_number < total_conversations:
-        threads_names.append("Thread_" + str(aux_count_name + 1))
-        threads_raw_data_range.append((raw_data_count_start, total_conversations - 1))
-        threads_number += 1
-    # 7. Initialize threads
-    # Performance file -- Delete
-    p_file.write("Total threads: " + str(threads_number) + "\n")
-    p_file.flush()
-    p_file.write("Raw data per thread: " + str(fill_number) + "\n")
-    p_file.flush()
-    # Performance file -- Delete
-    raw_data_threads = []
-    t_range_count = threads_number - 1
-    for i in range(0, threads_number):
-        t_name = threads_names[i]
-        t_range = threads_raw_data_range[t_range_count]
-        thread = FoodDetectorThread(i, t_name, conversations, t_range, p_file)
+    data_threads = []
+    last_id = 0
+    for i in range(0, 23):
+        t_name = "Thread_" + str(i)
+        hour_start_date = day_start_date.replace(hour=i)
+        hour_end_date = day_start_date.replace(hour=i + 1)
+        thread = FoodDetectorThread(i, t_name,  hour_start_date, hour_end_date, p_file, "conversation")
         # 8. Start thread
         thread.start()
-        raw_data_threads.append(thread)
-        t_range_count -= 1
+        data_threads.append(thread)
+        last_id = i + 1
+    t_name = "Thread_" + str(last_id)
+    hour_start_date = day_start_date.replace(hour=last_id)
+    hour_end_date = day_finish_date
+    thread = FoodDetectorThread(last_id, t_name, hour_start_date, hour_end_date, p_file, "conversation")
+    # 8. Start last thread
+    thread.start()
+    data_threads.append(thread)
     # Wait to thread end
-    for thread in raw_data_threads:
+    for thread in data_threads:
         thread.join()
-    conversations.close()
     p_file.write("Accumulating values\n")
     p_file.flush()
-    for thread in raw_data_threads:
+    for thread in data_threads:
         anagrams_with_food_words += thread.anagrams_with_food_words
         user_mentions_about_food += thread.user_mentions_about_food
         user_mentions_with_food_words += thread.user_mentions_with_food_words

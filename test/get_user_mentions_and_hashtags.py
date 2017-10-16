@@ -1,5 +1,6 @@
 text = "hola mucho gusto... no me gusta http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html?ssSourceSiteId=otnes  #hola @hello @holamimi http://www.igi-global.com/submission/?returnurl=%2fsubmission%2fconfirm-personal-information%2f%3fprojectid%3d6d3b7fbb-e7e8-44a7-92ec-66f9390aeac4 hola otra vez"
 text = "#kcacolombia https://t.co/9vgki1tgsu	apple re cago los emojis en ios10 beta 4\nhora de las noticias insolitas, mundo curioso en la papaya de oxigeno 100.4 \n#papayacuriosa"
+
 user_mentions = []
 hashtags = []
 characters = ["#", "@", "http"]

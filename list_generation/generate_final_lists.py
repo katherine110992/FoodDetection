@@ -19,7 +19,7 @@ def generate_csv_files(start_time, performance_file):
     for anagram_line in anagrams_with_food_words:
         fields = anagram_line.split("\t")
         if len(fields) > 1:
-            final_anagrams_with_food_words.append(fields[2])
+            final_anagrams_with_food_words.append(fields[3])
     anagrams_with_food_words_counter = Counter(final_anagrams_with_food_words).most_common()
     anagrams_with_food_words_sorted = sorted(anagrams_with_food_words_counter, key=lambda tup: tup[0])
     # Save into csv
@@ -163,8 +163,10 @@ def generate_csv_files(start_time, performance_file):
     performance_file.flush()
     performance_file.close()
 
+"""
 start_time = time()
 date = datetime.datetime.today().strftime("%Y_%m_%d-%H_%M_%S")
 path_to_file = date + " - SeedListGenerator_Performance.txt"
 performance_file = open(path_to_file, 'a')
-# generate_csv_files(start_time, performance_file)
+generate_csv_files(start_time, performance_file)
+"""

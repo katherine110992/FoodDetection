@@ -58,6 +58,7 @@ def detect_food_in_batch():
                     date_expression = raw_data_month + " " + str(day) + ".* " + str(year)
                 p_file.write("Processing day: " + date_expression + "\n")
                 p_file.flush()
+                """
                 semi_structured_access.clear_data_from_database("raw_data_per_date", "all", None)
                 raw_data = semi_structured_access.get_from_database("raw_data", "all_by_date_expression",
                                                                     [date_expression])
@@ -65,6 +66,7 @@ def detect_food_in_batch():
                     # Save in auxiliary collection
                     semi_structured_access.insert_into_database("raw_data_per_date", data)
                 raw_data.close()
+                """
                 day_results = generate_food_detector_threads(semi_structured_access, p_file)
                 p_file.write("Saving results for DAY" + "\n")
                 p_file.flush()

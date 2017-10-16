@@ -16,19 +16,26 @@ class FoodDetector:
         self.maximum = int(config_file.get('FoodDetector', 'maximum_n_gram'))
 
     def detect_food_from_text(self, text):
+        # print(text)
         # 1. Lower text
         text = text.lower()
-        # 3. Encode properly
+        # 2. Encode properly
         text = self.proper_encoding(text)
-        # 4. Initialize data structures
+        # 3. Initialize data structures
         about_food = False
         user_mentions_with_words = []
         hashtags_with_what_words = []
-        # 5. Identify user_mentions, hashtags and remove urls
-        clean_text, hashtags, user_mentions = self.get_hashtags_and_user_mentions(text)
-        # 2. Remove ja patterns
-        clean_text = re.sub('(ja)+', '', clean_text)
+        # 5. Remove patterns
+        pattern_free_text = re.sub('(ja){2,}', '', text)
+        pattern_free_text = re.sub('(#)+', ' #', pattern_free_text)
+        # 4. Identify user_mentions, hashtags and remove urls
+        pattern_free_text = pattern_free_text.replace('\n', ' ')
+        clean_text, hashtags, user_mentions = self.get_hashtags_and_user_mentions(pattern_free_text)
+        # print(clean_text)
+        # print(hashtags)
+        # print(user_mentions)
         clean_text = self.text_analysis.remove_puntuation(clean_text)
+        # print(clean_text)
         # 6. Tokenize
         token_text = self.text_analysis.spanish_tokenizer(clean_text)
         # 7. Stem
@@ -109,7 +116,7 @@ class FoodDetector:
         for character in self.special_characters:
             count_character = text.count(character)
             if count_character > 0:
-                for i in range(0, count_character):
+                while count_character > 0:
                     start = text.find(character)
                     end = text.find(" ", start)
                     if end == -1:
@@ -122,6 +129,7 @@ class FoodDetector:
                             user_mentions.append(text_to_remove)
                     text = text.replace(text_to_remove, "")
                     text = ' '.join(text.split())
+                    count_character = text.count(character)
         text = text.strip(' ')
         text = ' '.join(text.split())
         return text, hashtags, user_mentions

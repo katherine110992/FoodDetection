@@ -23,7 +23,7 @@ class FoodDetectorService:
         config_file.read(path_to_configuration)
         self.food_detector = FoodDetector(what_list, stemmed_what_list, config_file)
 
-    def detect_food(self, raw_data):
+    def detect_food_from_raw_data(self, raw_data):
         if 'text' in raw_data:
             if 'lang' in raw_data:
                 language = raw_data["lang"]
@@ -36,19 +36,29 @@ class FoodDetectorService:
                                 if raw_data_country_code in ["CO"]:
                                     result = self.food_detector.detect_food_from_text(raw_data['text'])
                                     raw_data_id = raw_data['id_str']
-                                    final_food_anagrams = []
-                                    for word in result["food_anagrams"]:
-                                        final_food_anagrams.append(raw_data_id + "\t" + result['final_text'] + "\t"
-                                                                   + word + "\t" + result["food_anagrams"][word])
-                                    final_result = {
-                                        "about_food": result['about_food'],
-                                        "text": result["text"] + "\t" + result["clean_text"],
-                                        "what_words": result['what_words'],
-                                        "food_anagrams": final_food_anagrams,
-                                        "user_mentions": result["user_mentions"],
-                                        "user_mentions_with_words": result["user_mentions_with_words"],
-                                        "hashtags": result["hashtags"],
-                                        "hashtags_with_what_words": result["hashtags_with_what_words"]
-                                    }
-                                    return final_result
+                                    return self.result_generator(raw_data_id, result)
+
+    def detect_food_from_conversation(self, conversation):
+        text = conversation['conversation']['from_platform']['text']
+        result = self.food_detector.detect_food_from_text(text)
+        conversation_id = conversation['_id']
+        return self.result_generator(conversation_id, result)
+
+    def result_generator(self, id_result, parcial_results):
+        final_food_anagrams = []
+        for word in parcial_results["food_anagrams"]:
+            final_food_anagrams.append(id_result + "\t" + parcial_results['clean_text'] + "\t"
+                                       + parcial_results['final_text'] + "\t"
+                                       + word + "\t" + parcial_results["food_anagrams"][word])
+        final_result = {
+            "about_food": parcial_results['about_food'],
+            "text": parcial_results["text"] + "\t" + parcial_results["clean_text"],
+            "what_words": parcial_results['what_words'],
+            "food_anagrams": final_food_anagrams,
+            "user_mentions": parcial_results["user_mentions"],
+            "user_mentions_with_words": parcial_results["user_mentions_with_words"],
+            "hashtags": parcial_results["hashtags"],
+            "hashtags_with_what_words": parcial_results["hashtags_with_what_words"]
+        }
+        return final_result
 
