@@ -53,8 +53,8 @@ def detect_food_in_batch():
             days = calendar.monthrange(year, month)[1]
             days_times = 1
             month_times = int(days / days_times)
-            start_days_count = 1
-            end_days_count = 1
+            start_days_count = 4
+            end_days_count = 4
             for aux_days in range(0, month_times):
                 start_days_count = end_days_count
                 day_start_date = start_date.replace(day=start_days_count)
