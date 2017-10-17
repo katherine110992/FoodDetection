@@ -185,6 +185,7 @@ def generate_food_detector_threads(day_start_date, day_finish_date, p_file):
     for thread in data_threads:
         for message in thread.messages:
             p_file.write(message)
+            p_file.flush()
         anagrams_with_food_words += thread.anagrams_with_food_words
         user_mentions_about_food += thread.user_mentions_about_food
         user_mentions_with_food_words += thread.user_mentions_with_food_words
