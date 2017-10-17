@@ -53,6 +53,7 @@ class FoodDetectorThread(Thread):
                 else:
                     self.text_not_about_food.append(result['text'])
         execution_time = time() - start_time
+        data.close()
         self.semi_structured_access.close_database_connection(self.name)
         self.p_file.write(self.name + " processed " + str(data_count)
                           + " from " + str(data.count()) + " data. Execution time: "
