@@ -24,11 +24,12 @@ class RawDataFoodDetectorThread(Thread):
         self.text_about_food = []
         self.text_not_about_food = []
         self.what_words = []
-        self.new_words = []
+        self.new_what_words = []
 
     def run(self):
         start_time = time()
         raw_data_count = 0
+        success_count = 0
         execution_count = self.raw_data_count_start
         while execution_count <= self.raw_data_count_end:
             raw_data_to_process = self.raw_data[execution_count]
@@ -42,13 +43,15 @@ class RawDataFoodDetectorThread(Thread):
                     self.hashtags_with_food += copy.deepcopy(result['hashtags_with_food'])
                     self.what_words += copy.deepcopy(result['what_words'])
                     self.text_about_food.append(result['text'])
-                    self.new_words += copy.deepcopy(result['new_what_words'])
+                    self.new_what_words += copy.deepcopy(result['new_what_words'])
+                    success_count += 1
                 else:
                     self.text_not_about_food.append(result['text'])
             execution_count += 1
+            raw_data_count += 1
         execution_time = time() - start_time
-        self.p_file.write(self.name + " processed " + str(raw_data_count)
-                          + " conversations from " + str(execution_count)
+        self.p_file.write(self.name + " processed " + str(success_count)
+                          + " conversations from " + str(raw_data_count)
                           + " raw data (range: " + str(self.raw_data_count_start)
                           + " - " + str(self.raw_data_count_end)
                           + ").Execution time: " + str(timedelta(seconds=execution_time)) + "\n")
