@@ -155,6 +155,27 @@ def generate_csv_files(start_time, performance_file):
     execution_time = time() - start_time
     performance_file.write("Write what_words.cvs time: " + str(timedelta(seconds=execution_time)) + "\n")
     performance_file.flush()
+    # Open new_what_words file
+    new_what_words_file = open(path + "new_what_words.txt")
+    new_what_words = new_what_words_file.read().splitlines()
+    # Save new_what_words csv
+    date = datetime.datetime.today().strftime("%Y_%m_%d-%H_%M_%S")
+    with open(final_path + date + " - new_what_words", 'w', encoding='utf-8-sig', newline='') as csv_file:
+        header = ["stem", "word"]
+        writer = csv.DictWriter(csv_file, fieldnames=header, delimiter=';', quoting=csv.QUOTE_ALL, doublequote=True)
+        writer.writeheader()
+        for aux in new_what_words:
+            new = aux.split("\t")
+            row = {
+                "stem": new[0],
+                "word": new[1]
+            }
+            writer.writerow(row)
+        csv_file.close()
+    new_what_words_file.close()
+    execution_time = time() - start_time
+    performance_file.write("Write what_words.cvs time: " + str(timedelta(seconds=execution_time)) + "\n")
+    performance_file.flush()
     execution_time = time() - start_time
     performance_file.write("Write text_not_about_food.cvs time: " + str(timedelta(seconds=execution_time)) + "\n")
     performance_file.flush()

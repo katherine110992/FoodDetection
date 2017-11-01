@@ -75,7 +75,7 @@ class FoodDetector:
                                     what_words.add(aux_word)
                                     break
                         else:
-                            new_what_words.append({word: stem})
+                            new_what_words.append({stem: word})
             if len(what_words) != 0 and len(tagged_text_with_stopwords) > 1 and len(tagged_text) > 1:
                 # 5.1. Create n-grams with stop_words
                 n_grams_with_stopwords = self.text_analysis.create_n_grams(spaced_text_with_stopwords,
