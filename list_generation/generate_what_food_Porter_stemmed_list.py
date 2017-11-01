@@ -16,3 +16,4 @@ what_food_stemmed_list_file = codecs.open(path + "list - stemmed_what_food.txt",
 for word in stemmed_list:
     what_food_stemmed_list_file.write(word + "\n")
 what_food_stemmed_list_file.close()
+

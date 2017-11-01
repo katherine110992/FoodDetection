@@ -1,5 +1,5 @@
 import codecs
-import configparser
+from configparser import ConfigParser, ExtendedInterpolation
 import os
 
 import food_detection_root
@@ -8,20 +8,24 @@ from food_detector.food_detector import FoodDetector
 
 class FoodDetectorService:
 
-    def __init__(self):
-        # Read what list
+    def __init__(self, spanish_pos_tagger, tag_map):
+        # 1. Read what list
         lists_path = food_detection_root.ROOT_DIR + os.path.sep + 'data' + os.path.sep
-        what_list_file = codecs.open(lists_path + 'list - what_food.txt', encoding='utf-8')
-        what_list = what_list_file.read().splitlines()
-        what_list_file.close()
-        stemmed_what_list_file = codecs.open(lists_path + 'list - stemmed_what_food.txt', encoding='utf-8')
-        stemmed_what_list = stemmed_what_list_file.read().splitlines()
-        stemmed_what_list_file.close()
+        what_food_list_file = codecs.open(lists_path + "list - original_stemmed_what_food.txt", encoding='utf-8')
+        what_food_list = what_food_list_file.read().splitlines()
+        what_food_list_file.close()
+        what_food = {}
+        for line in what_food_list:
+            data = line.split("\t")
+            stem = data[1]
+            word = data[0]
+            what_food[word] = stem
+        # 2. Read configuration file
         path_to_configuration = food_detection_root.ROOT_DIR + os.path.sep + 'configuration' + os.path.sep \
                                 + 'configuration.ini'
-        config_file = configparser.ConfigParser()
-        config_file.read(path_to_configuration)
-        self.food_detector = FoodDetector(what_list, stemmed_what_list, config_file)
+        config_file = ConfigParser(interpolation=ExtendedInterpolation())
+        config_file.read_file(codecs.open(path_to_configuration, "r", "utf8"))
+        self.food_detector = FoodDetector(what_food, spanish_pos_tagger, tag_map, config_file)
 
     def detect_food_from_raw_data(self, raw_data):
         if 'text' in raw_data:
@@ -44,21 +48,34 @@ class FoodDetectorService:
         conversation_id = conversation['_id']
         return self.result_generator(conversation_id, result)
 
-    def result_generator(self, id_result, parcial_results):
-        final_food_anagrams = []
-        for word in parcial_results["food_anagrams"]:
-            final_food_anagrams.append(id_result + "\t" + parcial_results['clean_text'] + "\t"
-                                       + parcial_results['final_text'] + "\t"
-                                       + word + "\t" + parcial_results["food_anagrams"][word])
-        final_result = {
-            "about_food": parcial_results['about_food'],
-            "text": parcial_results["text"] + "\t" + parcial_results["clean_text"],
-            "what_words": parcial_results['what_words'],
-            "food_anagrams": final_food_anagrams,
-            "user_mentions": parcial_results["user_mentions"],
-            "user_mentions_with_words": parcial_results["user_mentions_with_words"],
-            "hashtags": parcial_results["hashtags"],
-            "hashtags_with_what_words": parcial_results["hashtags_with_what_words"]
-        }
-        return final_result
-
+    @staticmethod
+    def result_generator(id_result, results):
+        clean_text = results['clean_text']
+        spaced_text = results['spaced_text']
+        spaced_text_with_stopwords = results['spaced_text_with_stopwords']
+        food_n_grams = results['food_n_grams']
+        food_n_grams_with_stopwords = results['food_n_grams_with_stopwords']
+        final_food_n_grams = []
+        for n_gram in food_n_grams:
+            final_food_n_grams.append(id_result + "\t" + clean_text + "\t"
+                                      + "NoStopWords" + "\t"
+                                      + spaced_text + "\t"
+                                      + n_gram + "\t"
+                                      + food_n_grams[n_gram]['stem'] + "\t"
+                                      + food_n_grams[n_gram]['pos'] + "\t"
+                                      + str(food_n_grams[n_gram]['length']) + "\n")
+        for n_gram in food_n_grams_with_stopwords:
+            final_food_n_grams.append(id_result + "\t" + clean_text + "\t"
+                                      + "WithStopWords" + "\t"
+                                      + spaced_text_with_stopwords + "\t"
+                                      + n_gram + "\t"
+                                      + food_n_grams_with_stopwords[n_gram]['stem'] + "\t"
+                                      + food_n_grams_with_stopwords[n_gram]['pos'] + "\t"
+                                      + str(food_n_grams_with_stopwords[n_gram]['length']) + "\n")
+        results['text'] = id_result + "\t" + clean_text
+        results['food_n_grams'] = final_food_n_grams
+        del (results['clean_text'])
+        del (results['spaced_text'])
+        del (results['spaced_text_with_stopwords'])
+        del (results['food_n_grams_with_stopwords'])
+        return results

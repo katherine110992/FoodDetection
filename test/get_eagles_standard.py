@@ -1,6 +1,10 @@
 from nltk.tag import StanfordPOSTagger
 from nltk.stem.snowball import PorterStemmer
+from nltk.stem.snowball import SnowballStemmer
 import sklearn.feature_extraction.text
+from nltk.stem import WordNetLemmatizer
+from datetime import timedelta
+from time import time
 import nltk
 import food_detection_root
 import configparser
@@ -27,7 +31,7 @@ for tag in tags:
     eagles_standard[tag] = ast.literal_eval(config.get('EAGLES_Standard', tag))
 
 # text = "me gusta mucho el red bull"
-# text = "no entiendo a esas mujeres que les gusta que le lleguen con flores a mi que me enamoren con comida como torta, pizza, hamburguesas etc"
+text = "no entiendo a esas mujeres que les gusta que le lleguen con flores a mi que me enamoren con comida como torta, pizza, hamburguesas etc"
 # text = "Andres carne de res"
 # text = "la pizza de don cangrejo es la mejor para ti y para mi"
 # text = "me comi 3 pedazos con una malta con arroz"
@@ -38,8 +42,8 @@ for tag in tags:
 # text = "@perezjhonatan17  no pienso discutir con alguien que no le gusta el aguacate pero si el jugo de mora y tomate, adios hombre horrible"
 # text = "@Radioacktiva_ @juankiss67 Buena tarde @juankiss67 saludo desde el centro de Bogota, este integrante de la tropa te https://t.co/DrmuIKuqyS"
 # text = "@ICETEX Buen dia. Cuando se realiza el desembolso del fondo para el acceso a educacion superior para victimas del conflicto armado? Gracias."
-text = "#almuerzo##dieta##comersaludable en En Algun Lugar Del Mundo https://t.co/0vTJafidwc"
-text = "tajada jajajaja #trabajosihay #lideres @xsalo_ @deportecali @shelsetatiana @d_ospina1"
+# text = "#almuerzo##dieta##comersaludable en En Algun Lugar Del Mundo https://t.co/0vTJafidwc"
+# text = "tajada jajajaja #trabajosihay #lideres @xsalo_ @deportecali @shelsetatiana @d_ospina1"
 text = text.lower()
 print(text)
 text = re.sub('(#)+', ' #', text)
@@ -100,22 +104,48 @@ print(user_mentions_with_words)
 
 import re
 
-punctuation = {'/', '"', '(', ')', '.', ',', '%', ';', '?', '¿', '!', '¡', "'",
+punctuation = {'/', '"', '(', ')',  '%', ';', '?', '¿', '!', '¡', "'",
                            ':', '#', '$', '&', '>', '<', '-', '_', '°', '|', '¬', '\\', '*', '+',
                            '[', ']', '{', '}', '=', '\n', '&amp', '&gt', '&lt', '@'}
 text = re.sub('(ja){2,}', '', text)
 print(text)
 tokenized_text = nltk.word_tokenize(text, "spanish")
 print(tokenized_text)
-"""
-stemmer = PorterStemmer()
-stemmed_list = list()
-for word in tokenized_text:
-    stemmed_word = stemmer.stem(word)
-    stemmed_list.append(stemmed_word)
-print(stemmed_list)
 
-tagged_text = sum(spanish_pos_tagger.tag_sents([stemmed_list]), [])
+start_time = time()
+tagged_text = sum(spanish_pos_tagger.tag_sents([tokenized_text]), [])
+processed_text = []
+for s in tagged_text:
+    for tag in eagles_standard:
+        if s[1] in eagles_standard[tag] and tag != "puntuacion":
+            processed_text.append({s[0]: tag})
+print(processed_text)
+execution_time = time() - start_time
+print(str(timedelta(seconds=execution_time)))
+print()
+
+
+snowball_stemmer = SnowballStemmer("spanish")
+porter_stemmer = PorterStemmer()
+wordnet_lemmatizer = WordNetLemmatizer()
+snowball_stemmed_list = list()
+porter_stemmed_list = list()
+lemmatized_list = list()
+for word in tokenized_text:
+    stemmed_word = snowball_stemmer.stem(word)
+    snowball_stemmed_list.append(stemmed_word)
+    stemmed_word = porter_stemmer.stem(word)
+    porter_stemmed_list.append(stemmed_word)
+    lemmatized_word = wordnet_lemmatizer.lemmatize(word)
+    lemmatized_list.append(lemmatized_word)
+print(snowball_stemmed_list)
+print()
+print(porter_stemmed_list)
+print()
+print(lemmatized_list)
+print()
+start_time = time()
+tagged_text = sum(spanish_pos_tagger.tag_sents([snowball_stemmed_list]), [])
 processed_text = []
 
 for s in tagged_text:
@@ -123,6 +153,34 @@ for s in tagged_text:
         if s[1] in eagles_standard[tag] and tag != "puntuacion":
             processed_text.append({s[0]: tag})
 print(processed_text)
+execution_time = time() - start_time
+print(str(timedelta(seconds=execution_time)))
+print()
+
+start_time = time()
+tagged_text = sum(spanish_pos_tagger.tag_sents([porter_stemmed_list]), [])
+processed_text = []
+for s in tagged_text:
+    for tag in eagles_standard:
+        if s[1] in eagles_standard[tag] and tag != "puntuacion":
+            processed_text.append({s[0]: tag})
+print(processed_text)
+execution_time = time() - start_time
+print(str(timedelta(seconds=execution_time)))
+print()
+
+start_time = time()
+tagged_text = sum(spanish_pos_tagger.tag_sents([lemmatized_list]), [])
+processed_text = []
+for s in tagged_text:
+    for tag in eagles_standard:
+        if s[1] in eagles_standard[tag] and tag != "puntuacion":
+            processed_text.append({s[0]: tag})
+print(processed_text)
+execution_time = time() - start_time
+print(str(timedelta(seconds=execution_time)))
+print()
+
 
 wanted_prepositions = ["de", "con"]
 
@@ -140,7 +198,7 @@ for pos_text in processed_text:
 print(final_tagged_text)
 print("here")
 print(final_text)
-
+"""
 path = food_detection_root.ROOT_DIR + os.path.sep + 'data' + os.path.sep
 what_food_list_file = codecs.open(path + "list - stemmed_what_food.txt", encoding='utf-8')
 what_food_list = what_food_list_file.read().splitlines()

@@ -1,19 +1,22 @@
 import calendar
 import copy
 import datetime
+import spacy
 import os
 from datetime import timedelta
+from u_logging.logging import Logging
 from time import time
 
 from list_generation.generate_final_lists import generate_csv_files
 
-from food_detector.food_detector_thread import FoodDetectorThread
+from food_detector.food_detector_thread import RawDataFoodDetectorThread
 
 import food_detection_root
 from dao_semi_structured_data_access.semi_structured_data_access import SemiStructuredDataAccess
 
 
 def detect_food_in_batch():
+    Logging.configure_log("FoodDetection.log")
     start_time = time()
     date = datetime.datetime.today().strftime("%Y_%m_%d-%H_%M_%S")
     path_to_file = date + " - FoodDetection_Performance.txt"
@@ -23,18 +26,21 @@ def detect_food_in_batch():
     # 2. Create SemiStructuredAccess
     process_name = "FoodDetection"
     semi_structured_access = SemiStructuredDataAccess(process_name, ["database"])
+    spanish_pos_tagger = spacy.load('es')
+    tag_map = spacy.es.TAG_MAP
     path = food_detection_root.ROOT_DIR + os.path.sep + 'temporal_files' + os.path.sep
-    anagrams_with_food_words_file = open(path + "anagrams_with_food_words.txt", 'a')
+    food_n_grams_file = open(path + "food_n_grams.txt", 'a')
     user_mentions_about_food_file = open(path + "user_mentions_about_food.txt", 'a')
-    user_mentions_with_food_words_file = open(path + "user_mentions_with_food_words.txt", 'a')
+    user_mentions_with_food_file = open(path + "user_mentions_with_food.txt", 'a')
     hashtags_about_food_file = open(path + "hashtags_about_food.txt", 'a')
-    hashtags_with_food_words_file = open(path + "hashtags_with_food_words.txt", 'a')
+    hashtags_with_food_file = open(path + "hashtags_with_food.txt", 'a')
     what_words_file = open(path + "what_words.txt", 'a')
+    new_what_words_file = open(path + "new_what_words.txt", 'a')
     text_about_food_file = open(path + "text_about_food.txt", 'a')
     text_not_about_food_file = open(path + "text_not_about_food.txt", 'a')
-    years = [2016, 2017]
-    int_months = [8, 9]
-    char_months = ["Aug", "Sep"]
+    years = [2016]
+    int_months = [8]
+    char_months = ["Aug"]
     # Process each month from each year
     for year in years:
         month_index = 0
@@ -58,7 +64,6 @@ def detect_food_in_batch():
                     date_expression = raw_data_month + " " + str(day) + ".* " + str(year)
                 p_file.write("Processing day: " + date_expression + "\n")
                 p_file.flush()
-                """
                 semi_structured_access.clear_data_from_database("raw_data_per_date", "all", None)
                 raw_data = semi_structured_access.get_from_database("raw_data", "all_by_date_expression",
                                                                     [date_expression])
@@ -66,39 +71,42 @@ def detect_food_in_batch():
                     # Save in auxiliary collection
                     semi_structured_access.insert_into_database("raw_data_per_date", data)
                 raw_data.close()
-                """
-                day_results = generate_food_detector_threads(semi_structured_access, p_file)
+                day_results = generate_food_detector_threads(semi_structured_access, spanish_pos_tagger, tag_map, p_file)
                 p_file.write("Saving results for DAY" + "\n")
                 p_file.flush()
                 aux_anagrams_with_food_words = copy.deepcopy(day_results[0])
                 for word in aux_anagrams_with_food_words:
-                    anagrams_with_food_words_file.write(word + "\n")
-                    anagrams_with_food_words_file.flush()
+                    food_n_grams_file.write(word + "\n")
+                    food_n_grams_file.flush()
                 aux_user_mentions_about_food = copy.deepcopy(day_results[1])
                 for word in aux_user_mentions_about_food:
                     user_mentions_about_food_file.write(word + "\n")
                     user_mentions_about_food_file.flush()
-                aux_user_mentions_with_food_words = copy.deepcopy(day_results[2])
-                for word in aux_user_mentions_with_food_words:
-                    user_mentions_with_food_words_file.write(word + "\n")
-                    user_mentions_with_food_words_file.flush()
+                aux_user_mentions_with_food = copy.deepcopy(day_results[2])
+                for word in aux_user_mentions_with_food:
+                    user_mentions_with_food_file.write(word + "\n")
+                    user_mentions_with_food_file.flush()
                 aux_hashtags_about_food = copy.deepcopy(day_results[3])
                 for word in aux_hashtags_about_food:
                     hashtags_about_food_file.write(word + "\n")
                     hashtags_about_food_file.flush()
-                aux_hashtags_with_food_words = copy.deepcopy(day_results[4])
-                for word in aux_hashtags_with_food_words:
-                    hashtags_with_food_words_file.write(word + "\n")
-                    hashtags_with_food_words_file.flush()
+                aux_hashtags_with_food = copy.deepcopy(day_results[4])
+                for word in aux_hashtags_with_food:
+                    hashtags_with_food_file.write(word + "\n")
+                    hashtags_with_food_file.flush()
                 aux_what_words = copy.deepcopy(day_results[5])
                 for word in aux_what_words:
                     what_words_file.write(word + "\n")
                     what_words_file.flush()
-                aux_text_about_food = copy.deepcopy(day_results[6])
+                aux_new_what_words = copy.deepcopy(day_results[6])
+                for word in aux_new_what_words:
+                    new_what_words_file.write(word + "\n")
+                    new_what_words_file.flush()
+                aux_text_about_food = copy.deepcopy(day_results[7])
                 for word in aux_text_about_food:
                     text_about_food_file.write(word + "\n")
                     text_about_food_file.flush()
-                aux_text_not_about_food = copy.deepcopy(day_results[7])
+                aux_text_not_about_food = copy.deepcopy(day_results[8])
                 for word in aux_text_not_about_food:
                     text_not_about_food_file.write(word + "\n")
                     text_not_about_food_file.flush()
@@ -120,14 +128,15 @@ def detect_food_in_batch():
     generate_csv_files(start_time, p_file)
 
 
-def generate_food_detector_threads(semi_structured_access, p_file):
+def generate_food_detector_threads(semi_structured_access, spanish_pos_tagger, tag_map, p_file):
     # 3. Initialize accumulation variables
-    anagrams_with_food_words = []
+    food_n_grams = []
     user_mentions_about_food = []
-    user_mentions_with_food_words = []
+    user_mentions_with_food = []
     hashtags_about_food = []
-    hashtags_with_food_words = []
+    hashtags_with_food = []
     what_words = []
+    new_what_words = []
     text_about_food = []
     text_not_about_food = []
     # 3. Get all raw data per date
@@ -136,7 +145,7 @@ def generate_food_detector_threads(semi_structured_access, p_file):
     p_file.write("Total raw data per date: " + str(total_raw_data) + "\n")
     p_file.flush()
     # 4. Calculate thread numbers
-    thread_number = 15
+    thread_number = 100
     if total_raw_data != 0:
         fill_number = int(total_raw_data / thread_number)
         threads_number = int(total_raw_data / fill_number)
@@ -174,7 +183,7 @@ def generate_food_detector_threads(semi_structured_access, p_file):
     for i in range(0, threads_number):
         t_name = threads_names[i]
         t_range = threads_raw_data_range[t_range_count]
-        thread = FoodDetectorThread(i, t_name, raw_data, t_range, p_file)
+        thread = RawDataFoodDetectorThread(i, t_name, raw_data, t_range, spanish_pos_tagger, tag_map, p_file)
         # 8. Start thread
         thread.start()
         raw_data_threads.append(thread)
@@ -186,17 +195,18 @@ def generate_food_detector_threads(semi_structured_access, p_file):
     p_file.write("Accumulating values\n")
     p_file.flush()
     for thread in raw_data_threads:
-        anagrams_with_food_words += thread.anagrams_with_food_words
+        food_n_grams += thread.food_n_grams
         user_mentions_about_food += thread.user_mentions_about_food
-        user_mentions_with_food_words += thread.user_mentions_with_food_words
+        user_mentions_with_food += thread.user_mentions_with_food
         hashtags_about_food += thread.hashtags_about_food
-        hashtags_with_food_words += thread.hashtags_with_food_words
+        hashtags_with_food += thread.hashtags_with_food
         what_words += thread.what_words
+        new_what_words += thread.new_what_words
         text_about_food += thread.text_about_food
         text_not_about_food += thread.text_not_about_food
-    results = [anagrams_with_food_words, user_mentions_about_food, user_mentions_with_food_words,
-               hashtags_about_food, hashtags_with_food_words, what_words, text_about_food,
-               text_not_about_food]
+    results = [food_n_grams, user_mentions_about_food, user_mentions_with_food,
+               hashtags_about_food, hashtags_with_food, what_words, new_what_words,
+               text_about_food, text_not_about_food]
     return results
 
 

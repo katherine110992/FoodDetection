@@ -28,11 +28,11 @@ def detect_food_in_batch():
     process_name = "FoodDetection"
     semi_structured_access = SemiStructuredDataAccess(process_name, ["database"])
     path = food_detection_root.ROOT_DIR + os.path.sep + 'temporal_files' + os.path.sep
-    anagrams_with_food_words_file = open(path + "anagrams_with_food_words.txt", 'a')
+    anagrams_with_food_words_file = open(path + "n_grams_with_food_words.txt", 'a')
     user_mentions_about_food_file = open(path + "user_mentions_about_food.txt", 'a')
-    user_mentions_with_food_words_file = open(path + "user_mentions_with_food_words.txt", 'a')
+    user_mentions_with_food_words_file = open(path + "user_mentions_with_food.txt", 'a')
     hashtags_about_food_file = open(path + "hashtags_about_food.txt", 'a')
-    hashtags_with_food_words_file = open(path + "hashtags_with_food_words.txt", 'a')
+    hashtags_with_food_words_file = open(path + "hashtags_with_food.txt", 'a')
     what_words_file = open(path + "what_words.txt", 'a')
     text_about_food_file = open(path + "text_about_food.txt", 'a')
     text_not_about_food_file = open(path + "text_not_about_food.txt", 'a')

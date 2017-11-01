@@ -1,119 +1,140 @@
-from text_analysis.text_analysis import TextAnalysis
-import unicodedata
-from sklearn.feature_extraction.text import CountVectorizer
-import ast
 import re
+import unicodedata
+from u_logging.logging import Logging
+import sys
+
+from text_analysis.text_analysis import TextAnalysis
 
 
 class FoodDetector:
 
-    def __init__(self, what_list, stemmed_what_list, config_file):
-        self.what_list = what_list
-        self.stemmed_what_list = stemmed_what_list
-        self.text_analysis = TextAnalysis(config_file)
-        self.special_characters = ast.literal_eval(config_file.get('FoodDetector', 'special_characters'))
-        self.minimum = int(config_file.get('FoodDetector', 'minimum_n_gram'))
-        self.maximum = int(config_file.get('FoodDetector', 'maximum_n_gram'))
+    def __init__(self, what_food_list, spanish_pos_tagger, tag_map, config_file):
+        self.what_food = what_food_list
+        self.text_analysis = TextAnalysis(spanish_pos_tagger, tag_map, config_file)
 
     def detect_food_from_text(self, text):
         try:
-            # print(text)
-            # 1. Lower text
-            text = text.lower()
-            # 2. Encode properly
-            text = self.proper_encoding(text)
-            # 3. Initialize data structures
-            about_food = False
-            user_mentions_with_words = []
-            hashtags_with_what_words = []
-            # 5. Remove patterns
-            pattern_free_text = re.sub('(ja){2,}', '', text)
-            pattern_free_text = re.sub('(ha){2,}', '', pattern_free_text)
-            pattern_free_text = re.sub('(#)+', ' #', pattern_free_text)
-            # 4. Identify user_mentions, hashtags and remove urls
-            pattern_free_text = pattern_free_text.replace('\n', ' ')
-            clean_text, hashtags, user_mentions = self.get_hashtags_and_user_mentions(pattern_free_text)
-            # print(clean_text)
-            # print(hashtags)
-            # print(user_mentions)
-            clean_text = self.text_analysis.remove_puntuation(clean_text)
-            # print(clean_text)
-            # 6. Tokenize
-            token_text = self.text_analysis.spanish_tokenizer(clean_text)
-            # 7. Stem
-            stemmed_text = self.text_analysis.spanish_stemmer(token_text)
-            # 8. POS
-            tagged_text = self.text_analysis.part_of_speech(stemmed_text)
-            # 9. Remove stopwords
-            final_token_text, final_tagged_text = self.text_analysis.remove_stop_words(tagged_text)
-            # 10. Create anagrams
-            final_anagrams = {}
-            final_text = ' '.join(final_token_text)
-            if len(final_token_text) > 1:
-                anagrams_generator = CountVectorizer(ngram_range=(self.minimum, self.maximum), strip_accents='unicode',
-                                                     tokenizer=lambda x: x.split(' '))
-                anagrams_generator.fit([final_text])
-                text_anagrams = anagrams_generator.get_feature_names()
-                for anagram in text_anagrams:
-                    # print(anagram)
-                    words = anagram.split(" ")
-                    # print(words)
-                    pos = ""
-                    for word in words:
-                        pos += final_tagged_text[word] + "+"
-                    final_anagrams[anagram] = pos[0:len(pos) - 1]
-                # print(final_anagrams)
-            # 11. Detect food
-            food_anagrams = {}
+            # 1. Initiate final data
             what_words = set()
-            # 11.1. Look in anagrams
-            for anagram in final_anagrams:
-                anagram_words = anagram.split(" ")
-                for word in anagram_words:
-                    if word in self.stemmed_what_list:
-                        food_anagrams[anagram] = final_anagrams[anagram]
-                        what_words.add(word)
-                        about_food = True
-            # print(food_anagrams)
-            # 11.2. Look in hashtags
-            for hashtag in hashtags:
-                for word in self.what_list:
+            hashtags_with_food = []
+            user_mentions_with_food = []
+            food_n_grams_with_stopwords = {}
+            food_n_grams = {}
+            new_what_words = []
+            # 2. Perform text analysis
+            analyzed_text = self.analyze_text(text)
+            tokenized_text = analyzed_text['tokenized_text']
+            tagged_text_with_stopwords = analyzed_text['tagged_text_with_stopwords']
+            tagged_text = analyzed_text['tagged_text']
+            stemmed_text = analyzed_text['stemmed_text']
+            spaced_text_with_stopwords = analyzed_text['spaced_text_with_stopwords']
+            spaced_text = analyzed_text['spaced_text']
+            clean_text = analyzed_text['clean_text']
+            hashtags_about_food = analyzed_text['hashtags_about_food']
+            user_mentions_about_food = analyzed_text['user_mentions_about_food']
+            # 3. Detect Food in Hashtags
+            i = 0
+            while len(hashtags_about_food) > i >= 0:
+                hashtag = hashtags_about_food[i]
+                removed = False
+                for word in self.what_food.keys():
                     if word in hashtag:
-                        hashtags_with_what_words.append(hashtag)
-                        about_food = True
+                        what_words.add(word)
+                        hashtags_with_food.append(hashtag)
+                        hashtags_about_food.remove(hashtag)
+                        removed = True
                         break
-            # print(hashtags_with_what_words)
-            # 11.3. Look in user_mentions
-            for alias in user_mentions:
-                for word in self.what_list:
+                if not removed:
+                    i += 1
+            # 4. Detect Food in User Mentions
+            while len(user_mentions_about_food) > i >= 0:
+                alias = user_mentions_about_food[i]
+                removed = False
+                for word in self.what_food.keys():
                     if word in alias:
-                        user_mentions_with_words.append(alias)
-                        about_food = True
-            # print(user_mentions_with_words)
+                        what_words.add(word)
+                        user_mentions_with_food.append(alias)
+                        user_mentions_about_food.remove(alias)
+                        removed = True
+                        break
+                if not removed:
+                    i += 1
+            # 5. Detect Food in text
+            for i in range(0, len(stemmed_text)):
+                stem = stemmed_text[i]
+                if stem in self.what_food.values():
+                    word = tokenized_text[i]
+                    if word in self.what_food.keys():
+                        what_words.add(word)
+                    else:
+                        # Check if the word is plural
+                        word_morph = tagged_text[word]['morph']
+                        if 'Plur' in word_morph:
+                            for aux_word, aux_stem in self.what_food.items():
+                                if aux_stem == stem:
+                                    what_words.add(aux_word)
+                                    break
+                        else:
+                            new_what_words.append({word: stem})
+            if len(what_words) != 0 and len(tagged_text_with_stopwords) > 1 and len(tagged_text) > 1:
+                # 5.1. Create n-grams with stop_words
+                n_grams_with_stopwords = self.text_analysis.create_n_grams(spaced_text_with_stopwords,
+                                                                           tagged_text_with_stopwords)
+                # 5.1.1 Detect Food in n-grams with stopwords
+                for n_gram in n_grams_with_stopwords:
+                    n_gram_stems = n_grams_with_stopwords[n_gram]['stem'].split(" ")
+                    for stem in n_gram_stems:
+                        if stem in self.what_food.values():
+                            food_n_grams_with_stopwords[n_gram] = {
+                                'pos': n_grams_with_stopwords[n_gram]['pos'],
+                                'stem': n_grams_with_stopwords[n_gram]['stem'],
+                                'length': n_grams_with_stopwords[n_gram]['length']
+                            }
+                # 8.2. Create n-grams without stop_words
+                n_grams = self.text_analysis.create_n_grams(spaced_text, tagged_text)
+                # 8.2.1. Detect Food in n-grams without stop_words
+                for n_gram in n_grams:
+                    n_gram_stems = n_grams[n_gram]['stem'].split(" ")
+                    for stem in n_gram_stems:
+                        if stem in self.what_food.values():
+                            food_n_grams[n_gram] = {
+                                'pos': n_grams[n_gram]['pos'],
+                                'stem': n_grams[n_gram]['stem'],
+                                'length': n_grams[n_gram]['length']
+                            }
+            if len(what_words) != 0:
+                about_food = True
+            else:
+                about_food = False
             result = {
                 "about_food": about_food,
-                "text": text,
                 "clean_text": clean_text,
-                "final_text": final_text,
+                "spaced_text": spaced_text,
+                "spaced_text_with_stopwords": spaced_text_with_stopwords,
                 "what_words": what_words,
-                "food_anagrams": food_anagrams,
-                "user_mentions": user_mentions,
-                "user_mentions_with_words": user_mentions_with_words,
-                "hashtags": hashtags,
-                "hashtags_with_what_words": hashtags_with_what_words
+                "new_what_words": new_what_words,
+                "food_n_grams_with_stopwords": food_n_grams_with_stopwords,
+                "food_n_grams": food_n_grams,
+                "hashtags_with_food": hashtags_with_food,
+                "hashtags_about_food": hashtags_about_food,
+                "user_mentions_with_food": user_mentions_with_food,
+                "user_mentions_about_food": user_mentions_about_food
             }
         except:
+            Logging.write_standard_error(sys.exc_info())
             result = {
                 "about_food": False,
-                "text": text,
-                "clean_text": "",
-                "final_text": "",
+                "clean_text": '',
+                "spaced_text": "",
+                "spaced_text_with_stopwords": "",
                 "what_words": [],
-                "food_anagrams": [],
-                "user_mentions": [],
-                "user_mentions_with_words": [],
-                "hashtags": [],
-                "hashtags_with_what_words": []
+                "new_what_words": [],
+                "food_n_grams_with_stopwords": {},
+                "food_n_grams": {},
+                "hashtags_with_food": [],
+                "hashtags_about_food": [],
+                "user_mentions_with_food": [],
+                "user_mentions_about_food": []
             }
         return result
 
@@ -124,27 +145,22 @@ class FoodDetector:
         text = text.decode("utf-8")
         return text
 
-    def get_hashtags_and_user_mentions(self, text):
-        # Identify hashtags, user mentions and remove urls
-        user_mentions = []
-        hashtags = []
-        for character in self.special_characters:
-            count_character = text.count(character)
-            if count_character > 0:
-                while count_character > 0:
-                    start = text.find(character)
-                    end = text.find(" ", start)
-                    if end == -1:
-                        end = len(text)
-                    text_to_remove = text[start:end]
-                    if len(text_to_remove) > 2:
-                        if character == "#":
-                            hashtags.append(text_to_remove)
-                        elif character == "@":
-                            user_mentions.append(text_to_remove)
-                    text = text.replace(text_to_remove, "")
-                    text = ' '.join(text.split())
-                    count_character = text.count(character)
-        text = text.strip(' ')
-        text = ' '.join(text.split())
-        return text, hashtags, user_mentions
+    def analyze_text(self, text):
+        # 1. Lower text
+        text = text.lower()
+        # 2. Encode properly
+        text = self.proper_encoding(text)
+        # 3. Remove patterns - Not for the final script
+        pattern_free_text = re.sub('(ja){2,}', '', text)
+        pattern_free_text = re.sub('(ha){2,}', '', pattern_free_text)
+        # 4. Identify special characters (# and @. Remove urls)
+        results = self.text_analysis.identify_special_characters(pattern_free_text)
+        clean_text = results['clean_text']
+        hashtags_about_food = results['#']
+        user_mentions_about_food = results['@']
+        # 5. POS - Tokenize - Stopwords - Stemming
+        results = self.text_analysis.complete_text_analysis(clean_text)
+        # 6. Add special characters identification results
+        results['hashtags_about_food'] = hashtags_about_food
+        results['user_mentions_about_food'] = user_mentions_about_food
+        return results
