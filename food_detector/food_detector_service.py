@@ -72,13 +72,8 @@ class FoodDetectorService:
                                       + food_n_grams_with_stopwords[n_gram]['stem'] + "\t"
                                       + food_n_grams_with_stopwords[n_gram]['pos'] + "\t"
                                       + str(food_n_grams_with_stopwords[n_gram]['length']))
-        new_what_words = results['new_what_words']
-        final_new_words = []
-        for stem in new_what_words:
-            final_new_words.append(stem + "\t" + new_what_words[stem])
         results['text'] = id_result + "\t" + clean_text
         results['food_n_grams'] = final_food_n_grams
-        results['new_what_words'] = final_new_words
         del (results['clean_text'])
         del (results['spaced_text'])
         del (results['spaced_text_with_stopwords'])

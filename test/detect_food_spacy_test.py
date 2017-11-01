@@ -35,8 +35,6 @@ def detect_food(text):
     # 2. Read special characters (#, @, https, etc.)
     special_characters = ast.literal_eval(config.get('TextAnalysis', 'special_characters'))
     additional_symbols = ast.literal_eval(config.get('TextAnalysis', 'additional_symbols'))
-    for symbol in additional_symbols:
-        print(symbol)
     # 3. Configure Spanish POS tagger
     spanish_pos_tagger = spacy.load('es')
     tag_map = spacy.es.TAG_MAP
@@ -116,30 +114,34 @@ def detect_food(text):
             i += 1
     # 7. Detect Food in text
     new_what_words = []
+    detected_what_food = {}
     for i in range(0, len(stemmed_text)):
         stem = stemmed_text[i]
         if stem in what_food.values():
             word = tokenized_text[i]
             if word in what_food.keys():
                 what_words.add(word)
+                detected_what_food[word] = stem
             else:
                 # Check if the word is plural
                 word_morph = tagged_text[word]['morph']
                 if 'Plur' in word_morph:
                     for aux_word, aux_stem in what_food.items():
-                        if aux_stem == stem:
+                        if aux_stem == stem and aux_word in word:
                             what_words.add(aux_word)
+                            detected_what_food[aux_word] = aux_stem
                             break
                 else:
                     new_what_words.append({word: stem})
-    if len(what_words) != 0 and len(tagged_text_with_stopwords) > 1:
+    print(detected_what_food)
+    if len(detected_what_food) != 0 and len(tagged_text_with_stopwords) > 1:
         # 8.1. Create n-grams with stop_words
         final_n_grams = create_n_grams(spaced_text_with_stopwords, tagged_text_with_stopwords)
         # 8.1.1 Detect Food in n-grams
         for n_gram in final_n_grams:
             n_gram_stems = final_n_grams[n_gram]['stem'].split(" ")
             for stem in n_gram_stems:
-                if stem in what_food.values():
+                if stem in detected_what_food.values():
                     food_n_grams_with_stopwords[n_gram] = {
                         'pos': final_n_grams[n_gram]['pos'],
                         'stem': final_n_grams[n_gram]['stem'],
@@ -151,7 +153,7 @@ def detect_food(text):
         for n_gram in no_stopwords_n_grams:
             n_gram_stems = no_stopwords_n_grams[n_gram]['stem'].split(" ")
             for stem in n_gram_stems:
-                if stem in what_food.values():
+                if stem in detected_what_food.values():
                     food_n_grams[n_gram] = {
                         'pos': no_stopwords_n_grams[n_gram]['pos'],
                         'stem': no_stopwords_n_grams[n_gram]['stem'],
@@ -208,12 +210,17 @@ def get_hashtags_and_user_mentions(special_characters, text, wanted_characters=[
         if count_character > 0:
             while count_character > 0:
                 start = text.find(character)
-                end = text.find(" ", start)
+                print(text.find(" ", start))
+                print(text.find("\n", start))
+                if text.find(" ", start) <= text.find("\n", start):
+                    end = text.find(" ", start)
+                else:
+                    end = text.find("\n", start)
                 if end == -1:
                     end = len(text)
                 text_to_remove = text[start:end]
+                print(text_to_remove)
                 if len(text_to_remove) > 2:
-                    print(results)
                     if character in wanted_characters:
                         if character in results.keys():
                             results[character].append(text_to_remove)
@@ -227,12 +234,11 @@ def get_hashtags_and_user_mentions(special_characters, text, wanted_characters=[
             results[wanted_character] = []
     text = text.strip(' ')
     text = ' '.join(text.split())
-    results['clean_text'] =  text
+    results['clean_text'] = text
     return results
 
 
 def part_of_speech(spanish_pos_tagger, tag_map, google_universal_tags, clean_text, snowball_stemmer):
-    print(clean_text)
     additional_symbols = {'/', '%', '#', '$', '&', '>', '<', '-', '_', '°', '|', '¬', '\\',
                           '*', '+', '=', '&amp', '&gt', '&lt'}
     raw_tagged_text = spanish_pos_tagger(clean_text)
@@ -246,9 +252,9 @@ def part_of_speech(spanish_pos_tagger, tag_map, google_universal_tags, clean_tex
     no_stopwords_spaced_text = ""
     clean_text_no_spaces = ""
     not_wanted_pos = {
-        'puntuacion': 'punctuation',
-        'numerico': 'numeral',
-        'simbolo': 'symbol',
+        'puntuación': 'punctuation',
+        'numérico': 'numeral',
+        'símbolo': 'symbol',
         'otro': 'other'
     }
     for tag in raw_tagged_text:
@@ -321,12 +327,12 @@ def create_n_grams(text, tagged_text):
     return final_n_grams
 
 text = "me gusta mucho el red bull"
-text = "no entiendo a esas mujeres que les gusta que le lleguen con flores a mi que me enamoren con comida como torta, pizza, hamburguesas etc"
+text = "no entiendo a esas mujeres que les gusta que le lleguen con flores a mi que me enamoren con comida como torta, pizza, hamburguesas, filetes, filet, etc"
 # text = "Andres carne de res"
 # text = "la pizza de don cangrejo es la mejor para ti y para mi"
 # text = "me comi 3 pedazos con una malta con arroz"
 # text = "queso con chocolate caliente y unas empanaditas y también un crème brûlée"
-# text = "en zamora se exhibe y comercializa desde hoy presentacion chocolate gourmet"
+# text = "en zamora se exhibe y comercializa desde hoy presentacion chocolate gourmet@clairewingrove\ntostadas me gustan un monton"
 # text = "jajajajaja $90.000 7:00pm maldita... estas lejos, baby."
 # text = "##kcacolombia https://t.co/9vgki1tgsu	apple re cago los emojis en ios10 beta 4\nhora de las noticias insolitas, mundo curioso en la papaya de oxigeno 100.4 \n#papayacuriosa"
 # text = "@perezjhonatan17  no pienso discutir con alguien que no le gusta el aguacate pero si el jugo de mora y tomate, adios hombre horrible"
@@ -337,4 +343,5 @@ text = "no entiendo a esas mujeres que les gusta que le lleguen con flores a mi 
 # text = "tajada jajajaja #trabajosihay #lideres @xsalo_ @deportecali @shelsetatiana @d_ospina1"
 # text = "@villalobossebas hoy es el cumple de @shelsetatiana no olvides felicitarla"
 # text = "me tocara almorzar mil de salchichon con dos mil de pan y cafe porque no hay pa mas jovenes, no hay pa mas :( 😐"
+text = "nadie acompana a gratis, todo lo de el es mermelada $$$$"
 detect_food(text)

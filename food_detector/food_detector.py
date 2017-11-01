@@ -21,6 +21,7 @@ class FoodDetector:
             food_n_grams_with_stopwords = {}
             food_n_grams = {}
             new_what_words = []
+            detected_what_food = {}
             # 2. Perform text analysis
             analyzed_text = self.analyze_text(text)
             tokenized_text = analyzed_text['tokenized_text']
@@ -66,17 +67,19 @@ class FoodDetector:
                     word = tokenized_text[i]
                     if word in self.what_food.keys():
                         what_words.add(word)
+                        detected_what_food[word] = stem
                     else:
                         # Check if the word is plural
                         word_morph = tagged_text[word]['morph']
                         if 'Plur' in word_morph:
                             for aux_word, aux_stem in self.what_food.items():
-                                if aux_stem == stem:
+                                if aux_stem == stem and aux_word in word:
                                     what_words.add(aux_word)
+                                    detected_what_food[aux_word] = aux_stem
                                     break
                         else:
-                            new_what_words.append({stem: word})
-            if len(what_words) != 0 and len(tagged_text_with_stopwords) > 1 and len(tagged_text) > 1:
+                            new_what_words.append(stem + "\t" + word)
+            if len(detected_what_food) != 0 and len(tagged_text_with_stopwords) > 1 and len(tagged_text) > 1:
                 # 5.1. Create n-grams with stop_words
                 n_grams_with_stopwords = self.text_analysis.create_n_grams(spaced_text_with_stopwords,
                                                                            tagged_text_with_stopwords)
@@ -84,7 +87,7 @@ class FoodDetector:
                 for n_gram in n_grams_with_stopwords:
                     n_gram_stems = n_grams_with_stopwords[n_gram]['stem'].split(" ")
                     for stem in n_gram_stems:
-                        if stem in self.what_food.values():
+                        if stem in detected_what_food.values():
                             food_n_grams_with_stopwords[n_gram] = {
                                 'pos': n_grams_with_stopwords[n_gram]['pos'],
                                 'stem': n_grams_with_stopwords[n_gram]['stem'],
@@ -96,13 +99,13 @@ class FoodDetector:
                 for n_gram in n_grams:
                     n_gram_stems = n_grams[n_gram]['stem'].split(" ")
                     for stem in n_gram_stems:
-                        if stem in self.what_food.values():
+                        if stem in detected_what_food.values():
                             food_n_grams[n_gram] = {
                                 'pos': n_grams[n_gram]['pos'],
                                 'stem': n_grams[n_gram]['stem'],
                                 'length': n_grams[n_gram]['length']
                             }
-            if len(what_words) != 0:
+            if len(detected_what_food) != 0:
                 about_food = True
             else:
                 about_food = False
