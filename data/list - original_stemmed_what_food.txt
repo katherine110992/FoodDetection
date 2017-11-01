@@ -301,8 +301,6 @@ codorniz	codorniz
 coñac	coñac
 cointreau	cointreau
 colacion	colacion
-colada	col
-coles	col
 coliflor	coliflor
 comida	com
 comino	comin
