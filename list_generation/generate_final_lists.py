@@ -24,7 +24,7 @@ def generate_csv_files(start_time, performance_file):
     anagrams_with_food_words_sorted = sorted(anagrams_with_food_words_counter, key=lambda tup: tup[0])
     # Save into csv
     date = datetime.datetime.today().strftime("%Y_%m_%d-%H_%M_%S")
-    with open(final_path + date + " - food_n_grams", 'w', encoding='utf-8-sig', newline='') as csv_file:
+    with open(final_path + date + " - food_n_grams.csv", 'w', encoding='utf-8-sig', newline='') as csv_file:
         header = ["n_gram", "frequency"]
         writer = csv.DictWriter(csv_file, fieldnames=header, delimiter=';', quoting=csv.QUOTE_ALL, doublequote=True)
         writer.writeheader()
@@ -47,7 +47,7 @@ def generate_csv_files(start_time, performance_file):
     user_mentions_about_food_sorted = sorted(user_mentions_about_food_counter, key=lambda tup: tup[0])
     # Save into csv
     date = datetime.datetime.today().strftime("%Y_%m_%d-%H_%M_%S")
-    with open(final_path + date + " - user_mentions_about_food", 'w', encoding='utf-8-sig', newline='') as csv_file:
+    with open(final_path + date + " - user_mentions_about_food.csv", 'w', encoding='utf-8-sig', newline='') as csv_file:
         header = ["alias", "frequency"]
         writer = csv.DictWriter(csv_file, fieldnames=header, delimiter=';', quoting=csv.QUOTE_ALL, doublequote=True)
         writer.writeheader()
@@ -70,7 +70,7 @@ def generate_csv_files(start_time, performance_file):
     user_mentions_with_food_words_sorted = sorted(user_mentions_with_food_words_counter, key=lambda tup: tup[0])
     # Save into csv
     date = datetime.datetime.today().strftime("%Y_%m_%d-%H_%M_%S")
-    with open(final_path + date + " - user_mentions_with_food", 'w', encoding='utf-8-sig', newline='') as csv_file:
+    with open(final_path + date + " - user_mentions_with_food.csv", 'w', encoding='utf-8-sig', newline='') as csv_file:
         header = ["alias", "frequency"]
         writer = csv.DictWriter(csv_file, fieldnames=header, delimiter=';', quoting=csv.QUOTE_ALL, doublequote=True)
         writer.writeheader()
@@ -94,7 +94,7 @@ def generate_csv_files(start_time, performance_file):
     hashtags_about_food_sorted = sorted(hashtags_about_food_counter, key=lambda tup: tup[0])
     # Save into csv
     date = datetime.datetime.today().strftime("%Y_%m_%d-%H_%M_%S")
-    with open(final_path + date + " - hashtags_about_food", 'w', encoding='utf-8-sig', newline='') as csv_file:
+    with open(final_path + date + " - hashtags_about_food.csv", 'w', encoding='utf-8-sig', newline='') as csv_file:
         header = ["hashtag", "frequency"]
         writer = csv.DictWriter(csv_file, fieldnames=header, delimiter=';', quoting=csv.QUOTE_ALL, doublequote=True)
         writer.writeheader()
@@ -117,7 +117,7 @@ def generate_csv_files(start_time, performance_file):
     hashtags_with_food_words_sorted = sorted(hashtags_with_food_words_counter, key=lambda tup: tup[0])
     # Save into csv
     date = datetime.datetime.today().strftime("%Y_%m_%d-%H_%M_%S")
-    with open(final_path + date + " - hashtags_with_food", 'w', encoding='utf-8-sig', newline='') as csv_file:
+    with open(final_path + date + " - hashtags_with_food.csv", 'w', encoding='utf-8-sig', newline='') as csv_file:
         header = ["hashtag", "frequency"]
         writer = csv.DictWriter(csv_file, fieldnames=header, delimiter=';', quoting=csv.QUOTE_ALL, doublequote=True)
         writer.writeheader()
@@ -140,7 +140,7 @@ def generate_csv_files(start_time, performance_file):
     what_words_sorted = sorted(what_words_counter, key=lambda tup: tup[0])
     # Save into csv
     date = datetime.datetime.today().strftime("%Y_%m_%d-%H_%M_%S")
-    with open(final_path + date + " - what_words", 'w', encoding='utf-8-sig', newline='') as csv_file:
+    with open(final_path + date + " - what_words.csv", 'w', encoding='utf-8-sig', newline='') as csv_file:
         header = ["word", "frequency"]
         writer = csv.DictWriter(csv_file, fieldnames=header, delimiter=';', quoting=csv.QUOTE_ALL, doublequote=True)
         writer.writeheader()
@@ -160,7 +160,7 @@ def generate_csv_files(start_time, performance_file):
     new_what_words = new_what_words_file.read().splitlines()
     # Save new_what_words csv
     date = datetime.datetime.today().strftime("%Y_%m_%d-%H_%M_%S")
-    with open(final_path + date + " - new_what_words", 'w', encoding='utf-8-sig', newline='') as csv_file:
+    with open(final_path + date + " - new_what_words.csv", 'w', encoding='utf-8-sig', newline='') as csv_file:
         header = ["stem", "word"]
         writer = csv.DictWriter(csv_file, fieldnames=header, delimiter=';', quoting=csv.QUOTE_ALL, doublequote=True)
         writer.writeheader()

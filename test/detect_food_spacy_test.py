@@ -63,9 +63,11 @@ def detect_food(text):
     # 1. Text to lower
     text = text.lower()
     # 2. Proper encoding
+    """
     text = unicodedata.normalize('NFD', text)
     text = text.encode('ascii', 'ignore')
     text = text.decode("utf-8")
+    """
     # -. Remove patterns - Not for the final script
     pattern_free_text = re.sub('(ja){2,}', '', text)
     pattern_free_text = re.sub('(ha){2,}', '', pattern_free_text)
@@ -75,7 +77,9 @@ def detect_food(text):
     hashtags_about_food = results['#']
     user_mentions_about_food = results['@']
     # 4. POS - Tokenize - Stopwords - Stemming
-    pos_results = part_of_speech(spanish_pos_tagger, tag_map, google_universal_tags, clean_text, snowball_stemmer)
+    pos_results = part_of_speech(spanish_pos_tagger, tag_map, pattern_free_text, snowball_stemmer,
+                                 special_characters)
+    """
     tokenized_text_with_stopwords = pos_results[0]
     tokenized_text = pos_results[1]
     full_tagged_text = pos_results[2]
@@ -199,6 +203,7 @@ def detect_food(text):
     execution_time = time() - start_time
     p_file.write("Execution time: " + str(timedelta(seconds=execution_time)) + "\n")
     p_file.flush()
+    """
 
 
 def get_hashtags_and_user_mentions(special_characters, text, wanted_characters=['#', '@']):
@@ -238,11 +243,24 @@ def get_hashtags_and_user_mentions(special_characters, text, wanted_characters=[
     return results
 
 
-def part_of_speech(spanish_pos_tagger, tag_map, google_universal_tags, clean_text, snowball_stemmer):
+def part_of_speech(spanish_pos_tagger, tag_map, clean_text, snowball_stemmer,
+                   special_characters, wanted_characters=['#', '@']):
+    for character in special_characters:
+        clean_text = re.sub('(' + character + ')+', ' ' + character, clean_text)
     additional_symbols = {'/', '%', '#', '$', '&', '>', '<', '-', '_', '°', '|', '¬', '\\',
-                          '*', '+', '=', '&amp', '&gt', '&lt'}
+                          '*', '+', '='}
+    html_symbols = {'&lt;': '<',
+                    '&gt;': '>',
+                    '&amp;': '&',
+                    '&quot;': '"',
+                    '&nbsp;': ' ',
+                    '&apos;': '\''}
+    # parse html symbols
+    for html_symbol in html_symbols:
+        if html_symbol in clean_text:
+            clean_text = clean_text.replace(html_symbol, html_symbols[html_symbol])
     raw_tagged_text = spanish_pos_tagger(clean_text)
-    complete_tagged_text = []
+    temporal_tagged_text = []
     tagged_text = {}
     no_stopwords_tagged_text = {}
     tokenized_text = []
@@ -251,57 +269,86 @@ def part_of_speech(spanish_pos_tagger, tag_map, google_universal_tags, clean_tex
     spaced_text = ""
     no_stopwords_spaced_text = ""
     clean_text_no_spaces = ""
-    not_wanted_pos = {
-        'puntuación': 'punctuation',
-        'numérico': 'numeral',
-        'símbolo': 'symbol',
-        'otro': 'other'
-    }
+    not_wanted_pos = ['PUNCT', 'NUM', 'SYM', 'X']
     for tag in raw_tagged_text:
         initial_morph = tag.tag_
         pos_morph = tag_map[initial_morph]
-        pos = google_universal_tags[pos_morph['pos']]
-        if pos != 'espacio':
-            if pos == 'puntuación':
-                clean_text_no_spaces = clean_text_no_spaces[0:len(clean_text_no_spaces) - 1] + tag.text + " "
-            else:
-                clean_text_no_spaces += tag.text + " "
-            if pos not in not_wanted_pos.keys():
-                if tag.text not in additional_symbols:
-                    stemmed_word = snowball_stemmer.stem(tag.text)
-                    if tag.text not in stopwords.words("spanish"):
-                        tag_type = "word"
-                        no_stopwords_tagged_text[tag.text] = {
-                            'pos': pos,
-                            'stem': stemmed_word,
-                            'morph': pos_morph['morph']
-                        }
-                        no_stopwords_tokenized_text.append(tag.text)
-                        no_stopwords_spaced_text += tag.text + " "
-                        stemmed_text.append(stemmed_word)
-                    else:
-                        tag_type = "stop_word"
-                    tagged_text[tag.text] = {
-                            'pos': pos,
-                            'stem': stemmed_word,
-                            'morph': pos_morph['morph']
-                    }
-                    tokenized_text.append(tag.text)
-                    spaced_text += tag.text + " "
+        pos = pos_morph['pos']
+        if pos != 'SP' or pos != 'SPACE':
+            # Check for special characters
+            detect_special_character = False
+            for character in special_characters:
+                if character in tag.text:
+                    tag_type = character
+                    detect_special_character = True
+                    break
                 else:
-                    tag_type = "symbol"
-                    pos = "símbolo"
-            else:
-                tag_type = not_wanted_pos[pos]
-            final_tag = {
+                    tag_type = "to be defined"
+            if not detect_special_character:
+                if pos not in not_wanted_pos:
+                    if tag.text not in additional_symbols:
+                        if tag.text not in stopwords.words("spanish"):
+                            tag_type = "word"
+                        else:
+                            tag_type = "stop_word"
+                    else:
+                        tag_type = "symbol"
+                else:
+                    tag_type = pos
+            complete_tag = {
                 'token': tag.text,
                 'pos': pos,
                 'morph': pos_morph['morph'],
                 'type': tag_type
             }
-            complete_tagged_text.append({tag.text: final_tag})
-    print(complete_tagged_text)
-    return tokenized_text, no_stopwords_tokenized_text, complete_tagged_text, tagged_text, no_stopwords_tagged_text,\
+            temporal_tagged_text.append({tag.text: complete_tag})
+    # print(temporal_tagged_text)
+    complete_tagged_text = []
+    for i in range(0, len(temporal_tagged_text)):
+        tag = temporal_tagged_text[i]
+        token = ""
+        for aux in tag:
+            token = aux
+            tag_type = tag[aux]['type']
+            pos = tag[aux]['pos']
+        if pos == 'puntuación':
+            clean_text_no_spaces = clean_text_no_spaces[0:len(clean_text_no_spaces) - 1] + token + " "
+        else:
+            clean_text_no_spaces += token + " "
+        if pos not in not_wanted_pos:
+            print(pos)
+            if token not in additional_symbols:
+                stemmed_word = snowball_stemmer.stem(token)
+                if token not in stopwords.words("spanish"):
+                    tag_type = "word"
+                    no_stopwords_tagged_text[token] = {
+                        'pos': pos,
+                        'stem': stemmed_word,
+                        'morph': pos_morph['morph']
+                    }
+                    no_stopwords_tokenized_text.append(token)
+                    no_stopwords_spaced_text += token + " "
+                    stemmed_text.append(stemmed_word)
+                else:
+                    tag_type = "stop_word"
+                tagged_text[token] = {
+                    'pos': pos,
+                    'stem': stemmed_word,
+                    'morph': pos_morph['morph'],
+                    'tag_type': tag_type
+                }
+                tokenized_text.append(token)
+                spaced_text += token + " "
+            else:
+                tag_type = "symbol"
+        else:
+            tag_type = not_wanted_pos
+    for tag in temporal_tagged_text:
+        print(tag)
+    print(clean_text_no_spaces)
+    print(spaced_text)
+    print(no_stopwords_spaced_text)
+    return tokenized_text, no_stopwords_tokenized_text, temporal_tagged_text, tagged_text, no_stopwords_tagged_text,\
            stemmed_text, spaced_text[0:len(spaced_text) - 1], no_stopwords_spaced_text[0:len(no_stopwords_spaced_text) - 1],\
            clean_text_no_spaces
 
@@ -333,15 +380,24 @@ text = "no entiendo a esas mujeres que les gusta que le lleguen con flores a mi 
 # text = "me comi 3 pedazos con una malta con arroz"
 # text = "queso con chocolate caliente y unas empanaditas y también un crème brûlée"
 # text = "en zamora se exhibe y comercializa desde hoy presentacion chocolate gourmet@clairewingrove\ntostadas me gustan un monton"
-# text = "jajajajaja $90.000 7:00pm maldita... estas lejos, baby."
+text = "jajajajaja $90.000 7:00pm maldita... estas lejos, baby."
 # text = "##kcacolombia https://t.co/9vgki1tgsu	apple re cago los emojis en ios10 beta 4\nhora de las noticias insolitas, mundo curioso en la papaya de oxigeno 100.4 \n#papayacuriosa"
 # text = "@perezjhonatan17  no pienso discutir con alguien que no le gusta el aguacate pero si el jugo de mora y tomate, adios hombre horrible"
 # text = "@Radioacktiva_ @juankiss67 Buena tarde @juankiss67 saludo desde el centro de Bogota, este integrante de la tropa te https://t.co/DrmuIKuqyS"
 # text = "sal de aquí por favor"
 # text = "@ICETEX Buen dia. Cuando se realiza el desembolso del fondo para el acceso a educacion superior para victimas del conflicto armado? Gracias."
-# text = "#almuerzo##dieta##comersaludable en En Algun Lugar Del Mundo https://t.co/0vTJafidwc"
+# text = "#almuerzo##dieta##comersaludable @villalobossebas en Algun Lugar Del Mundo https://t.co/0vTJafidwc"
 # text = "tajada jajajaja #trabajosihay #lideres @xsalo_ @deportecali @shelsetatiana @d_ospina1"
 # text = "@villalobossebas hoy es el cumple de @shelsetatiana no olvides felicitarla"
 # text = "me tocara almorzar mil de salchichon con dos mil de pan y cafe porque no hay pa mas jovenes, no hay pa mas :( 😐"
-text = "nadie acompana a gratis, todo lo de el es mermelada $$$$"
+# text = "nadie acompana a gratis, todo lo de el es mermelada $$$$"
+# text = "😛"
+# text = ':-> 😞 8‑D 😟 🤢 😱 :3 😺 😐 😢 😦 😇 :^) :c) D‑\': =3 😅 D: 😧 :‑D 😒 🙁 😸 😘 :\'( 😾 :‑O :( :‑< :-] :‑( :) :‑| 😛 :c 8D 👼 =) :} 😝 :] >:( 😄 >:[ :{ X‑D 😆 😖 :‑c :o :> 😲 😯 😨 🙂 😩 😂 😑 😳 ☹ 😫 😡 8) =] :-|| :‑o 😿 🤕 😕 😃 :[ 8-) 😜 x‑D xD 😠 :-0 :‑/ 😮 😊 🖕 :o) 😀 :‑) D:< 😥 :D :-3 :\'‑( B^D :@ 😍 :-} :< 😁 🙀 😣 :‑[ ☺ =D :)) >:O 😭 XD'
+# text = 'me gusta lo que hago, y lo hare mejor cada dia! arbol naranja'
+text = 'te amo jugo hit!&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;'
+text = 'Quiero un amor q busque ser feliz, q no sea complicado y no me haga sufrir☝🏻️🎶'
+text = '1:32 y yo todavía hablando 😂 vale verga la vida'
+text = 'Todo era más bonito cuando no me tenía que levantar a las 5:30 am 😔'
+text = 'bai amr nos vemos en la tarde special_character_1 :3 .'
+
 detect_food(text)

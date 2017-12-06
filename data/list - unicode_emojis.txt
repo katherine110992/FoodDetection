@@ -1,0 +1,2620 @@
+1	\U0001f600	😀	grinning face
+2	\U0001f601	😁	beaming face with smiling eyes
+3	\U0001f602	😂	face with tears of joy
+4	\U0001f923	🤣	rolling on the floor laughing
+5	\U0001f603	😃	grinning face with big eyes
+6	\U0001f604	😄	grinning face with smiling eyes
+7	\U0001f605	😅	grinning face with sweat
+8	\U0001f606	😆	grinning squinting face
+9	\U0001f609	😉	winking face
+10	\U0001f60a	😊	smiling face with smiling eyes
+11	\U0001f60b	😋	face savoring food
+12	\U0001f60e	😎	smiling face with sunglasses
+13	\U0001f60d	😍	smiling face with heart-eyes
+14	\U0001f618	😘	face blowing a kiss
+15	\U0001f617	😗	kissing face
+16	\U0001f619	😙	kissing face with smiling eyes
+17	\U0001f61a	😚	kissing face with closed eyes
+18	\u263a	☺	smiling face
+19	\U0001f642	🙂	slightly smiling face
+20	\U0001f917	🤗	hugging face
+21	\U0001f929	🤩	⊛ star-struck
+22	\U0001f914	🤔	thinking face
+23	\U0001f928	🤨	⊛ face with raised eyebrow
+24	\U0001f610	😐	neutral face
+25	\U0001f611	😑	expressionless face
+26	\U0001f636	😶	face without mouth
+27	\U0001f644	🙄	face with rolling eyes
+28	\U0001f60f	😏	smirking face
+29	\U0001f623	😣	persevering face
+30	\U0001f625	😥	sad but relieved face
+31	\U0001f62e	😮	face with open mouth
+32	\U0001f910	🤐	zipper-mouth face
+33	\U0001f62f	😯	hushed face
+34	\U0001f62a	😪	sleepy face
+35	\U0001f62b	😫	tired face
+36	\U0001f634	😴	sleeping face
+37	\U0001f60c	😌	relieved face
+38	\U0001f61b	😛	face with tongue
+39	\U0001f61c	😜	winking face with tongue
+40	\U0001f61d	😝	squinting face with tongue
+41	\U0001f924	🤤	drooling face
+42	\U0001f612	😒	unamused face
+43	\U0001f613	😓	downcast face with sweat
+44	\U0001f614	😔	pensive face
+45	\U0001f615	😕	confused face
+46	\U0001f643	🙃	upside-down face
+47	\U0001f911	🤑	money-mouth face
+48	\U0001f632	😲	astonished face
+49	\u2639	☹	frowning face
+50	\U0001f641	🙁	slightly frowning face
+51	\U0001f616	😖	confounded face
+52	\U0001f61e	😞	disappointed face
+53	\U0001f61f	😟	worried face
+54	\U0001f624	😤	face with steam from nose
+55	\U0001f622	😢	crying face
+56	\U0001f62d	😭	loudly crying face
+57	\U0001f626	😦	frowning face with open mouth
+58	\U0001f627	😧	anguished face
+59	\U0001f628	😨	fearful face
+60	\U0001f629	😩	weary face
+61	\U0001f92f	🤯	⊛ exploding head
+62	\U0001f62c	😬	grimacing face
+63	\U0001f630	😰	anxious face with sweat
+64	\U0001f631	😱	face screaming in fear
+65	\U0001f633	😳	flushed face
+66	\U0001f92a	🤪	⊛ zany face
+67	\U0001f635	😵	dizzy face
+68	\U0001f621	😡	pouting face
+69	\U0001f620	😠	angry face
+70	\U0001f92c	🤬	⊛ face with symbols on mouth
+71	\U0001f637	😷	face with medical mask
+72	\U0001f912	🤒	face with thermometer
+73	\U0001f915	🤕	face with head-bandage
+74	\U0001f922	🤢	nauseated face
+75	\U0001f92e	🤮	⊛ face vomiting
+76	\U0001f927	🤧	sneezing face
+77	\U0001f607	😇	smiling face with halo
+78	\U0001f920	🤠	cowboy hat face
+79	\U0001f921	🤡	clown face
+80	\U0001f925	🤥	lying face
+81	\U0001f92b	🤫	⊛ shushing face
+82	\U0001f92d	🤭	⊛ face with hand over mouth
+83	\U0001f9d0	🧐	⊛ face with monocle
+84	\U0001f913	🤓	nerd face
+85	\U0001f608	😈	smiling face with horns
+86	\U0001f47f	👿	angry face with horns
+87	\U0001f479	👹	ogre
+88	\U0001f47a	👺	goblin
+89	\U0001f480	💀	skull
+90	\u2620	☠	skull and crossbones
+91	\U0001f47b	👻	ghost
+92	\U0001f47d	👽	alien
+93	\U0001f47e	👾	alien monster
+94	\U0001f916	🤖	robot face
+95	\U0001f4a9	💩	pile of poo
+96	\U0001f63a	😺	grinning cat face
+97	\U0001f638	😸	grinning cat face with smiling eyes
+98	\U0001f639	😹	cat face with tears of joy
+99	\U0001f63b	😻	smiling cat face with heart-eyes
+100	\U0001f63c	😼	cat face with wry smile
+101	\U0001f63d	😽	kissing cat face
+102	\U0001f640	🙀	weary cat face
+103	\U0001f63f	😿	crying cat face
+104	\U0001f63e	😾	pouting cat face
+105	\U0001f648	🙈	see-no-evil monkey
+106	\U0001f649	🙉	hear-no-evil monkey
+107	\U0001f64a	🙊	speak-no-evil monkey
+108	\U0001f476	👶	baby
+109	\U0001f476\U0001f3fb	👶🏻	baby: light skin tone
+110	\U0001f476\U0001f3fc	👶🏼	baby: medium-light skin tone
+111	\U0001f476\U0001f3fd	👶🏽	baby: medium skin tone
+112	\U0001f476\U0001f3fe	👶🏾	baby: medium-dark skin tone
+113	\U0001f476\U0001f3ff	👶🏿	baby: dark skin tone
+114	\U0001f9d2	🧒	⊛ child
+115	\U0001f9d2\U0001f3fb	🧒🏻	⊛ child: light skin tone
+116	\U0001f9d2\U0001f3fc	🧒🏼	⊛ child: medium-light skin tone
+117	\U0001f9d2\U0001f3fd	🧒🏽	⊛ child: medium skin tone
+118	\U0001f9d2\U0001f3fe	🧒🏾	⊛ child: medium-dark skin tone
+119	\U0001f9d2\U0001f3ff	🧒🏿	⊛ child: dark skin tone
+120	\U0001f466	👦	boy
+121	\U0001f466\U0001f3fb	👦🏻	boy: light skin tone
+122	\U0001f466\U0001f3fc	👦🏼	boy: medium-light skin tone
+123	\U0001f466\U0001f3fd	👦🏽	boy: medium skin tone
+124	\U0001f466\U0001f3fe	👦🏾	boy: medium-dark skin tone
+125	\U0001f466\U0001f3ff	👦🏿	boy: dark skin tone
+126	\U0001f467	👧	girl
+127	\U0001f467\U0001f3fb	👧🏻	girl: light skin tone
+128	\U0001f467\U0001f3fc	👧🏼	girl: medium-light skin tone
+129	\U0001f467\U0001f3fd	👧🏽	girl: medium skin tone
+130	\U0001f467\U0001f3fe	👧🏾	girl: medium-dark skin tone
+131	\U0001f467\U0001f3ff	👧🏿	girl: dark skin tone
+132	\U0001f9d1	🧑	⊛ adult
+133	\U0001f9d1\U0001f3fb	🧑🏻	⊛ adult: light skin tone
+134	\U0001f9d1\U0001f3fc	🧑🏼	⊛ adult: medium-light skin tone
+135	\U0001f9d1\U0001f3fd	🧑🏽	⊛ adult: medium skin tone
+136	\U0001f9d1\U0001f3fe	🧑🏾	⊛ adult: medium-dark skin tone
+137	\U0001f9d1\U0001f3ff	🧑🏿	⊛ adult: dark skin tone
+138	\U0001f468	👨	man
+139	\U0001f468\U0001f3fb	👨🏻	man: light skin tone
+140	\U0001f468\U0001f3fc	👨🏼	man: medium-light skin tone
+141	\U0001f468\U0001f3fd	👨🏽	man: medium skin tone
+142	\U0001f468\U0001f3fe	👨🏾	man: medium-dark skin tone
+143	\U0001f468\U0001f3ff	👨🏿	man: dark skin tone
+144	\U0001f469	👩	woman
+145	\U0001f469\U0001f3fb	👩🏻	woman: light skin tone
+146	\U0001f469\U0001f3fc	👩🏼	woman: medium-light skin tone
+147	\U0001f469\U0001f3fd	👩🏽	woman: medium skin tone
+148	\U0001f469\U0001f3fe	👩🏾	woman: medium-dark skin tone
+149	\U0001f469\U0001f3ff	👩🏿	woman: dark skin tone
+150	\U0001f9d3	🧓	⊛ older adult
+151	\U0001f9d3\U0001f3fb	🧓🏻	⊛ older adult: light skin tone
+152	\U0001f9d3\U0001f3fc	🧓🏼	⊛ older adult: medium-light skin tone
+153	\U0001f9d3\U0001f3fd	🧓🏽	⊛ older adult: medium skin tone
+154	\U0001f9d3\U0001f3fe	🧓🏾	⊛ older adult: medium-dark skin tone
+155	\U0001f9d3\U0001f3ff	🧓🏿	⊛ older adult: dark skin tone
+156	\U0001f474	👴	old man
+157	\U0001f474\U0001f3fb	👴🏻	old man: light skin tone
+158	\U0001f474\U0001f3fc	👴🏼	old man: medium-light skin tone
+159	\U0001f474\U0001f3fd	👴🏽	old man: medium skin tone
+160	\U0001f474\U0001f3fe	👴🏾	old man: medium-dark skin tone
+161	\U0001f474\U0001f3ff	👴🏿	old man: dark skin tone
+162	\U0001f475	👵	old woman
+163	\U0001f475\U0001f3fb	👵🏻	old woman: light skin tone
+164	\U0001f475\U0001f3fc	👵🏼	old woman: medium-light skin tone
+165	\U0001f475\U0001f3fd	👵🏽	old woman: medium skin tone
+166	\U0001f475\U0001f3fe	👵🏾	old woman: medium-dark skin tone
+167	\U0001f475\U0001f3ff	👵🏿	old woman: dark skin tone
+168	\U0001f468\u200d\u2695\ufe0f	👨‍⚕️	man health worker
+169	\U0001f468\U0001f3fb\u200d\u2695\ufe0f	👨🏻‍⚕️	man health worker: light skin tone
+170	\U0001f468\U0001f3fc\u200d\u2695\ufe0f	👨🏼‍⚕️	man health worker: medium-light skin tone
+171	\U0001f468\U0001f3fd\u200d\u2695\ufe0f	👨🏽‍⚕️	man health worker: medium skin tone
+172	\U0001f468\U0001f3fe\u200d\u2695\ufe0f	👨🏾‍⚕️	man health worker: medium-dark skin tone
+173	\U0001f468\U0001f3ff\u200d\u2695\ufe0f	👨🏿‍⚕️	man health worker: dark skin tone
+174	\U0001f469\u200d\u2695\ufe0f	👩‍⚕️	woman health worker
+175	\U0001f469\U0001f3fb\u200d\u2695\ufe0f	👩🏻‍⚕️	woman health worker: light skin tone
+176	\U0001f469\U0001f3fc\u200d\u2695\ufe0f	👩🏼‍⚕️	woman health worker: medium-light skin tone
+177	\U0001f469\U0001f3fd\u200d\u2695\ufe0f	👩🏽‍⚕️	woman health worker: medium skin tone
+178	\U0001f469\U0001f3fe\u200d\u2695\ufe0f	👩🏾‍⚕️	woman health worker: medium-dark skin tone
+179	\U0001f469\U0001f3ff\u200d\u2695\ufe0f	👩🏿‍⚕️	woman health worker: dark skin tone
+180	\U0001f468\u200d\U0001f393	👨‍🎓	man student
+181	\U0001f468\U0001f3fb\u200d\U0001f393	👨🏻‍🎓	man student: light skin tone
+182	\U0001f468\U0001f3fc\u200d\U0001f393	👨🏼‍🎓	man student: medium-light skin tone
+183	\U0001f468\U0001f3fd\u200d\U0001f393	👨🏽‍🎓	man student: medium skin tone
+184	\U0001f468\U0001f3fe\u200d\U0001f393	👨🏾‍🎓	man student: medium-dark skin tone
+185	\U0001f468\U0001f3ff\u200d\U0001f393	👨🏿‍🎓	man student: dark skin tone
+186	\U0001f469\u200d\U0001f393	👩‍🎓	woman student
+187	\U0001f469\U0001f3fb\u200d\U0001f393	👩🏻‍🎓	woman student: light skin tone
+188	\U0001f469\U0001f3fc\u200d\U0001f393	👩🏼‍🎓	woman student: medium-light skin tone
+189	\U0001f469\U0001f3fd\u200d\U0001f393	👩🏽‍🎓	woman student: medium skin tone
+190	\U0001f469\U0001f3fe\u200d\U0001f393	👩🏾‍🎓	woman student: medium-dark skin tone
+191	\U0001f469\U0001f3ff\u200d\U0001f393	👩🏿‍🎓	woman student: dark skin tone
+192	\U0001f468\u200d\U0001f3eb	👨‍🏫	man teacher
+193	\U0001f468\U0001f3fb\u200d\U0001f3eb	👨🏻‍🏫	man teacher: light skin tone
+194	\U0001f468\U0001f3fc\u200d\U0001f3eb	👨🏼‍🏫	man teacher: medium-light skin tone
+195	\U0001f468\U0001f3fd\u200d\U0001f3eb	👨🏽‍🏫	man teacher: medium skin tone
+196	\U0001f468\U0001f3fe\u200d\U0001f3eb	👨🏾‍🏫	man teacher: medium-dark skin tone
+197	\U0001f468\U0001f3ff\u200d\U0001f3eb	👨🏿‍🏫	man teacher: dark skin tone
+198	\U0001f469\u200d\U0001f3eb	👩‍🏫	woman teacher
+199	\U0001f469\U0001f3fb\u200d\U0001f3eb	👩🏻‍🏫	woman teacher: light skin tone
+200	\U0001f469\U0001f3fc\u200d\U0001f3eb	👩🏼‍🏫	woman teacher: medium-light skin tone
+201	\U0001f469\U0001f3fd\u200d\U0001f3eb	👩🏽‍🏫	woman teacher: medium skin tone
+202	\U0001f469\U0001f3fe\u200d\U0001f3eb	👩🏾‍🏫	woman teacher: medium-dark skin tone
+203	\U0001f469\U0001f3ff\u200d\U0001f3eb	👩🏿‍🏫	woman teacher: dark skin tone
+204	\U0001f468\u200d\u2696\ufe0f	👨‍⚖️	man judge
+205	\U0001f468\U0001f3fb\u200d\u2696\ufe0f	👨🏻‍⚖️	man judge: light skin tone
+206	\U0001f468\U0001f3fc\u200d\u2696\ufe0f	👨🏼‍⚖️	man judge: medium-light skin tone
+207	\U0001f468\U0001f3fd\u200d\u2696\ufe0f	👨🏽‍⚖️	man judge: medium skin tone
+208	\U0001f468\U0001f3fe\u200d\u2696\ufe0f	👨🏾‍⚖️	man judge: medium-dark skin tone
+209	\U0001f468\U0001f3ff\u200d\u2696\ufe0f	👨🏿‍⚖️	man judge: dark skin tone
+210	\U0001f469\u200d\u2696\ufe0f	👩‍⚖️	woman judge
+211	\U0001f469\U0001f3fb\u200d\u2696\ufe0f	👩🏻‍⚖️	woman judge: light skin tone
+212	\U0001f469\U0001f3fc\u200d\u2696\ufe0f	👩🏼‍⚖️	woman judge: medium-light skin tone
+213	\U0001f469\U0001f3fd\u200d\u2696\ufe0f	👩🏽‍⚖️	woman judge: medium skin tone
+214	\U0001f469\U0001f3fe\u200d\u2696\ufe0f	👩🏾‍⚖️	woman judge: medium-dark skin tone
+215	\U0001f469\U0001f3ff\u200d\u2696\ufe0f	👩🏿‍⚖️	woman judge: dark skin tone
+216	\U0001f468\u200d\U0001f33e	👨‍🌾	man farmer
+217	\U0001f468\U0001f3fb\u200d\U0001f33e	👨🏻‍🌾	man farmer: light skin tone
+218	\U0001f468\U0001f3fc\u200d\U0001f33e	👨🏼‍🌾	man farmer: medium-light skin tone
+219	\U0001f468\U0001f3fd\u200d\U0001f33e	👨🏽‍🌾	man farmer: medium skin tone
+220	\U0001f468\U0001f3fe\u200d\U0001f33e	👨🏾‍🌾	man farmer: medium-dark skin tone
+221	\U0001f468\U0001f3ff\u200d\U0001f33e	👨🏿‍🌾	man farmer: dark skin tone
+222	\U0001f469\u200d\U0001f33e	👩‍🌾	woman farmer
+223	\U0001f469\U0001f3fb\u200d\U0001f33e	👩🏻‍🌾	woman farmer: light skin tone
+224	\U0001f469\U0001f3fc\u200d\U0001f33e	👩🏼‍🌾	woman farmer: medium-light skin tone
+225	\U0001f469\U0001f3fd\u200d\U0001f33e	👩🏽‍🌾	woman farmer: medium skin tone
+226	\U0001f469\U0001f3fe\u200d\U0001f33e	👩🏾‍🌾	woman farmer: medium-dark skin tone
+227	\U0001f469\U0001f3ff\u200d\U0001f33e	👩🏿‍🌾	woman farmer: dark skin tone
+228	\U0001f468\u200d\U0001f373	👨‍🍳	man cook
+229	\U0001f468\U0001f3fb\u200d\U0001f373	👨🏻‍🍳	man cook: light skin tone
+230	\U0001f468\U0001f3fc\u200d\U0001f373	👨🏼‍🍳	man cook: medium-light skin tone
+231	\U0001f468\U0001f3fd\u200d\U0001f373	👨🏽‍🍳	man cook: medium skin tone
+232	\U0001f468\U0001f3fe\u200d\U0001f373	👨🏾‍🍳	man cook: medium-dark skin tone
+233	\U0001f468\U0001f3ff\u200d\U0001f373	👨🏿‍🍳	man cook: dark skin tone
+234	\U0001f469\u200d\U0001f373	👩‍🍳	woman cook
+235	\U0001f469\U0001f3fb\u200d\U0001f373	👩🏻‍🍳	woman cook: light skin tone
+236	\U0001f469\U0001f3fc\u200d\U0001f373	👩🏼‍🍳	woman cook: medium-light skin tone
+237	\U0001f469\U0001f3fd\u200d\U0001f373	👩🏽‍🍳	woman cook: medium skin tone
+238	\U0001f469\U0001f3fe\u200d\U0001f373	👩🏾‍🍳	woman cook: medium-dark skin tone
+239	\U0001f469\U0001f3ff\u200d\U0001f373	👩🏿‍🍳	woman cook: dark skin tone
+240	\U0001f468\u200d\U0001f527	👨‍🔧	man mechanic
+241	\U0001f468\U0001f3fb\u200d\U0001f527	👨🏻‍🔧	man mechanic: light skin tone
+242	\U0001f468\U0001f3fc\u200d\U0001f527	👨🏼‍🔧	man mechanic: medium-light skin tone
+243	\U0001f468\U0001f3fd\u200d\U0001f527	👨🏽‍🔧	man mechanic: medium skin tone
+244	\U0001f468\U0001f3fe\u200d\U0001f527	👨🏾‍🔧	man mechanic: medium-dark skin tone
+245	\U0001f468\U0001f3ff\u200d\U0001f527	👨🏿‍🔧	man mechanic: dark skin tone
+246	\U0001f469\u200d\U0001f527	👩‍🔧	woman mechanic
+247	\U0001f469\U0001f3fb\u200d\U0001f527	👩🏻‍🔧	woman mechanic: light skin tone
+248	\U0001f469\U0001f3fc\u200d\U0001f527	👩🏼‍🔧	woman mechanic: medium-light skin tone
+249	\U0001f469\U0001f3fd\u200d\U0001f527	👩🏽‍🔧	woman mechanic: medium skin tone
+250	\U0001f469\U0001f3fe\u200d\U0001f527	👩🏾‍🔧	woman mechanic: medium-dark skin tone
+251	\U0001f469\U0001f3ff\u200d\U0001f527	👩🏿‍🔧	woman mechanic: dark skin tone
+252	\U0001f468\u200d\U0001f3ed	👨‍🏭	man factory worker
+253	\U0001f468\U0001f3fb\u200d\U0001f3ed	👨🏻‍🏭	man factory worker: light skin tone
+254	\U0001f468\U0001f3fc\u200d\U0001f3ed	👨🏼‍🏭	man factory worker: medium-light skin tone
+255	\U0001f468\U0001f3fd\u200d\U0001f3ed	👨🏽‍🏭	man factory worker: medium skin tone
+256	\U0001f468\U0001f3fe\u200d\U0001f3ed	👨🏾‍🏭	man factory worker: medium-dark skin tone
+257	\U0001f468\U0001f3ff\u200d\U0001f3ed	👨🏿‍🏭	man factory worker: dark skin tone
+258	\U0001f469\u200d\U0001f3ed	👩‍🏭	woman factory worker
+259	\U0001f469\U0001f3fb\u200d\U0001f3ed	👩🏻‍🏭	woman factory worker: light skin tone
+260	\U0001f469\U0001f3fc\u200d\U0001f3ed	👩🏼‍🏭	woman factory worker: medium-light skin tone
+261	\U0001f469\U0001f3fd\u200d\U0001f3ed	👩🏽‍🏭	woman factory worker: medium skin tone
+262	\U0001f469\U0001f3fe\u200d\U0001f3ed	👩🏾‍🏭	woman factory worker: medium-dark skin tone
+263	\U0001f469\U0001f3ff\u200d\U0001f3ed	👩🏿‍🏭	woman factory worker: dark skin tone
+264	\U0001f468\u200d\U0001f4bc	👨‍💼	man office worker
+265	\U0001f468\U0001f3fb\u200d\U0001f4bc	👨🏻‍💼	man office worker: light skin tone
+266	\U0001f468\U0001f3fc\u200d\U0001f4bc	👨🏼‍💼	man office worker: medium-light skin tone
+267	\U0001f468\U0001f3fd\u200d\U0001f4bc	👨🏽‍💼	man office worker: medium skin tone
+268	\U0001f468\U0001f3fe\u200d\U0001f4bc	👨🏾‍💼	man office worker: medium-dark skin tone
+269	\U0001f468\U0001f3ff\u200d\U0001f4bc	👨🏿‍💼	man office worker: dark skin tone
+270	\U0001f469\u200d\U0001f4bc	👩‍💼	woman office worker
+271	\U0001f469\U0001f3fb\u200d\U0001f4bc	👩🏻‍💼	woman office worker: light skin tone
+272	\U0001f469\U0001f3fc\u200d\U0001f4bc	👩🏼‍💼	woman office worker: medium-light skin tone
+273	\U0001f469\U0001f3fd\u200d\U0001f4bc	👩🏽‍💼	woman office worker: medium skin tone
+274	\U0001f469\U0001f3fe\u200d\U0001f4bc	👩🏾‍💼	woman office worker: medium-dark skin tone
+275	\U0001f469\U0001f3ff\u200d\U0001f4bc	👩🏿‍💼	woman office worker: dark skin tone
+276	\U0001f468\u200d\U0001f52c	👨‍🔬	man scientist
+277	\U0001f468\U0001f3fb\u200d\U0001f52c	👨🏻‍🔬	man scientist: light skin tone
+278	\U0001f468\U0001f3fc\u200d\U0001f52c	👨🏼‍🔬	man scientist: medium-light skin tone
+279	\U0001f468\U0001f3fd\u200d\U0001f52c	👨🏽‍🔬	man scientist: medium skin tone
+280	\U0001f468\U0001f3fe\u200d\U0001f52c	👨🏾‍🔬	man scientist: medium-dark skin tone
+281	\U0001f468\U0001f3ff\u200d\U0001f52c	👨🏿‍🔬	man scientist: dark skin tone
+282	\U0001f469\u200d\U0001f52c	👩‍🔬	woman scientist
+283	\U0001f469\U0001f3fb\u200d\U0001f52c	👩🏻‍🔬	woman scientist: light skin tone
+284	\U0001f469\U0001f3fc\u200d\U0001f52c	👩🏼‍🔬	woman scientist: medium-light skin tone
+285	\U0001f469\U0001f3fd\u200d\U0001f52c	👩🏽‍🔬	woman scientist: medium skin tone
+286	\U0001f469\U0001f3fe\u200d\U0001f52c	👩🏾‍🔬	woman scientist: medium-dark skin tone
+287	\U0001f469\U0001f3ff\u200d\U0001f52c	👩🏿‍🔬	woman scientist: dark skin tone
+288	\U0001f468\u200d\U0001f4bb	👨‍💻	man technologist
+289	\U0001f468\U0001f3fb\u200d\U0001f4bb	👨🏻‍💻	man technologist: light skin tone
+290	\U0001f468\U0001f3fc\u200d\U0001f4bb	👨🏼‍💻	man technologist: medium-light skin tone
+291	\U0001f468\U0001f3fd\u200d\U0001f4bb	👨🏽‍💻	man technologist: medium skin tone
+292	\U0001f468\U0001f3fe\u200d\U0001f4bb	👨🏾‍💻	man technologist: medium-dark skin tone
+293	\U0001f468\U0001f3ff\u200d\U0001f4bb	👨🏿‍💻	man technologist: dark skin tone
+294	\U0001f469\u200d\U0001f4bb	👩‍💻	woman technologist
+295	\U0001f469\U0001f3fb\u200d\U0001f4bb	👩🏻‍💻	woman technologist: light skin tone
+296	\U0001f469\U0001f3fc\u200d\U0001f4bb	👩🏼‍💻	woman technologist: medium-light skin tone
+297	\U0001f469\U0001f3fd\u200d\U0001f4bb	👩🏽‍💻	woman technologist: medium skin tone
+298	\U0001f469\U0001f3fe\u200d\U0001f4bb	👩🏾‍💻	woman technologist: medium-dark skin tone
+299	\U0001f469\U0001f3ff\u200d\U0001f4bb	👩🏿‍💻	woman technologist: dark skin tone
+300	\U0001f468\u200d\U0001f3a4	👨‍🎤	man singer
+301	\U0001f468\U0001f3fb\u200d\U0001f3a4	👨🏻‍🎤	man singer: light skin tone
+302	\U0001f468\U0001f3fc\u200d\U0001f3a4	👨🏼‍🎤	man singer: medium-light skin tone
+303	\U0001f468\U0001f3fd\u200d\U0001f3a4	👨🏽‍🎤	man singer: medium skin tone
+304	\U0001f468\U0001f3fe\u200d\U0001f3a4	👨🏾‍🎤	man singer: medium-dark skin tone
+305	\U0001f468\U0001f3ff\u200d\U0001f3a4	👨🏿‍🎤	man singer: dark skin tone
+306	\U0001f469\u200d\U0001f3a4	👩‍🎤	woman singer
+307	\U0001f469\U0001f3fb\u200d\U0001f3a4	👩🏻‍🎤	woman singer: light skin tone
+308	\U0001f469\U0001f3fc\u200d\U0001f3a4	👩🏼‍🎤	woman singer: medium-light skin tone
+309	\U0001f469\U0001f3fd\u200d\U0001f3a4	👩🏽‍🎤	woman singer: medium skin tone
+310	\U0001f469\U0001f3fe\u200d\U0001f3a4	👩🏾‍🎤	woman singer: medium-dark skin tone
+311	\U0001f469\U0001f3ff\u200d\U0001f3a4	👩🏿‍🎤	woman singer: dark skin tone
+312	\U0001f468\u200d\U0001f3a8	👨‍🎨	man artist
+313	\U0001f468\U0001f3fb\u200d\U0001f3a8	👨🏻‍🎨	man artist: light skin tone
+314	\U0001f468\U0001f3fc\u200d\U0001f3a8	👨🏼‍🎨	man artist: medium-light skin tone
+315	\U0001f468\U0001f3fd\u200d\U0001f3a8	👨🏽‍🎨	man artist: medium skin tone
+316	\U0001f468\U0001f3fe\u200d\U0001f3a8	👨🏾‍🎨	man artist: medium-dark skin tone
+317	\U0001f468\U0001f3ff\u200d\U0001f3a8	👨🏿‍🎨	man artist: dark skin tone
+318	\U0001f469\u200d\U0001f3a8	👩‍🎨	woman artist
+319	\U0001f469\U0001f3fb\u200d\U0001f3a8	👩🏻‍🎨	woman artist: light skin tone
+320	\U0001f469\U0001f3fc\u200d\U0001f3a8	👩🏼‍🎨	woman artist: medium-light skin tone
+321	\U0001f469\U0001f3fd\u200d\U0001f3a8	👩🏽‍🎨	woman artist: medium skin tone
+322	\U0001f469\U0001f3fe\u200d\U0001f3a8	👩🏾‍🎨	woman artist: medium-dark skin tone
+323	\U0001f469\U0001f3ff\u200d\U0001f3a8	👩🏿‍🎨	woman artist: dark skin tone
+324	\U0001f468\u200d\u2708\ufe0f	👨‍✈️	man pilot
+325	\U0001f468\U0001f3fb\u200d\u2708\ufe0f	👨🏻‍✈️	man pilot: light skin tone
+326	\U0001f468\U0001f3fc\u200d\u2708\ufe0f	👨🏼‍✈️	man pilot: medium-light skin tone
+327	\U0001f468\U0001f3fd\u200d\u2708\ufe0f	👨🏽‍✈️	man pilot: medium skin tone
+328	\U0001f468\U0001f3fe\u200d\u2708\ufe0f	👨🏾‍✈️	man pilot: medium-dark skin tone
+329	\U0001f468\U0001f3ff\u200d\u2708\ufe0f	👨🏿‍✈️	man pilot: dark skin tone
+330	\U0001f469\u200d\u2708\ufe0f	👩‍✈️	woman pilot
+331	\U0001f469\U0001f3fb\u200d\u2708\ufe0f	👩🏻‍✈️	woman pilot: light skin tone
+332	\U0001f469\U0001f3fc\u200d\u2708\ufe0f	👩🏼‍✈️	woman pilot: medium-light skin tone
+333	\U0001f469\U0001f3fd\u200d\u2708\ufe0f	👩🏽‍✈️	woman pilot: medium skin tone
+334	\U0001f469\U0001f3fe\u200d\u2708\ufe0f	👩🏾‍✈️	woman pilot: medium-dark skin tone
+335	\U0001f469\U0001f3ff\u200d\u2708\ufe0f	👩🏿‍✈️	woman pilot: dark skin tone
+336	\U0001f468\u200d\U0001f680	👨‍🚀	man astronaut
+337	\U0001f468\U0001f3fb\u200d\U0001f680	👨🏻‍🚀	man astronaut: light skin tone
+338	\U0001f468\U0001f3fc\u200d\U0001f680	👨🏼‍🚀	man astronaut: medium-light skin tone
+339	\U0001f468\U0001f3fd\u200d\U0001f680	👨🏽‍🚀	man astronaut: medium skin tone
+340	\U0001f468\U0001f3fe\u200d\U0001f680	👨🏾‍🚀	man astronaut: medium-dark skin tone
+341	\U0001f468\U0001f3ff\u200d\U0001f680	👨🏿‍🚀	man astronaut: dark skin tone
+342	\U0001f469\u200d\U0001f680	👩‍🚀	woman astronaut
+343	\U0001f469\U0001f3fb\u200d\U0001f680	👩🏻‍🚀	woman astronaut: light skin tone
+344	\U0001f469\U0001f3fc\u200d\U0001f680	👩🏼‍🚀	woman astronaut: medium-light skin tone
+345	\U0001f469\U0001f3fd\u200d\U0001f680	👩🏽‍🚀	woman astronaut: medium skin tone
+346	\U0001f469\U0001f3fe\u200d\U0001f680	👩🏾‍🚀	woman astronaut: medium-dark skin tone
+347	\U0001f469\U0001f3ff\u200d\U0001f680	👩🏿‍🚀	woman astronaut: dark skin tone
+348	\U0001f468\u200d\U0001f692	👨‍🚒	man firefighter
+349	\U0001f468\U0001f3fb\u200d\U0001f692	👨🏻‍🚒	man firefighter: light skin tone
+350	\U0001f468\U0001f3fc\u200d\U0001f692	👨🏼‍🚒	man firefighter: medium-light skin tone
+351	\U0001f468\U0001f3fd\u200d\U0001f692	👨🏽‍🚒	man firefighter: medium skin tone
+352	\U0001f468\U0001f3fe\u200d\U0001f692	👨🏾‍🚒	man firefighter: medium-dark skin tone
+353	\U0001f468\U0001f3ff\u200d\U0001f692	👨🏿‍🚒	man firefighter: dark skin tone
+354	\U0001f469\u200d\U0001f692	👩‍🚒	woman firefighter
+355	\U0001f469\U0001f3fb\u200d\U0001f692	👩🏻‍🚒	woman firefighter: light skin tone
+356	\U0001f469\U0001f3fc\u200d\U0001f692	👩🏼‍🚒	woman firefighter: medium-light skin tone
+357	\U0001f469\U0001f3fd\u200d\U0001f692	👩🏽‍🚒	woman firefighter: medium skin tone
+358	\U0001f469\U0001f3fe\u200d\U0001f692	👩🏾‍🚒	woman firefighter: medium-dark skin tone
+359	\U0001f469\U0001f3ff\u200d\U0001f692	👩🏿‍🚒	woman firefighter: dark skin tone
+360	\U0001f46e	👮	police officer
+361	\U0001f46e\U0001f3fb	👮🏻	police officer: light skin tone
+362	\U0001f46e\U0001f3fc	👮🏼	police officer: medium-light skin tone
+363	\U0001f46e\U0001f3fd	👮🏽	police officer: medium skin tone
+364	\U0001f46e\U0001f3fe	👮🏾	police officer: medium-dark skin tone
+365	\U0001f46e\U0001f3ff	👮🏿	police officer: dark skin tone
+366	\U0001f46e\u200d\u2642\ufe0f	👮‍♂️	man police officer
+367	\U0001f46e\U0001f3fb\u200d\u2642\ufe0f	👮🏻‍♂️	man police officer: light skin tone
+368	\U0001f46e\U0001f3fc\u200d\u2642\ufe0f	👮🏼‍♂️	man police officer: medium-light skin tone
+369	\U0001f46e\U0001f3fd\u200d\u2642\ufe0f	👮🏽‍♂️	man police officer: medium skin tone
+370	\U0001f46e\U0001f3fe\u200d\u2642\ufe0f	👮🏾‍♂️	man police officer: medium-dark skin tone
+371	\U0001f46e\U0001f3ff\u200d\u2642\ufe0f	👮🏿‍♂️	man police officer: dark skin tone
+372	\U0001f46e\u200d\u2640\ufe0f	👮‍♀️	woman police officer
+373	\U0001f46e\U0001f3fb\u200d\u2640\ufe0f	👮🏻‍♀️	woman police officer: light skin tone
+374	\U0001f46e\U0001f3fc\u200d\u2640\ufe0f	👮🏼‍♀️	woman police officer: medium-light skin tone
+375	\U0001f46e\U0001f3fd\u200d\u2640\ufe0f	👮🏽‍♀️	woman police officer: medium skin tone
+376	\U0001f46e\U0001f3fe\u200d\u2640\ufe0f	👮🏾‍♀️	woman police officer: medium-dark skin tone
+377	\U0001f46e\U0001f3ff\u200d\u2640\ufe0f	👮🏿‍♀️	woman police officer: dark skin tone
+378	\U0001f575	🕵	detective
+379	\U0001f575\U0001f3fb	🕵🏻	detective: light skin tone
+380	\U0001f575\U0001f3fc	🕵🏼	detective: medium-light skin tone
+381	\U0001f575\U0001f3fd	🕵🏽	detective: medium skin tone
+382	\U0001f575\U0001f3fe	🕵🏾	detective: medium-dark skin tone
+383	\U0001f575\U0001f3ff	🕵🏿	detective: dark skin tone
+384	\U0001f575\ufe0f\u200d\u2642\ufe0f	🕵️‍♂️	man detective
+385	\U0001f575\U0001f3fb\u200d\u2642\ufe0f	🕵🏻‍♂️	man detective: light skin tone
+386	\U0001f575\U0001f3fc\u200d\u2642\ufe0f	🕵🏼‍♂️	man detective: medium-light skin tone
+387	\U0001f575\U0001f3fd\u200d\u2642\ufe0f	🕵🏽‍♂️	man detective: medium skin tone
+388	\U0001f575\U0001f3fe\u200d\u2642\ufe0f	🕵🏾‍♂️	man detective: medium-dark skin tone
+389	\U0001f575\U0001f3ff\u200d\u2642\ufe0f	🕵🏿‍♂️	man detective: dark skin tone
+390	\U0001f575\ufe0f\u200d\u2640\ufe0f	🕵️‍♀️	woman detective
+391	\U0001f575\U0001f3fb\u200d\u2640\ufe0f	🕵🏻‍♀️	woman detective: light skin tone
+392	\U0001f575\U0001f3fc\u200d\u2640\ufe0f	🕵🏼‍♀️	woman detective: medium-light skin tone
+393	\U0001f575\U0001f3fd\u200d\u2640\ufe0f	🕵🏽‍♀️	woman detective: medium skin tone
+394	\U0001f575\U0001f3fe\u200d\u2640\ufe0f	🕵🏾‍♀️	woman detective: medium-dark skin tone
+395	\U0001f575\U0001f3ff\u200d\u2640\ufe0f	🕵🏿‍♀️	woman detective: dark skin tone
+396	\U0001f482	💂	guard
+397	\U0001f482\U0001f3fb	💂🏻	guard: light skin tone
+398	\U0001f482\U0001f3fc	💂🏼	guard: medium-light skin tone
+399	\U0001f482\U0001f3fd	💂🏽	guard: medium skin tone
+400	\U0001f482\U0001f3fe	💂🏾	guard: medium-dark skin tone
+401	\U0001f482\U0001f3ff	💂🏿	guard: dark skin tone
+402	\U0001f482\u200d\u2642\ufe0f	💂‍♂️	man guard
+403	\U0001f482\U0001f3fb\u200d\u2642\ufe0f	💂🏻‍♂️	man guard: light skin tone
+404	\U0001f482\U0001f3fc\u200d\u2642\ufe0f	💂🏼‍♂️	man guard: medium-light skin tone
+405	\U0001f482\U0001f3fd\u200d\u2642\ufe0f	💂🏽‍♂️	man guard: medium skin tone
+406	\U0001f482\U0001f3fe\u200d\u2642\ufe0f	💂🏾‍♂️	man guard: medium-dark skin tone
+407	\U0001f482\U0001f3ff\u200d\u2642\ufe0f	💂🏿‍♂️	man guard: dark skin tone
+408	\U0001f482\u200d\u2640\ufe0f	💂‍♀️	woman guard
+409	\U0001f482\U0001f3fb\u200d\u2640\ufe0f	💂🏻‍♀️	woman guard: light skin tone
+410	\U0001f482\U0001f3fc\u200d\u2640\ufe0f	💂🏼‍♀️	woman guard: medium-light skin tone
+411	\U0001f482\U0001f3fd\u200d\u2640\ufe0f	💂🏽‍♀️	woman guard: medium skin tone
+412	\U0001f482\U0001f3fe\u200d\u2640\ufe0f	💂🏾‍♀️	woman guard: medium-dark skin tone
+413	\U0001f482\U0001f3ff\u200d\u2640\ufe0f	💂🏿‍♀️	woman guard: dark skin tone
+414	\U0001f477	👷	construction worker
+415	\U0001f477\U0001f3fb	👷🏻	construction worker: light skin tone
+416	\U0001f477\U0001f3fc	👷🏼	construction worker: medium-light skin tone
+417	\U0001f477\U0001f3fd	👷🏽	construction worker: medium skin tone
+418	\U0001f477\U0001f3fe	👷🏾	construction worker: medium-dark skin tone
+419	\U0001f477\U0001f3ff	👷🏿	construction worker: dark skin tone
+420	\U0001f477\u200d\u2642\ufe0f	👷‍♂️	man construction worker
+421	\U0001f477\U0001f3fb\u200d\u2642\ufe0f	👷🏻‍♂️	man construction worker: light skin tone
+422	\U0001f477\U0001f3fc\u200d\u2642\ufe0f	👷🏼‍♂️	man construction worker: medium-light skin tone
+423	\U0001f477\U0001f3fd\u200d\u2642\ufe0f	👷🏽‍♂️	man construction worker: medium skin tone
+424	\U0001f477\U0001f3fe\u200d\u2642\ufe0f	👷🏾‍♂️	man construction worker: medium-dark skin tone
+425	\U0001f477\U0001f3ff\u200d\u2642\ufe0f	👷🏿‍♂️	man construction worker: dark skin tone
+426	\U0001f477\u200d\u2640\ufe0f	👷‍♀️	woman construction worker
+427	\U0001f477\U0001f3fb\u200d\u2640\ufe0f	👷🏻‍♀️	woman construction worker: light skin tone
+428	\U0001f477\U0001f3fc\u200d\u2640\ufe0f	👷🏼‍♀️	woman construction worker: medium-light skin tone
+429	\U0001f477\U0001f3fd\u200d\u2640\ufe0f	👷🏽‍♀️	woman construction worker: medium skin tone
+430	\U0001f477\U0001f3fe\u200d\u2640\ufe0f	👷🏾‍♀️	woman construction worker: medium-dark skin tone
+431	\U0001f477\U0001f3ff\u200d\u2640\ufe0f	👷🏿‍♀️	woman construction worker: dark skin tone
+432	\U0001f934	🤴	prince
+433	\U0001f934\U0001f3fb	🤴🏻	prince: light skin tone
+434	\U0001f934\U0001f3fc	🤴🏼	prince: medium-light skin tone
+435	\U0001f934\U0001f3fd	🤴🏽	prince: medium skin tone
+436	\U0001f934\U0001f3fe	🤴🏾	prince: medium-dark skin tone
+437	\U0001f934\U0001f3ff	🤴🏿	prince: dark skin tone
+438	\U0001f478	👸	princess
+439	\U0001f478\U0001f3fb	👸🏻	princess: light skin tone
+440	\U0001f478\U0001f3fc	👸🏼	princess: medium-light skin tone
+441	\U0001f478\U0001f3fd	👸🏽	princess: medium skin tone
+442	\U0001f478\U0001f3fe	👸🏾	princess: medium-dark skin tone
+443	\U0001f478\U0001f3ff	👸🏿	princess: dark skin tone
+444	\U0001f473	👳	person wearing turban
+445	\U0001f473\U0001f3fb	👳🏻	person wearing turban: light skin tone
+446	\U0001f473\U0001f3fc	👳🏼	person wearing turban: medium-light skin tone
+447	\U0001f473\U0001f3fd	👳🏽	person wearing turban: medium skin tone
+448	\U0001f473\U0001f3fe	👳🏾	person wearing turban: medium-dark skin tone
+449	\U0001f473\U0001f3ff	👳🏿	person wearing turban: dark skin tone
+450	\U0001f473\u200d\u2642\ufe0f	👳‍♂️	man wearing turban
+451	\U0001f473\U0001f3fb\u200d\u2642\ufe0f	👳🏻‍♂️	man wearing turban: light skin tone
+452	\U0001f473\U0001f3fc\u200d\u2642\ufe0f	👳🏼‍♂️	man wearing turban: medium-light skin tone
+453	\U0001f473\U0001f3fd\u200d\u2642\ufe0f	👳🏽‍♂️	man wearing turban: medium skin tone
+454	\U0001f473\U0001f3fe\u200d\u2642\ufe0f	👳🏾‍♂️	man wearing turban: medium-dark skin tone
+455	\U0001f473\U0001f3ff\u200d\u2642\ufe0f	👳🏿‍♂️	man wearing turban: dark skin tone
+456	\U0001f473\u200d\u2640\ufe0f	👳‍♀️	woman wearing turban
+457	\U0001f473\U0001f3fb\u200d\u2640\ufe0f	👳🏻‍♀️	woman wearing turban: light skin tone
+458	\U0001f473\U0001f3fc\u200d\u2640\ufe0f	👳🏼‍♀️	woman wearing turban: medium-light skin tone
+459	\U0001f473\U0001f3fd\u200d\u2640\ufe0f	👳🏽‍♀️	woman wearing turban: medium skin tone
+460	\U0001f473\U0001f3fe\u200d\u2640\ufe0f	👳🏾‍♀️	woman wearing turban: medium-dark skin tone
+461	\U0001f473\U0001f3ff\u200d\u2640\ufe0f	👳🏿‍♀️	woman wearing turban: dark skin tone
+462	\U0001f472	👲	man with Chinese cap
+463	\U0001f472\U0001f3fb	👲🏻	man with Chinese cap: light skin tone
+464	\U0001f472\U0001f3fc	👲🏼	man with Chinese cap: medium-light skin tone
+465	\U0001f472\U0001f3fd	👲🏽	man with Chinese cap: medium skin tone
+466	\U0001f472\U0001f3fe	👲🏾	man with Chinese cap: medium-dark skin tone
+467	\U0001f472\U0001f3ff	👲🏿	man with Chinese cap: dark skin tone
+468	\U0001f9d5	🧕	⊛ woman with headscarf
+469	\U0001f9d5\U0001f3fb	🧕🏻	⊛ woman with headscarf: light skin tone
+470	\U0001f9d5\U0001f3fc	🧕🏼	⊛ woman with headscarf: medium-light skin tone
+471	\U0001f9d5\U0001f3fd	🧕🏽	⊛ woman with headscarf: medium skin tone
+472	\U0001f9d5\U0001f3fe	🧕🏾	⊛ woman with headscarf: medium-dark skin tone
+473	\U0001f9d5\U0001f3ff	🧕🏿	⊛ woman with headscarf: dark skin tone
+474	\U0001f9d4	🧔	⊛ bearded person
+475	\U0001f9d4\U0001f3fb	🧔🏻	⊛ bearded person: light skin tone
+476	\U0001f9d4\U0001f3fc	🧔🏼	⊛ bearded person: medium-light skin tone
+477	\U0001f9d4\U0001f3fd	🧔🏽	⊛ bearded person: medium skin tone
+478	\U0001f9d4\U0001f3fe	🧔🏾	⊛ bearded person: medium-dark skin tone
+479	\U0001f9d4\U0001f3ff	🧔🏿	⊛ bearded person: dark skin tone
+480	\U0001f471	👱	blond-haired person
+481	\U0001f471\U0001f3fb	👱🏻	blond-haired person: light skin tone
+482	\U0001f471\U0001f3fc	👱🏼	blond-haired person: medium-light skin tone
+483	\U0001f471\U0001f3fd	👱🏽	blond-haired person: medium skin tone
+484	\U0001f471\U0001f3fe	👱🏾	blond-haired person: medium-dark skin tone
+485	\U0001f471\U0001f3ff	👱🏿	blond-haired person: dark skin tone
+486	\U0001f471\u200d\u2642\ufe0f	👱‍♂️	blond-haired man
+487	\U0001f471\U0001f3fb\u200d\u2642\ufe0f	👱🏻‍♂️	blond-haired man: light skin tone
+488	\U0001f471\U0001f3fc\u200d\u2642\ufe0f	👱🏼‍♂️	blond-haired man: medium-light skin tone
+489	\U0001f471\U0001f3fd\u200d\u2642\ufe0f	👱🏽‍♂️	blond-haired man: medium skin tone
+490	\U0001f471\U0001f3fe\u200d\u2642\ufe0f	👱🏾‍♂️	blond-haired man: medium-dark skin tone
+491	\U0001f471\U0001f3ff\u200d\u2642\ufe0f	👱🏿‍♂️	blond-haired man: dark skin tone
+492	\U0001f471\u200d\u2640\ufe0f	👱‍♀️	blond-haired woman
+493	\U0001f471\U0001f3fb\u200d\u2640\ufe0f	👱🏻‍♀️	blond-haired woman: light skin tone
+494	\U0001f471\U0001f3fc\u200d\u2640\ufe0f	👱🏼‍♀️	blond-haired woman: medium-light skin tone
+495	\U0001f471\U0001f3fd\u200d\u2640\ufe0f	👱🏽‍♀️	blond-haired woman: medium skin tone
+496	\U0001f471\U0001f3fe\u200d\u2640\ufe0f	👱🏾‍♀️	blond-haired woman: medium-dark skin tone
+497	\U0001f471\U0001f3ff\u200d\u2640\ufe0f	👱🏿‍♀️	blond-haired woman: dark skin tone
+498	\U0001f935	🤵	man in tuxedo
+499	\U0001f935\U0001f3fb	🤵🏻	man in tuxedo: light skin tone
+500	\U0001f935\U0001f3fc	🤵🏼	man in tuxedo: medium-light skin tone
+501	\U0001f935\U0001f3fd	🤵🏽	man in tuxedo: medium skin tone
+502	\U0001f935\U0001f3fe	🤵🏾	man in tuxedo: medium-dark skin tone
+503	\U0001f935\U0001f3ff	🤵🏿	man in tuxedo: dark skin tone
+504	\U0001f470	👰	bride with veil
+505	\U0001f470\U0001f3fb	👰🏻	bride with veil: light skin tone
+506	\U0001f470\U0001f3fc	👰🏼	bride with veil: medium-light skin tone
+507	\U0001f470\U0001f3fd	👰🏽	bride with veil: medium skin tone
+508	\U0001f470\U0001f3fe	👰🏾	bride with veil: medium-dark skin tone
+509	\U0001f470\U0001f3ff	👰🏿	bride with veil: dark skin tone
+510	\U0001f930	🤰	pregnant woman
+511	\U0001f930\U0001f3fb	🤰🏻	pregnant woman: light skin tone
+512	\U0001f930\U0001f3fc	🤰🏼	pregnant woman: medium-light skin tone
+513	\U0001f930\U0001f3fd	🤰🏽	pregnant woman: medium skin tone
+514	\U0001f930\U0001f3fe	🤰🏾	pregnant woman: medium-dark skin tone
+515	\U0001f930\U0001f3ff	🤰🏿	pregnant woman: dark skin tone
+516	\U0001f931	🤱	⊛ breast-feeding
+517	\U0001f931\U0001f3fb	🤱🏻	⊛ breast-feeding: light skin tone
+518	\U0001f931\U0001f3fc	🤱🏼	⊛ breast-feeding: medium-light skin tone
+519	\U0001f931\U0001f3fd	🤱🏽	⊛ breast-feeding: medium skin tone
+520	\U0001f931\U0001f3fe	🤱🏾	⊛ breast-feeding: medium-dark skin tone
+521	\U0001f931\U0001f3ff	🤱🏿	⊛ breast-feeding: dark skin tone
+522	\U0001f47c	👼	baby angel
+523	\U0001f47c\U0001f3fb	👼🏻	baby angel: light skin tone
+524	\U0001f47c\U0001f3fc	👼🏼	baby angel: medium-light skin tone
+525	\U0001f47c\U0001f3fd	👼🏽	baby angel: medium skin tone
+526	\U0001f47c\U0001f3fe	👼🏾	baby angel: medium-dark skin tone
+527	\U0001f47c\U0001f3ff	👼🏿	baby angel: dark skin tone
+528	\U0001f385	🎅	Santa Claus
+529	\U0001f385\U0001f3fb	🎅🏻	Santa Claus: light skin tone
+530	\U0001f385\U0001f3fc	🎅🏼	Santa Claus: medium-light skin tone
+531	\U0001f385\U0001f3fd	🎅🏽	Santa Claus: medium skin tone
+532	\U0001f385\U0001f3fe	🎅🏾	Santa Claus: medium-dark skin tone
+533	\U0001f385\U0001f3ff	🎅🏿	Santa Claus: dark skin tone
+534	\U0001f936	🤶	Mrs. Claus
+535	\U0001f936\U0001f3fb	🤶🏻	Mrs. Claus: light skin tone
+536	\U0001f936\U0001f3fc	🤶🏼	Mrs. Claus: medium-light skin tone
+537	\U0001f936\U0001f3fd	🤶🏽	Mrs. Claus: medium skin tone
+538	\U0001f936\U0001f3fe	🤶🏾	Mrs. Claus: medium-dark skin tone
+539	\U0001f936\U0001f3ff	🤶🏿	Mrs. Claus: dark skin tone
+540	\U0001f9d9	🧙	⊛ mage
+541	\U0001f9d9\U0001f3fb	🧙🏻	⊛ mage: light skin tone
+542	\U0001f9d9\U0001f3fc	🧙🏼	⊛ mage: medium-light skin tone
+543	\U0001f9d9\U0001f3fd	🧙🏽	⊛ mage: medium skin tone
+544	\U0001f9d9\U0001f3fe	🧙🏾	⊛ mage: medium-dark skin tone
+545	\U0001f9d9\U0001f3ff	🧙🏿	⊛ mage: dark skin tone
+546	\U0001f9d9\u200d\u2640\ufe0f	🧙‍♀️	⊛ woman mage
+547	\U0001f9d9\U0001f3fb\u200d\u2640\ufe0f	🧙🏻‍♀️	⊛ woman mage: light skin tone
+548	\U0001f9d9\U0001f3fc\u200d\u2640\ufe0f	🧙🏼‍♀️	⊛ woman mage: medium-light skin tone
+549	\U0001f9d9\U0001f3fd\u200d\u2640\ufe0f	🧙🏽‍♀️	⊛ woman mage: medium skin tone
+550	\U0001f9d9\U0001f3fe\u200d\u2640\ufe0f	🧙🏾‍♀️	⊛ woman mage: medium-dark skin tone
+551	\U0001f9d9\U0001f3ff\u200d\u2640\ufe0f	🧙🏿‍♀️	⊛ woman mage: dark skin tone
+552	\U0001f9d9\u200d\u2642\ufe0f	🧙‍♂️	⊛ man mage
+553	\U0001f9d9\U0001f3fb\u200d\u2642\ufe0f	🧙🏻‍♂️	⊛ man mage: light skin tone
+554	\U0001f9d9\U0001f3fc\u200d\u2642\ufe0f	🧙🏼‍♂️	⊛ man mage: medium-light skin tone
+555	\U0001f9d9\U0001f3fd\u200d\u2642\ufe0f	🧙🏽‍♂️	⊛ man mage: medium skin tone
+556	\U0001f9d9\U0001f3fe\u200d\u2642\ufe0f	🧙🏾‍♂️	⊛ man mage: medium-dark skin tone
+557	\U0001f9d9\U0001f3ff\u200d\u2642\ufe0f	🧙🏿‍♂️	⊛ man mage: dark skin tone
+558	\U0001f9da	🧚	⊛ fairy
+559	\U0001f9da\U0001f3fb	🧚🏻	⊛ fairy: light skin tone
+560	\U0001f9da\U0001f3fc	🧚🏼	⊛ fairy: medium-light skin tone
+561	\U0001f9da\U0001f3fd	🧚🏽	⊛ fairy: medium skin tone
+562	\U0001f9da\U0001f3fe	🧚🏾	⊛ fairy: medium-dark skin tone
+563	\U0001f9da\U0001f3ff	🧚🏿	⊛ fairy: dark skin tone
+564	\U0001f9da\u200d\u2640\ufe0f	🧚‍♀️	⊛ woman fairy
+565	\U0001f9da\U0001f3fb\u200d\u2640\ufe0f	🧚🏻‍♀️	⊛ woman fairy: light skin tone
+566	\U0001f9da\U0001f3fc\u200d\u2640\ufe0f	🧚🏼‍♀️	⊛ woman fairy: medium-light skin tone
+567	\U0001f9da\U0001f3fd\u200d\u2640\ufe0f	🧚🏽‍♀️	⊛ woman fairy: medium skin tone
+568	\U0001f9da\U0001f3fe\u200d\u2640\ufe0f	🧚🏾‍♀️	⊛ woman fairy: medium-dark skin tone
+569	\U0001f9da\U0001f3ff\u200d\u2640\ufe0f	🧚🏿‍♀️	⊛ woman fairy: dark skin tone
+570	\U0001f9da\u200d\u2642\ufe0f	🧚‍♂️	⊛ man fairy
+571	\U0001f9da\U0001f3fb\u200d\u2642\ufe0f	🧚🏻‍♂️	⊛ man fairy: light skin tone
+572	\U0001f9da\U0001f3fc\u200d\u2642\ufe0f	🧚🏼‍♂️	⊛ man fairy: medium-light skin tone
+573	\U0001f9da\U0001f3fd\u200d\u2642\ufe0f	🧚🏽‍♂️	⊛ man fairy: medium skin tone
+574	\U0001f9da\U0001f3fe\u200d\u2642\ufe0f	🧚🏾‍♂️	⊛ man fairy: medium-dark skin tone
+575	\U0001f9da\U0001f3ff\u200d\u2642\ufe0f	🧚🏿‍♂️	⊛ man fairy: dark skin tone
+576	\U0001f9db	🧛	⊛ vampire
+577	\U0001f9db\U0001f3fb	🧛🏻	⊛ vampire: light skin tone
+578	\U0001f9db\U0001f3fc	🧛🏼	⊛ vampire: medium-light skin tone
+579	\U0001f9db\U0001f3fd	🧛🏽	⊛ vampire: medium skin tone
+580	\U0001f9db\U0001f3fe	🧛🏾	⊛ vampire: medium-dark skin tone
+581	\U0001f9db\U0001f3ff	🧛🏿	⊛ vampire: dark skin tone
+582	\U0001f9db\u200d\u2640\ufe0f	🧛‍♀️	⊛ woman vampire
+583	\U0001f9db\U0001f3fb\u200d\u2640\ufe0f	🧛🏻‍♀️	⊛ woman vampire: light skin tone
+584	\U0001f9db\U0001f3fc\u200d\u2640\ufe0f	🧛🏼‍♀️	⊛ woman vampire: medium-light skin tone
+585	\U0001f9db\U0001f3fd\u200d\u2640\ufe0f	🧛🏽‍♀️	⊛ woman vampire: medium skin tone
+586	\U0001f9db\U0001f3fe\u200d\u2640\ufe0f	🧛🏾‍♀️	⊛ woman vampire: medium-dark skin tone
+587	\U0001f9db\U0001f3ff\u200d\u2640\ufe0f	🧛🏿‍♀️	⊛ woman vampire: dark skin tone
+588	\U0001f9db\u200d\u2642\ufe0f	🧛‍♂️	⊛ man vampire
+589	\U0001f9db\U0001f3fb\u200d\u2642\ufe0f	🧛🏻‍♂️	⊛ man vampire: light skin tone
+590	\U0001f9db\U0001f3fc\u200d\u2642\ufe0f	🧛🏼‍♂️	⊛ man vampire: medium-light skin tone
+591	\U0001f9db\U0001f3fd\u200d\u2642\ufe0f	🧛🏽‍♂️	⊛ man vampire: medium skin tone
+592	\U0001f9db\U0001f3fe\u200d\u2642\ufe0f	🧛🏾‍♂️	⊛ man vampire: medium-dark skin tone
+593	\U0001f9db\U0001f3ff\u200d\u2642\ufe0f	🧛🏿‍♂️	⊛ man vampire: dark skin tone
+594	\U0001f9dc	🧜	⊛ merperson
+595	\U0001f9dc\U0001f3fb	🧜🏻	⊛ merperson: light skin tone
+596	\U0001f9dc\U0001f3fc	🧜🏼	⊛ merperson: medium-light skin tone
+597	\U0001f9dc\U0001f3fd	🧜🏽	⊛ merperson: medium skin tone
+598	\U0001f9dc\U0001f3fe	🧜🏾	⊛ merperson: medium-dark skin tone
+599	\U0001f9dc\U0001f3ff	🧜🏿	⊛ merperson: dark skin tone
+600	\U0001f9dc\u200d\u2640\ufe0f	🧜‍♀️	⊛ mermaid
+601	\U0001f9dc\U0001f3fb\u200d\u2640\ufe0f	🧜🏻‍♀️	⊛ mermaid: light skin tone
+602	\U0001f9dc\U0001f3fc\u200d\u2640\ufe0f	🧜🏼‍♀️	⊛ mermaid: medium-light skin tone
+603	\U0001f9dc\U0001f3fd\u200d\u2640\ufe0f	🧜🏽‍♀️	⊛ mermaid: medium skin tone
+604	\U0001f9dc\U0001f3fe\u200d\u2640\ufe0f	🧜🏾‍♀️	⊛ mermaid: medium-dark skin tone
+605	\U0001f9dc\U0001f3ff\u200d\u2640\ufe0f	🧜🏿‍♀️	⊛ mermaid: dark skin tone
+606	\U0001f9dc\u200d\u2642\ufe0f	🧜‍♂️	⊛ merman
+607	\U0001f9dc\U0001f3fb\u200d\u2642\ufe0f	🧜🏻‍♂️	⊛ merman: light skin tone
+608	\U0001f9dc\U0001f3fc\u200d\u2642\ufe0f	🧜🏼‍♂️	⊛ merman: medium-light skin tone
+609	\U0001f9dc\U0001f3fd\u200d\u2642\ufe0f	🧜🏽‍♂️	⊛ merman: medium skin tone
+610	\U0001f9dc\U0001f3fe\u200d\u2642\ufe0f	🧜🏾‍♂️	⊛ merman: medium-dark skin tone
+611	\U0001f9dc\U0001f3ff\u200d\u2642\ufe0f	🧜🏿‍♂️	⊛ merman: dark skin tone
+612	\U0001f9dd	🧝	⊛ elf
+613	\U0001f9dd\U0001f3fb	🧝🏻	⊛ elf: light skin tone
+614	\U0001f9dd\U0001f3fc	🧝🏼	⊛ elf: medium-light skin tone
+615	\U0001f9dd\U0001f3fd	🧝🏽	⊛ elf: medium skin tone
+616	\U0001f9dd\U0001f3fe	🧝🏾	⊛ elf: medium-dark skin tone
+617	\U0001f9dd\U0001f3ff	🧝🏿	⊛ elf: dark skin tone
+618	\U0001f9dd\u200d\u2640\ufe0f	🧝‍♀️	⊛ woman elf
+619	\U0001f9dd\U0001f3fb\u200d\u2640\ufe0f	🧝🏻‍♀️	⊛ woman elf: light skin tone
+620	\U0001f9dd\U0001f3fc\u200d\u2640\ufe0f	🧝🏼‍♀️	⊛ woman elf: medium-light skin tone
+621	\U0001f9dd\U0001f3fd\u200d\u2640\ufe0f	🧝🏽‍♀️	⊛ woman elf: medium skin tone
+622	\U0001f9dd\U0001f3fe\u200d\u2640\ufe0f	🧝🏾‍♀️	⊛ woman elf: medium-dark skin tone
+623	\U0001f9dd\U0001f3ff\u200d\u2640\ufe0f	🧝🏿‍♀️	⊛ woman elf: dark skin tone
+624	\U0001f9dd\u200d\u2642\ufe0f	🧝‍♂️	⊛ man elf
+625	\U0001f9dd\U0001f3fb\u200d\u2642\ufe0f	🧝🏻‍♂️	⊛ man elf: light skin tone
+626	\U0001f9dd\U0001f3fc\u200d\u2642\ufe0f	🧝🏼‍♂️	⊛ man elf: medium-light skin tone
+627	\U0001f9dd\U0001f3fd\u200d\u2642\ufe0f	🧝🏽‍♂️	⊛ man elf: medium skin tone
+628	\U0001f9dd\U0001f3fe\u200d\u2642\ufe0f	🧝🏾‍♂️	⊛ man elf: medium-dark skin tone
+629	\U0001f9dd\U0001f3ff\u200d\u2642\ufe0f	🧝🏿‍♂️	⊛ man elf: dark skin tone
+630	\U0001f9de	🧞	⊛ genie
+631	\U0001f9de\u200d\u2640\ufe0f	🧞‍♀️	⊛ woman genie
+632	\U0001f9de\u200d\u2642\ufe0f	🧞‍♂️	⊛ man genie
+633	\U0001f9df	🧟	⊛ zombie
+634	\U0001f9df\u200d\u2640\ufe0f	🧟‍♀️	⊛ woman zombie
+635	\U0001f9df\u200d\u2642\ufe0f	🧟‍♂️	⊛ man zombie
+636	\U0001f64d	🙍	person frowning
+637	\U0001f64d\U0001f3fb	🙍🏻	person frowning: light skin tone
+638	\U0001f64d\U0001f3fc	🙍🏼	person frowning: medium-light skin tone
+639	\U0001f64d\U0001f3fd	🙍🏽	person frowning: medium skin tone
+640	\U0001f64d\U0001f3fe	🙍🏾	person frowning: medium-dark skin tone
+641	\U0001f64d\U0001f3ff	🙍🏿	person frowning: dark skin tone
+642	\U0001f64d\u200d\u2642\ufe0f	🙍‍♂️	man frowning
+643	\U0001f64d\U0001f3fb\u200d\u2642\ufe0f	🙍🏻‍♂️	man frowning: light skin tone
+644	\U0001f64d\U0001f3fc\u200d\u2642\ufe0f	🙍🏼‍♂️	man frowning: medium-light skin tone
+645	\U0001f64d\U0001f3fd\u200d\u2642\ufe0f	🙍🏽‍♂️	man frowning: medium skin tone
+646	\U0001f64d\U0001f3fe\u200d\u2642\ufe0f	🙍🏾‍♂️	man frowning: medium-dark skin tone
+647	\U0001f64d\U0001f3ff\u200d\u2642\ufe0f	🙍🏿‍♂️	man frowning: dark skin tone
+648	\U0001f64d\u200d\u2640\ufe0f	🙍‍♀️	woman frowning
+649	\U0001f64d\U0001f3fb\u200d\u2640\ufe0f	🙍🏻‍♀️	woman frowning: light skin tone
+650	\U0001f64d\U0001f3fc\u200d\u2640\ufe0f	🙍🏼‍♀️	woman frowning: medium-light skin tone
+651	\U0001f64d\U0001f3fd\u200d\u2640\ufe0f	🙍🏽‍♀️	woman frowning: medium skin tone
+652	\U0001f64d\U0001f3fe\u200d\u2640\ufe0f	🙍🏾‍♀️	woman frowning: medium-dark skin tone
+653	\U0001f64d\U0001f3ff\u200d\u2640\ufe0f	🙍🏿‍♀️	woman frowning: dark skin tone
+654	\U0001f64e	🙎	person pouting
+655	\U0001f64e\U0001f3fb	🙎🏻	person pouting: light skin tone
+656	\U0001f64e\U0001f3fc	🙎🏼	person pouting: medium-light skin tone
+657	\U0001f64e\U0001f3fd	🙎🏽	person pouting: medium skin tone
+658	\U0001f64e\U0001f3fe	🙎🏾	person pouting: medium-dark skin tone
+659	\U0001f64e\U0001f3ff	🙎🏿	person pouting: dark skin tone
+660	\U0001f64e\u200d\u2642\ufe0f	🙎‍♂️	man pouting
+661	\U0001f64e\U0001f3fb\u200d\u2642\ufe0f	🙎🏻‍♂️	man pouting: light skin tone
+662	\U0001f64e\U0001f3fc\u200d\u2642\ufe0f	🙎🏼‍♂️	man pouting: medium-light skin tone
+663	\U0001f64e\U0001f3fd\u200d\u2642\ufe0f	🙎🏽‍♂️	man pouting: medium skin tone
+664	\U0001f64e\U0001f3fe\u200d\u2642\ufe0f	🙎🏾‍♂️	man pouting: medium-dark skin tone
+665	\U0001f64e\U0001f3ff\u200d\u2642\ufe0f	🙎🏿‍♂️	man pouting: dark skin tone
+666	\U0001f64e\u200d\u2640\ufe0f	🙎‍♀️	woman pouting
+667	\U0001f64e\U0001f3fb\u200d\u2640\ufe0f	🙎🏻‍♀️	woman pouting: light skin tone
+668	\U0001f64e\U0001f3fc\u200d\u2640\ufe0f	🙎🏼‍♀️	woman pouting: medium-light skin tone
+669	\U0001f64e\U0001f3fd\u200d\u2640\ufe0f	🙎🏽‍♀️	woman pouting: medium skin tone
+670	\U0001f64e\U0001f3fe\u200d\u2640\ufe0f	🙎🏾‍♀️	woman pouting: medium-dark skin tone
+671	\U0001f64e\U0001f3ff\u200d\u2640\ufe0f	🙎🏿‍♀️	woman pouting: dark skin tone
+672	\U0001f645	🙅	person gesturing NO
+673	\U0001f645\U0001f3fb	🙅🏻	person gesturing NO: light skin tone
+674	\U0001f645\U0001f3fc	🙅🏼	person gesturing NO: medium-light skin tone
+675	\U0001f645\U0001f3fd	🙅🏽	person gesturing NO: medium skin tone
+676	\U0001f645\U0001f3fe	🙅🏾	person gesturing NO: medium-dark skin tone
+677	\U0001f645\U0001f3ff	🙅🏿	person gesturing NO: dark skin tone
+678	\U0001f645\u200d\u2642\ufe0f	🙅‍♂️	man gesturing NO
+679	\U0001f645\U0001f3fb\u200d\u2642\ufe0f	🙅🏻‍♂️	man gesturing NO: light skin tone
+680	\U0001f645\U0001f3fc\u200d\u2642\ufe0f	🙅🏼‍♂️	man gesturing NO: medium-light skin tone
+681	\U0001f645\U0001f3fd\u200d\u2642\ufe0f	🙅🏽‍♂️	man gesturing NO: medium skin tone
+682	\U0001f645\U0001f3fe\u200d\u2642\ufe0f	🙅🏾‍♂️	man gesturing NO: medium-dark skin tone
+683	\U0001f645\U0001f3ff\u200d\u2642\ufe0f	🙅🏿‍♂️	man gesturing NO: dark skin tone
+684	\U0001f645\u200d\u2640\ufe0f	🙅‍♀️	woman gesturing NO
+685	\U0001f645\U0001f3fb\u200d\u2640\ufe0f	🙅🏻‍♀️	woman gesturing NO: light skin tone
+686	\U0001f645\U0001f3fc\u200d\u2640\ufe0f	🙅🏼‍♀️	woman gesturing NO: medium-light skin tone
+687	\U0001f645\U0001f3fd\u200d\u2640\ufe0f	🙅🏽‍♀️	woman gesturing NO: medium skin tone
+688	\U0001f645\U0001f3fe\u200d\u2640\ufe0f	🙅🏾‍♀️	woman gesturing NO: medium-dark skin tone
+689	\U0001f645\U0001f3ff\u200d\u2640\ufe0f	🙅🏿‍♀️	woman gesturing NO: dark skin tone
+690	\U0001f646	🙆	person gesturing OK
+691	\U0001f646\U0001f3fb	🙆🏻	person gesturing OK: light skin tone
+692	\U0001f646\U0001f3fc	🙆🏼	person gesturing OK: medium-light skin tone
+693	\U0001f646\U0001f3fd	🙆🏽	person gesturing OK: medium skin tone
+694	\U0001f646\U0001f3fe	🙆🏾	person gesturing OK: medium-dark skin tone
+695	\U0001f646\U0001f3ff	🙆🏿	person gesturing OK: dark skin tone
+696	\U0001f646\u200d\u2642\ufe0f	🙆‍♂️	man gesturing OK
+697	\U0001f646\U0001f3fb\u200d\u2642\ufe0f	🙆🏻‍♂️	man gesturing OK: light skin tone
+698	\U0001f646\U0001f3fc\u200d\u2642\ufe0f	🙆🏼‍♂️	man gesturing OK: medium-light skin tone
+699	\U0001f646\U0001f3fd\u200d\u2642\ufe0f	🙆🏽‍♂️	man gesturing OK: medium skin tone
+700	\U0001f646\U0001f3fe\u200d\u2642\ufe0f	🙆🏾‍♂️	man gesturing OK: medium-dark skin tone
+701	\U0001f646\U0001f3ff\u200d\u2642\ufe0f	🙆🏿‍♂️	man gesturing OK: dark skin tone
+702	\U0001f646\u200d\u2640\ufe0f	🙆‍♀️	woman gesturing OK
+703	\U0001f646\U0001f3fb\u200d\u2640\ufe0f	🙆🏻‍♀️	woman gesturing OK: light skin tone
+704	\U0001f646\U0001f3fc\u200d\u2640\ufe0f	🙆🏼‍♀️	woman gesturing OK: medium-light skin tone
+705	\U0001f646\U0001f3fd\u200d\u2640\ufe0f	🙆🏽‍♀️	woman gesturing OK: medium skin tone
+706	\U0001f646\U0001f3fe\u200d\u2640\ufe0f	🙆🏾‍♀️	woman gesturing OK: medium-dark skin tone
+707	\U0001f646\U0001f3ff\u200d\u2640\ufe0f	🙆🏿‍♀️	woman gesturing OK: dark skin tone
+708	\U0001f481	💁	person tipping hand
+709	\U0001f481\U0001f3fb	💁🏻	person tipping hand: light skin tone
+710	\U0001f481\U0001f3fc	💁🏼	person tipping hand: medium-light skin tone
+711	\U0001f481\U0001f3fd	💁🏽	person tipping hand: medium skin tone
+712	\U0001f481\U0001f3fe	💁🏾	person tipping hand: medium-dark skin tone
+713	\U0001f481\U0001f3ff	💁🏿	person tipping hand: dark skin tone
+714	\U0001f481\u200d\u2642\ufe0f	💁‍♂️	man tipping hand
+715	\U0001f481\U0001f3fb\u200d\u2642\ufe0f	💁🏻‍♂️	man tipping hand: light skin tone
+716	\U0001f481\U0001f3fc\u200d\u2642\ufe0f	💁🏼‍♂️	man tipping hand: medium-light skin tone
+717	\U0001f481\U0001f3fd\u200d\u2642\ufe0f	💁🏽‍♂️	man tipping hand: medium skin tone
+718	\U0001f481\U0001f3fe\u200d\u2642\ufe0f	💁🏾‍♂️	man tipping hand: medium-dark skin tone
+719	\U0001f481\U0001f3ff\u200d\u2642\ufe0f	💁🏿‍♂️	man tipping hand: dark skin tone
+720	\U0001f481\u200d\u2640\ufe0f	💁‍♀️	woman tipping hand
+721	\U0001f481\U0001f3fb\u200d\u2640\ufe0f	💁🏻‍♀️	woman tipping hand: light skin tone
+722	\U0001f481\U0001f3fc\u200d\u2640\ufe0f	💁🏼‍♀️	woman tipping hand: medium-light skin tone
+723	\U0001f481\U0001f3fd\u200d\u2640\ufe0f	💁🏽‍♀️	woman tipping hand: medium skin tone
+724	\U0001f481\U0001f3fe\u200d\u2640\ufe0f	💁🏾‍♀️	woman tipping hand: medium-dark skin tone
+725	\U0001f481\U0001f3ff\u200d\u2640\ufe0f	💁🏿‍♀️	woman tipping hand: dark skin tone
+726	\U0001f64b	🙋	person raising hand
+727	\U0001f64b\U0001f3fb	🙋🏻	person raising hand: light skin tone
+728	\U0001f64b\U0001f3fc	🙋🏼	person raising hand: medium-light skin tone
+729	\U0001f64b\U0001f3fd	🙋🏽	person raising hand: medium skin tone
+730	\U0001f64b\U0001f3fe	🙋🏾	person raising hand: medium-dark skin tone
+731	\U0001f64b\U0001f3ff	🙋🏿	person raising hand: dark skin tone
+732	\U0001f64b\u200d\u2642\ufe0f	🙋‍♂️	man raising hand
+733	\U0001f64b\U0001f3fb\u200d\u2642\ufe0f	🙋🏻‍♂️	man raising hand: light skin tone
+734	\U0001f64b\U0001f3fc\u200d\u2642\ufe0f	🙋🏼‍♂️	man raising hand: medium-light skin tone
+735	\U0001f64b\U0001f3fd\u200d\u2642\ufe0f	🙋🏽‍♂️	man raising hand: medium skin tone
+736	\U0001f64b\U0001f3fe\u200d\u2642\ufe0f	🙋🏾‍♂️	man raising hand: medium-dark skin tone
+737	\U0001f64b\U0001f3ff\u200d\u2642\ufe0f	🙋🏿‍♂️	man raising hand: dark skin tone
+738	\U0001f64b\u200d\u2640\ufe0f	🙋‍♀️	woman raising hand
+739	\U0001f64b\U0001f3fb\u200d\u2640\ufe0f	🙋🏻‍♀️	woman raising hand: light skin tone
+740	\U0001f64b\U0001f3fc\u200d\u2640\ufe0f	🙋🏼‍♀️	woman raising hand: medium-light skin tone
+741	\U0001f64b\U0001f3fd\u200d\u2640\ufe0f	🙋🏽‍♀️	woman raising hand: medium skin tone
+742	\U0001f64b\U0001f3fe\u200d\u2640\ufe0f	🙋🏾‍♀️	woman raising hand: medium-dark skin tone
+743	\U0001f64b\U0001f3ff\u200d\u2640\ufe0f	🙋🏿‍♀️	woman raising hand: dark skin tone
+744	\U0001f647	🙇	person bowing
+745	\U0001f647\U0001f3fb	🙇🏻	person bowing: light skin tone
+746	\U0001f647\U0001f3fc	🙇🏼	person bowing: medium-light skin tone
+747	\U0001f647\U0001f3fd	🙇🏽	person bowing: medium skin tone
+748	\U0001f647\U0001f3fe	🙇🏾	person bowing: medium-dark skin tone
+749	\U0001f647\U0001f3ff	🙇🏿	person bowing: dark skin tone
+750	\U0001f647\u200d\u2642\ufe0f	🙇‍♂️	man bowing
+751	\U0001f647\U0001f3fb\u200d\u2642\ufe0f	🙇🏻‍♂️	man bowing: light skin tone
+752	\U0001f647\U0001f3fc\u200d\u2642\ufe0f	🙇🏼‍♂️	man bowing: medium-light skin tone
+753	\U0001f647\U0001f3fd\u200d\u2642\ufe0f	🙇🏽‍♂️	man bowing: medium skin tone
+754	\U0001f647\U0001f3fe\u200d\u2642\ufe0f	🙇🏾‍♂️	man bowing: medium-dark skin tone
+755	\U0001f647\U0001f3ff\u200d\u2642\ufe0f	🙇🏿‍♂️	man bowing: dark skin tone
+756	\U0001f647\u200d\u2640\ufe0f	🙇‍♀️	woman bowing
+757	\U0001f647\U0001f3fb\u200d\u2640\ufe0f	🙇🏻‍♀️	woman bowing: light skin tone
+758	\U0001f647\U0001f3fc\u200d\u2640\ufe0f	🙇🏼‍♀️	woman bowing: medium-light skin tone
+759	\U0001f647\U0001f3fd\u200d\u2640\ufe0f	🙇🏽‍♀️	woman bowing: medium skin tone
+760	\U0001f647\U0001f3fe\u200d\u2640\ufe0f	🙇🏾‍♀️	woman bowing: medium-dark skin tone
+761	\U0001f647\U0001f3ff\u200d\u2640\ufe0f	🙇🏿‍♀️	woman bowing: dark skin tone
+762	\U0001f926	🤦	person facepalming
+763	\U0001f926\U0001f3fb	🤦🏻	person facepalming: light skin tone
+764	\U0001f926\U0001f3fc	🤦🏼	person facepalming: medium-light skin tone
+765	\U0001f926\U0001f3fd	🤦🏽	person facepalming: medium skin tone
+766	\U0001f926\U0001f3fe	🤦🏾	person facepalming: medium-dark skin tone
+767	\U0001f926\U0001f3ff	🤦🏿	person facepalming: dark skin tone
+768	\U0001f926\u200d\u2642\ufe0f	🤦‍♂️	man facepalming
+769	\U0001f926\U0001f3fb\u200d\u2642\ufe0f	🤦🏻‍♂️	man facepalming: light skin tone
+770	\U0001f926\U0001f3fc\u200d\u2642\ufe0f	🤦🏼‍♂️	man facepalming: medium-light skin tone
+771	\U0001f926\U0001f3fd\u200d\u2642\ufe0f	🤦🏽‍♂️	man facepalming: medium skin tone
+772	\U0001f926\U0001f3fe\u200d\u2642\ufe0f	🤦🏾‍♂️	man facepalming: medium-dark skin tone
+773	\U0001f926\U0001f3ff\u200d\u2642\ufe0f	🤦🏿‍♂️	man facepalming: dark skin tone
+774	\U0001f926\u200d\u2640\ufe0f	🤦‍♀️	woman facepalming
+775	\U0001f926\U0001f3fb\u200d\u2640\ufe0f	🤦🏻‍♀️	woman facepalming: light skin tone
+776	\U0001f926\U0001f3fc\u200d\u2640\ufe0f	🤦🏼‍♀️	woman facepalming: medium-light skin tone
+777	\U0001f926\U0001f3fd\u200d\u2640\ufe0f	🤦🏽‍♀️	woman facepalming: medium skin tone
+778	\U0001f926\U0001f3fe\u200d\u2640\ufe0f	🤦🏾‍♀️	woman facepalming: medium-dark skin tone
+779	\U0001f926\U0001f3ff\u200d\u2640\ufe0f	🤦🏿‍♀️	woman facepalming: dark skin tone
+780	\U0001f937	🤷	person shrugging
+781	\U0001f937\U0001f3fb	🤷🏻	person shrugging: light skin tone
+782	\U0001f937\U0001f3fc	🤷🏼	person shrugging: medium-light skin tone
+783	\U0001f937\U0001f3fd	🤷🏽	person shrugging: medium skin tone
+784	\U0001f937\U0001f3fe	🤷🏾	person shrugging: medium-dark skin tone
+785	\U0001f937\U0001f3ff	🤷🏿	person shrugging: dark skin tone
+786	\U0001f937\u200d\u2642\ufe0f	🤷‍♂️	man shrugging
+787	\U0001f937\U0001f3fb\u200d\u2642\ufe0f	🤷🏻‍♂️	man shrugging: light skin tone
+788	\U0001f937\U0001f3fc\u200d\u2642\ufe0f	🤷🏼‍♂️	man shrugging: medium-light skin tone
+789	\U0001f937\U0001f3fd\u200d\u2642\ufe0f	🤷🏽‍♂️	man shrugging: medium skin tone
+790	\U0001f937\U0001f3fe\u200d\u2642\ufe0f	🤷🏾‍♂️	man shrugging: medium-dark skin tone
+791	\U0001f937\U0001f3ff\u200d\u2642\ufe0f	🤷🏿‍♂️	man shrugging: dark skin tone
+792	\U0001f937\u200d\u2640\ufe0f	🤷‍♀️	woman shrugging
+793	\U0001f937\U0001f3fb\u200d\u2640\ufe0f	🤷🏻‍♀️	woman shrugging: light skin tone
+794	\U0001f937\U0001f3fc\u200d\u2640\ufe0f	🤷🏼‍♀️	woman shrugging: medium-light skin tone
+795	\U0001f937\U0001f3fd\u200d\u2640\ufe0f	🤷🏽‍♀️	woman shrugging: medium skin tone
+796	\U0001f937\U0001f3fe\u200d\u2640\ufe0f	🤷🏾‍♀️	woman shrugging: medium-dark skin tone
+797	\U0001f937\U0001f3ff\u200d\u2640\ufe0f	🤷🏿‍♀️	woman shrugging: dark skin tone
+798	\U0001f486	💆	person getting massage
+799	\U0001f486\U0001f3fb	💆🏻	person getting massage: light skin tone
+800	\U0001f486\U0001f3fc	💆🏼	person getting massage: medium-light skin tone
+801	\U0001f486\U0001f3fd	💆🏽	person getting massage: medium skin tone
+802	\U0001f486\U0001f3fe	💆🏾	person getting massage: medium-dark skin tone
+803	\U0001f486\U0001f3ff	💆🏿	person getting massage: dark skin tone
+804	\U0001f486\u200d\u2642\ufe0f	💆‍♂️	man getting massage
+805	\U0001f486\U0001f3fb\u200d\u2642\ufe0f	💆🏻‍♂️	man getting massage: light skin tone
+806	\U0001f486\U0001f3fc\u200d\u2642\ufe0f	💆🏼‍♂️	man getting massage: medium-light skin tone
+807	\U0001f486\U0001f3fd\u200d\u2642\ufe0f	💆🏽‍♂️	man getting massage: medium skin tone
+808	\U0001f486\U0001f3fe\u200d\u2642\ufe0f	💆🏾‍♂️	man getting massage: medium-dark skin tone
+809	\U0001f486\U0001f3ff\u200d\u2642\ufe0f	💆🏿‍♂️	man getting massage: dark skin tone
+810	\U0001f486\u200d\u2640\ufe0f	💆‍♀️	woman getting massage
+811	\U0001f486\U0001f3fb\u200d\u2640\ufe0f	💆🏻‍♀️	woman getting massage: light skin tone
+812	\U0001f486\U0001f3fc\u200d\u2640\ufe0f	💆🏼‍♀️	woman getting massage: medium-light skin tone
+813	\U0001f486\U0001f3fd\u200d\u2640\ufe0f	💆🏽‍♀️	woman getting massage: medium skin tone
+814	\U0001f486\U0001f3fe\u200d\u2640\ufe0f	💆🏾‍♀️	woman getting massage: medium-dark skin tone
+815	\U0001f486\U0001f3ff\u200d\u2640\ufe0f	💆🏿‍♀️	woman getting massage: dark skin tone
+816	\U0001f487	💇	person getting haircut
+817	\U0001f487\U0001f3fb	💇🏻	person getting haircut: light skin tone
+818	\U0001f487\U0001f3fc	💇🏼	person getting haircut: medium-light skin tone
+819	\U0001f487\U0001f3fd	💇🏽	person getting haircut: medium skin tone
+820	\U0001f487\U0001f3fe	💇🏾	person getting haircut: medium-dark skin tone
+821	\U0001f487\U0001f3ff	💇🏿	person getting haircut: dark skin tone
+822	\U0001f487\u200d\u2642\ufe0f	💇‍♂️	man getting haircut
+823	\U0001f487\U0001f3fb\u200d\u2642\ufe0f	💇🏻‍♂️	man getting haircut: light skin tone
+824	\U0001f487\U0001f3fc\u200d\u2642\ufe0f	💇🏼‍♂️	man getting haircut: medium-light skin tone
+825	\U0001f487\U0001f3fd\u200d\u2642\ufe0f	💇🏽‍♂️	man getting haircut: medium skin tone
+826	\U0001f487\U0001f3fe\u200d\u2642\ufe0f	💇🏾‍♂️	man getting haircut: medium-dark skin tone
+827	\U0001f487\U0001f3ff\u200d\u2642\ufe0f	💇🏿‍♂️	man getting haircut: dark skin tone
+828	\U0001f487\u200d\u2640\ufe0f	💇‍♀️	woman getting haircut
+829	\U0001f487\U0001f3fb\u200d\u2640\ufe0f	💇🏻‍♀️	woman getting haircut: light skin tone
+830	\U0001f487\U0001f3fc\u200d\u2640\ufe0f	💇🏼‍♀️	woman getting haircut: medium-light skin tone
+831	\U0001f487\U0001f3fd\u200d\u2640\ufe0f	💇🏽‍♀️	woman getting haircut: medium skin tone
+832	\U0001f487\U0001f3fe\u200d\u2640\ufe0f	💇🏾‍♀️	woman getting haircut: medium-dark skin tone
+833	\U0001f487\U0001f3ff\u200d\u2640\ufe0f	💇🏿‍♀️	woman getting haircut: dark skin tone
+834	\U0001f6b6	🚶	person walking
+835	\U0001f6b6\U0001f3fb	🚶🏻	person walking: light skin tone
+836	\U0001f6b6\U0001f3fc	🚶🏼	person walking: medium-light skin tone
+837	\U0001f6b6\U0001f3fd	🚶🏽	person walking: medium skin tone
+838	\U0001f6b6\U0001f3fe	🚶🏾	person walking: medium-dark skin tone
+839	\U0001f6b6\U0001f3ff	🚶🏿	person walking: dark skin tone
+840	\U0001f6b6\u200d\u2642\ufe0f	🚶‍♂️	man walking
+841	\U0001f6b6\U0001f3fb\u200d\u2642\ufe0f	🚶🏻‍♂️	man walking: light skin tone
+842	\U0001f6b6\U0001f3fc\u200d\u2642\ufe0f	🚶🏼‍♂️	man walking: medium-light skin tone
+843	\U0001f6b6\U0001f3fd\u200d\u2642\ufe0f	🚶🏽‍♂️	man walking: medium skin tone
+844	\U0001f6b6\U0001f3fe\u200d\u2642\ufe0f	🚶🏾‍♂️	man walking: medium-dark skin tone
+845	\U0001f6b6\U0001f3ff\u200d\u2642\ufe0f	🚶🏿‍♂️	man walking: dark skin tone
+846	\U0001f6b6\u200d\u2640\ufe0f	🚶‍♀️	woman walking
+847	\U0001f6b6\U0001f3fb\u200d\u2640\ufe0f	🚶🏻‍♀️	woman walking: light skin tone
+848	\U0001f6b6\U0001f3fc\u200d\u2640\ufe0f	🚶🏼‍♀️	woman walking: medium-light skin tone
+849	\U0001f6b6\U0001f3fd\u200d\u2640\ufe0f	🚶🏽‍♀️	woman walking: medium skin tone
+850	\U0001f6b6\U0001f3fe\u200d\u2640\ufe0f	🚶🏾‍♀️	woman walking: medium-dark skin tone
+851	\U0001f6b6\U0001f3ff\u200d\u2640\ufe0f	🚶🏿‍♀️	woman walking: dark skin tone
+852	\U0001f3c3	🏃	person running
+853	\U0001f3c3\U0001f3fb	🏃🏻	person running: light skin tone
+854	\U0001f3c3\U0001f3fc	🏃🏼	person running: medium-light skin tone
+855	\U0001f3c3\U0001f3fd	🏃🏽	person running: medium skin tone
+856	\U0001f3c3\U0001f3fe	🏃🏾	person running: medium-dark skin tone
+857	\U0001f3c3\U0001f3ff	🏃🏿	person running: dark skin tone
+858	\U0001f3c3\u200d\u2642\ufe0f	🏃‍♂️	man running
+859	\U0001f3c3\U0001f3fb\u200d\u2642\ufe0f	🏃🏻‍♂️	man running: light skin tone
+860	\U0001f3c3\U0001f3fc\u200d\u2642\ufe0f	🏃🏼‍♂️	man running: medium-light skin tone
+861	\U0001f3c3\U0001f3fd\u200d\u2642\ufe0f	🏃🏽‍♂️	man running: medium skin tone
+862	\U0001f3c3\U0001f3fe\u200d\u2642\ufe0f	🏃🏾‍♂️	man running: medium-dark skin tone
+863	\U0001f3c3\U0001f3ff\u200d\u2642\ufe0f	🏃🏿‍♂️	man running: dark skin tone
+864	\U0001f3c3\u200d\u2640\ufe0f	🏃‍♀️	woman running
+865	\U0001f3c3\U0001f3fb\u200d\u2640\ufe0f	🏃🏻‍♀️	woman running: light skin tone
+866	\U0001f3c3\U0001f3fc\u200d\u2640\ufe0f	🏃🏼‍♀️	woman running: medium-light skin tone
+867	\U0001f3c3\U0001f3fd\u200d\u2640\ufe0f	🏃🏽‍♀️	woman running: medium skin tone
+868	\U0001f3c3\U0001f3fe\u200d\u2640\ufe0f	🏃🏾‍♀️	woman running: medium-dark skin tone
+869	\U0001f3c3\U0001f3ff\u200d\u2640\ufe0f	🏃🏿‍♀️	woman running: dark skin tone
+870	\U0001f483	💃	woman dancing
+871	\U0001f483\U0001f3fb	💃🏻	woman dancing: light skin tone
+872	\U0001f483\U0001f3fc	💃🏼	woman dancing: medium-light skin tone
+873	\U0001f483\U0001f3fd	💃🏽	woman dancing: medium skin tone
+874	\U0001f483\U0001f3fe	💃🏾	woman dancing: medium-dark skin tone
+875	\U0001f483\U0001f3ff	💃🏿	woman dancing: dark skin tone
+876	\U0001f57a	🕺	man dancing
+877	\U0001f57a\U0001f3fb	🕺🏻	man dancing: light skin tone
+878	\U0001f57a\U0001f3fc	🕺🏼	man dancing: medium-light skin tone
+879	\U0001f57a\U0001f3fd	🕺🏽	man dancing: medium skin tone
+880	\U0001f57a\U0001f3fe	🕺🏾	man dancing: medium-dark skin tone
+881	\U0001f57a\U0001f3ff	🕺🏿	man dancing: dark skin tone
+882	\U0001f46f	👯	people with bunny ears
+883	\U0001f46f\u200d\u2642\ufe0f	👯‍♂️	men with bunny ears
+884	\U0001f46f\u200d\u2640\ufe0f	👯‍♀️	women with bunny ears
+885	\U0001f9d6	🧖	⊛ person in steamy room
+886	\U0001f9d6\U0001f3fb	🧖🏻	⊛ person in steamy room: light skin tone
+887	\U0001f9d6\U0001f3fc	🧖🏼	⊛ person in steamy room: medium-light skin tone
+888	\U0001f9d6\U0001f3fd	🧖🏽	⊛ person in steamy room: medium skin tone
+889	\U0001f9d6\U0001f3fe	🧖🏾	⊛ person in steamy room: medium-dark skin tone
+890	\U0001f9d6\U0001f3ff	🧖🏿	⊛ person in steamy room: dark skin tone
+891	\U0001f9d6\u200d\u2640\ufe0f	🧖‍♀️	⊛ woman in steamy room
+892	\U0001f9d6\U0001f3fb\u200d\u2640\ufe0f	🧖🏻‍♀️	⊛ woman in steamy room: light skin tone
+893	\U0001f9d6\U0001f3fc\u200d\u2640\ufe0f	🧖🏼‍♀️	⊛ woman in steamy room: medium-light skin tone
+894	\U0001f9d6\U0001f3fd\u200d\u2640\ufe0f	🧖🏽‍♀️	⊛ woman in steamy room: medium skin tone
+895	\U0001f9d6\U0001f3fe\u200d\u2640\ufe0f	🧖🏾‍♀️	⊛ woman in steamy room: medium-dark skin tone
+896	\U0001f9d6\U0001f3ff\u200d\u2640\ufe0f	🧖🏿‍♀️	⊛ woman in steamy room: dark skin tone
+897	\U0001f9d6\u200d\u2642\ufe0f	🧖‍♂️	⊛ man in steamy room
+898	\U0001f9d6\U0001f3fb\u200d\u2642\ufe0f	🧖🏻‍♂️	⊛ man in steamy room: light skin tone
+899	\U0001f9d6\U0001f3fc\u200d\u2642\ufe0f	🧖🏼‍♂️	⊛ man in steamy room: medium-light skin tone
+900	\U0001f9d6\U0001f3fd\u200d\u2642\ufe0f	🧖🏽‍♂️	⊛ man in steamy room: medium skin tone
+901	\U0001f9d6\U0001f3fe\u200d\u2642\ufe0f	🧖🏾‍♂️	⊛ man in steamy room: medium-dark skin tone
+902	\U0001f9d6\U0001f3ff\u200d\u2642\ufe0f	🧖🏿‍♂️	⊛ man in steamy room: dark skin tone
+903	\U0001f9d7	🧗	⊛ person climbing
+904	\U0001f9d7\U0001f3fb	🧗🏻	⊛ person climbing: light skin tone
+905	\U0001f9d7\U0001f3fc	🧗🏼	⊛ person climbing: medium-light skin tone
+906	\U0001f9d7\U0001f3fd	🧗🏽	⊛ person climbing: medium skin tone
+907	\U0001f9d7\U0001f3fe	🧗🏾	⊛ person climbing: medium-dark skin tone
+908	\U0001f9d7\U0001f3ff	🧗🏿	⊛ person climbing: dark skin tone
+909	\U0001f9d7\u200d\u2640\ufe0f	🧗‍♀️	⊛ woman climbing
+910	\U0001f9d7\U0001f3fb\u200d\u2640\ufe0f	🧗🏻‍♀️	⊛ woman climbing: light skin tone
+911	\U0001f9d7\U0001f3fc\u200d\u2640\ufe0f	🧗🏼‍♀️	⊛ woman climbing: medium-light skin tone
+912	\U0001f9d7\U0001f3fd\u200d\u2640\ufe0f	🧗🏽‍♀️	⊛ woman climbing: medium skin tone
+913	\U0001f9d7\U0001f3fe\u200d\u2640\ufe0f	🧗🏾‍♀️	⊛ woman climbing: medium-dark skin tone
+914	\U0001f9d7\U0001f3ff\u200d\u2640\ufe0f	🧗🏿‍♀️	⊛ woman climbing: dark skin tone
+915	\U0001f9d7\u200d\u2642\ufe0f	🧗‍♂️	⊛ man climbing
+916	\U0001f9d7\U0001f3fb\u200d\u2642\ufe0f	🧗🏻‍♂️	⊛ man climbing: light skin tone
+917	\U0001f9d7\U0001f3fc\u200d\u2642\ufe0f	🧗🏼‍♂️	⊛ man climbing: medium-light skin tone
+918	\U0001f9d7\U0001f3fd\u200d\u2642\ufe0f	🧗🏽‍♂️	⊛ man climbing: medium skin tone
+919	\U0001f9d7\U0001f3fe\u200d\u2642\ufe0f	🧗🏾‍♂️	⊛ man climbing: medium-dark skin tone
+920	\U0001f9d7\U0001f3ff\u200d\u2642\ufe0f	🧗🏿‍♂️	⊛ man climbing: dark skin tone
+921	\U0001f9d8	🧘	⊛ person in lotus position
+922	\U0001f9d8\U0001f3fb	🧘🏻	⊛ person in lotus position: light skin tone
+923	\U0001f9d8\U0001f3fc	🧘🏼	⊛ person in lotus position: medium-light skin tone
+924	\U0001f9d8\U0001f3fd	🧘🏽	⊛ person in lotus position: medium skin tone
+925	\U0001f9d8\U0001f3fe	🧘🏾	⊛ person in lotus position: medium-dark skin tone
+926	\U0001f9d8\U0001f3ff	🧘🏿	⊛ person in lotus position: dark skin tone
+927	\U0001f9d8\u200d\u2640\ufe0f	🧘‍♀️	⊛ woman in lotus position
+928	\U0001f9d8\U0001f3fb\u200d\u2640\ufe0f	🧘🏻‍♀️	⊛ woman in lotus position: light skin tone
+929	\U0001f9d8\U0001f3fc\u200d\u2640\ufe0f	🧘🏼‍♀️	⊛ woman in lotus position: medium-light skin tone
+930	\U0001f9d8\U0001f3fd\u200d\u2640\ufe0f	🧘🏽‍♀️	⊛ woman in lotus position: medium skin tone
+931	\U0001f9d8\U0001f3fe\u200d\u2640\ufe0f	🧘🏾‍♀️	⊛ woman in lotus position: medium-dark skin tone
+932	\U0001f9d8\U0001f3ff\u200d\u2640\ufe0f	🧘🏿‍♀️	⊛ woman in lotus position: dark skin tone
+933	\U0001f9d8\u200d\u2642\ufe0f	🧘‍♂️	⊛ man in lotus position
+934	\U0001f9d8\U0001f3fb\u200d\u2642\ufe0f	🧘🏻‍♂️	⊛ man in lotus position: light skin tone
+935	\U0001f9d8\U0001f3fc\u200d\u2642\ufe0f	🧘🏼‍♂️	⊛ man in lotus position: medium-light skin tone
+936	\U0001f9d8\U0001f3fd\u200d\u2642\ufe0f	🧘🏽‍♂️	⊛ man in lotus position: medium skin tone
+937	\U0001f9d8\U0001f3fe\u200d\u2642\ufe0f	🧘🏾‍♂️	⊛ man in lotus position: medium-dark skin tone
+938	\U0001f9d8\U0001f3ff\u200d\u2642\ufe0f	🧘🏿‍♂️	⊛ man in lotus position: dark skin tone
+939	\U0001f6c0	🛀	person taking bath
+940	\U0001f6c0\U0001f3fb	🛀🏻	person taking bath: light skin tone
+941	\U0001f6c0\U0001f3fc	🛀🏼	person taking bath: medium-light skin tone
+942	\U0001f6c0\U0001f3fd	🛀🏽	person taking bath: medium skin tone
+943	\U0001f6c0\U0001f3fe	🛀🏾	person taking bath: medium-dark skin tone
+944	\U0001f6c0\U0001f3ff	🛀🏿	person taking bath: dark skin tone
+945	\U0001f6cc	🛌	person in bed
+946	\U0001f6cc\U0001f3fb	🛌🏻	person in bed: light skin tone
+947	\U0001f6cc\U0001f3fc	🛌🏼	person in bed: medium-light skin tone
+948	\U0001f6cc\U0001f3fd	🛌🏽	person in bed: medium skin tone
+949	\U0001f6cc\U0001f3fe	🛌🏾	person in bed: medium-dark skin tone
+950	\U0001f6cc\U0001f3ff	🛌🏿	person in bed: dark skin tone
+951	\U0001f574	🕴	man in suit levitating
+952	\U0001f574\U0001f3fb	🕴🏻	man in suit levitating: light skin tone
+953	\U0001f574\U0001f3fc	🕴🏼	man in suit levitating: medium-light skin tone
+954	\U0001f574\U0001f3fd	🕴🏽	man in suit levitating: medium skin tone
+955	\U0001f574\U0001f3fe	🕴🏾	man in suit levitating: medium-dark skin tone
+956	\U0001f574\U0001f3ff	🕴🏿	man in suit levitating: dark skin tone
+957	\U0001f5e3	🗣	speaking head
+958	\U0001f464	👤	bust in silhouette
+959	\U0001f465	👥	busts in silhouette
+960	\U0001f93a	🤺	person fencing
+961	\U0001f3c7	🏇	horse racing
+962	\U0001f3c7\U0001f3fb	🏇🏻	horse racing: light skin tone
+963	\U0001f3c7\U0001f3fc	🏇🏼	horse racing: medium-light skin tone
+964	\U0001f3c7\U0001f3fd	🏇🏽	horse racing: medium skin tone
+965	\U0001f3c7\U0001f3fe	🏇🏾	horse racing: medium-dark skin tone
+966	\U0001f3c7\U0001f3ff	🏇🏿	horse racing: dark skin tone
+967	\u26f7	⛷	skier
+968	\U0001f3c2	🏂	snowboarder
+969	\U0001f3c2\U0001f3fb	🏂🏻	snowboarder: light skin tone
+970	\U0001f3c2\U0001f3fc	🏂🏼	snowboarder: medium-light skin tone
+971	\U0001f3c2\U0001f3fd	🏂🏽	snowboarder: medium skin tone
+972	\U0001f3c2\U0001f3fe	🏂🏾	snowboarder: medium-dark skin tone
+973	\U0001f3c2\U0001f3ff	🏂🏿	snowboarder: dark skin tone
+974	\U0001f3cc	🏌	person golfing
+975	\U0001f3cc\U0001f3fb	🏌🏻	person golfing: light skin tone
+976	\U0001f3cc\U0001f3fc	🏌🏼	person golfing: medium-light skin tone
+977	\U0001f3cc\U0001f3fd	🏌🏽	person golfing: medium skin tone
+978	\U0001f3cc\U0001f3fe	🏌🏾	person golfing: medium-dark skin tone
+979	\U0001f3cc\U0001f3ff	🏌🏿	person golfing: dark skin tone
+980	\U0001f3cc\ufe0f\u200d\u2642\ufe0f	🏌️‍♂️	man golfing
+981	\U0001f3cc\U0001f3fb\u200d\u2642\ufe0f	🏌🏻‍♂️	man golfing: light skin tone
+982	\U0001f3cc\U0001f3fc\u200d\u2642\ufe0f	🏌🏼‍♂️	man golfing: medium-light skin tone
+983	\U0001f3cc\U0001f3fd\u200d\u2642\ufe0f	🏌🏽‍♂️	man golfing: medium skin tone
+984	\U0001f3cc\U0001f3fe\u200d\u2642\ufe0f	🏌🏾‍♂️	man golfing: medium-dark skin tone
+985	\U0001f3cc\U0001f3ff\u200d\u2642\ufe0f	🏌🏿‍♂️	man golfing: dark skin tone
+986	\U0001f3cc\ufe0f\u200d\u2640\ufe0f	🏌️‍♀️	woman golfing
+987	\U0001f3cc\U0001f3fb\u200d\u2640\ufe0f	🏌🏻‍♀️	woman golfing: light skin tone
+988	\U0001f3cc\U0001f3fc\u200d\u2640\ufe0f	🏌🏼‍♀️	woman golfing: medium-light skin tone
+989	\U0001f3cc\U0001f3fd\u200d\u2640\ufe0f	🏌🏽‍♀️	woman golfing: medium skin tone
+990	\U0001f3cc\U0001f3fe\u200d\u2640\ufe0f	🏌🏾‍♀️	woman golfing: medium-dark skin tone
+991	\U0001f3cc\U0001f3ff\u200d\u2640\ufe0f	🏌🏿‍♀️	woman golfing: dark skin tone
+992	\U0001f3c4	🏄	person surfing
+993	\U0001f3c4\U0001f3fb	🏄🏻	person surfing: light skin tone
+994	\U0001f3c4\U0001f3fc	🏄🏼	person surfing: medium-light skin tone
+995	\U0001f3c4\U0001f3fd	🏄🏽	person surfing: medium skin tone
+996	\U0001f3c4\U0001f3fe	🏄🏾	person surfing: medium-dark skin tone
+997	\U0001f3c4\U0001f3ff	🏄🏿	person surfing: dark skin tone
+998	\U0001f3c4\u200d\u2642\ufe0f	🏄‍♂️	man surfing
+999	\U0001f3c4\U0001f3fb\u200d\u2642\ufe0f	🏄🏻‍♂️	man surfing: light skin tone
+1000	\U0001f3c4\U0001f3fc\u200d\u2642\ufe0f	🏄🏼‍♂️	man surfing: medium-light skin tone
+1001	\U0001f3c4\U0001f3fd\u200d\u2642\ufe0f	🏄🏽‍♂️	man surfing: medium skin tone
+1002	\U0001f3c4\U0001f3fe\u200d\u2642\ufe0f	🏄🏾‍♂️	man surfing: medium-dark skin tone
+1003	\U0001f3c4\U0001f3ff\u200d\u2642\ufe0f	🏄🏿‍♂️	man surfing: dark skin tone
+1004	\U0001f3c4\u200d\u2640\ufe0f	🏄‍♀️	woman surfing
+1005	\U0001f3c4\U0001f3fb\u200d\u2640\ufe0f	🏄🏻‍♀️	woman surfing: light skin tone
+1006	\U0001f3c4\U0001f3fc\u200d\u2640\ufe0f	🏄🏼‍♀️	woman surfing: medium-light skin tone
+1007	\U0001f3c4\U0001f3fd\u200d\u2640\ufe0f	🏄🏽‍♀️	woman surfing: medium skin tone
+1008	\U0001f3c4\U0001f3fe\u200d\u2640\ufe0f	🏄🏾‍♀️	woman surfing: medium-dark skin tone
+1009	\U0001f3c4\U0001f3ff\u200d\u2640\ufe0f	🏄🏿‍♀️	woman surfing: dark skin tone
+1010	\U0001f6a3	🚣	person rowing boat
+1011	\U0001f6a3\U0001f3fb	🚣🏻	person rowing boat: light skin tone
+1012	\U0001f6a3\U0001f3fc	🚣🏼	person rowing boat: medium-light skin tone
+1013	\U0001f6a3\U0001f3fd	🚣🏽	person rowing boat: medium skin tone
+1014	\U0001f6a3\U0001f3fe	🚣🏾	person rowing boat: medium-dark skin tone
+1015	\U0001f6a3\U0001f3ff	🚣🏿	person rowing boat: dark skin tone
+1016	\U0001f6a3\u200d\u2642\ufe0f	🚣‍♂️	man rowing boat
+1017	\U0001f6a3\U0001f3fb\u200d\u2642\ufe0f	🚣🏻‍♂️	man rowing boat: light skin tone
+1018	\U0001f6a3\U0001f3fc\u200d\u2642\ufe0f	🚣🏼‍♂️	man rowing boat: medium-light skin tone
+1019	\U0001f6a3\U0001f3fd\u200d\u2642\ufe0f	🚣🏽‍♂️	man rowing boat: medium skin tone
+1020	\U0001f6a3\U0001f3fe\u200d\u2642\ufe0f	🚣🏾‍♂️	man rowing boat: medium-dark skin tone
+1021	\U0001f6a3\U0001f3ff\u200d\u2642\ufe0f	🚣🏿‍♂️	man rowing boat: dark skin tone
+1022	\U0001f6a3\u200d\u2640\ufe0f	🚣‍♀️	woman rowing boat
+1023	\U0001f6a3\U0001f3fb\u200d\u2640\ufe0f	🚣🏻‍♀️	woman rowing boat: light skin tone
+1024	\U0001f6a3\U0001f3fc\u200d\u2640\ufe0f	🚣🏼‍♀️	woman rowing boat: medium-light skin tone
+1025	\U0001f6a3\U0001f3fd\u200d\u2640\ufe0f	🚣🏽‍♀️	woman rowing boat: medium skin tone
+1026	\U0001f6a3\U0001f3fe\u200d\u2640\ufe0f	🚣🏾‍♀️	woman rowing boat: medium-dark skin tone
+1027	\U0001f6a3\U0001f3ff\u200d\u2640\ufe0f	🚣🏿‍♀️	woman rowing boat: dark skin tone
+1028	\U0001f3ca	🏊	person swimming
+1029	\U0001f3ca\U0001f3fb	🏊🏻	person swimming: light skin tone
+1030	\U0001f3ca\U0001f3fc	🏊🏼	person swimming: medium-light skin tone
+1031	\U0001f3ca\U0001f3fd	🏊🏽	person swimming: medium skin tone
+1032	\U0001f3ca\U0001f3fe	🏊🏾	person swimming: medium-dark skin tone
+1033	\U0001f3ca\U0001f3ff	🏊🏿	person swimming: dark skin tone
+1034	\U0001f3ca\u200d\u2642\ufe0f	🏊‍♂️	man swimming
+1035	\U0001f3ca\U0001f3fb\u200d\u2642\ufe0f	🏊🏻‍♂️	man swimming: light skin tone
+1036	\U0001f3ca\U0001f3fc\u200d\u2642\ufe0f	🏊🏼‍♂️	man swimming: medium-light skin tone
+1037	\U0001f3ca\U0001f3fd\u200d\u2642\ufe0f	🏊🏽‍♂️	man swimming: medium skin tone
+1038	\U0001f3ca\U0001f3fe\u200d\u2642\ufe0f	🏊🏾‍♂️	man swimming: medium-dark skin tone
+1039	\U0001f3ca\U0001f3ff\u200d\u2642\ufe0f	🏊🏿‍♂️	man swimming: dark skin tone
+1040	\U0001f3ca\u200d\u2640\ufe0f	🏊‍♀️	woman swimming
+1041	\U0001f3ca\U0001f3fb\u200d\u2640\ufe0f	🏊🏻‍♀️	woman swimming: light skin tone
+1042	\U0001f3ca\U0001f3fc\u200d\u2640\ufe0f	🏊🏼‍♀️	woman swimming: medium-light skin tone
+1043	\U0001f3ca\U0001f3fd\u200d\u2640\ufe0f	🏊🏽‍♀️	woman swimming: medium skin tone
+1044	\U0001f3ca\U0001f3fe\u200d\u2640\ufe0f	🏊🏾‍♀️	woman swimming: medium-dark skin tone
+1045	\U0001f3ca\U0001f3ff\u200d\u2640\ufe0f	🏊🏿‍♀️	woman swimming: dark skin tone
+1046	\u26f9	⛹	person bouncing ball
+1047	\u26f9\U0001f3fb	⛹🏻	person bouncing ball: light skin tone
+1048	\u26f9\U0001f3fc	⛹🏼	person bouncing ball: medium-light skin tone
+1049	\u26f9\U0001f3fd	⛹🏽	person bouncing ball: medium skin tone
+1050	\u26f9\U0001f3fe	⛹🏾	person bouncing ball: medium-dark skin tone
+1051	\u26f9\U0001f3ff	⛹🏿	person bouncing ball: dark skin tone
+1052	\u26f9\ufe0f\u200d\u2642\ufe0f	⛹️‍♂️	man bouncing ball
+1053	\u26f9\U0001f3fb\u200d\u2642\ufe0f	⛹🏻‍♂️	man bouncing ball: light skin tone
+1054	\u26f9\U0001f3fc\u200d\u2642\ufe0f	⛹🏼‍♂️	man bouncing ball: medium-light skin tone
+1055	\u26f9\U0001f3fd\u200d\u2642\ufe0f	⛹🏽‍♂️	man bouncing ball: medium skin tone
+1056	\u26f9\U0001f3fe\u200d\u2642\ufe0f	⛹🏾‍♂️	man bouncing ball: medium-dark skin tone
+1057	\u26f9\U0001f3ff\u200d\u2642\ufe0f	⛹🏿‍♂️	man bouncing ball: dark skin tone
+1058	\u26f9\ufe0f\u200d\u2640\ufe0f	⛹️‍♀️	woman bouncing ball
+1059	\u26f9\U0001f3fb\u200d\u2640\ufe0f	⛹🏻‍♀️	woman bouncing ball: light skin tone
+1060	\u26f9\U0001f3fc\u200d\u2640\ufe0f	⛹🏼‍♀️	woman bouncing ball: medium-light skin tone
+1061	\u26f9\U0001f3fd\u200d\u2640\ufe0f	⛹🏽‍♀️	woman bouncing ball: medium skin tone
+1062	\u26f9\U0001f3fe\u200d\u2640\ufe0f	⛹🏾‍♀️	woman bouncing ball: medium-dark skin tone
+1063	\u26f9\U0001f3ff\u200d\u2640\ufe0f	⛹🏿‍♀️	woman bouncing ball: dark skin tone
+1064	\U0001f3cb	🏋	person lifting weights
+1065	\U0001f3cb\U0001f3fb	🏋🏻	person lifting weights: light skin tone
+1066	\U0001f3cb\U0001f3fc	🏋🏼	person lifting weights: medium-light skin tone
+1067	\U0001f3cb\U0001f3fd	🏋🏽	person lifting weights: medium skin tone
+1068	\U0001f3cb\U0001f3fe	🏋🏾	person lifting weights: medium-dark skin tone
+1069	\U0001f3cb\U0001f3ff	🏋🏿	person lifting weights: dark skin tone
+1070	\U0001f3cb\ufe0f\u200d\u2642\ufe0f	🏋️‍♂️	man lifting weights
+1071	\U0001f3cb\U0001f3fb\u200d\u2642\ufe0f	🏋🏻‍♂️	man lifting weights: light skin tone
+1072	\U0001f3cb\U0001f3fc\u200d\u2642\ufe0f	🏋🏼‍♂️	man lifting weights: medium-light skin tone
+1073	\U0001f3cb\U0001f3fd\u200d\u2642\ufe0f	🏋🏽‍♂️	man lifting weights: medium skin tone
+1074	\U0001f3cb\U0001f3fe\u200d\u2642\ufe0f	🏋🏾‍♂️	man lifting weights: medium-dark skin tone
+1075	\U0001f3cb\U0001f3ff\u200d\u2642\ufe0f	🏋🏿‍♂️	man lifting weights: dark skin tone
+1076	\U0001f3cb\ufe0f\u200d\u2640\ufe0f	🏋️‍♀️	woman lifting weights
+1077	\U0001f3cb\U0001f3fb\u200d\u2640\ufe0f	🏋🏻‍♀️	woman lifting weights: light skin tone
+1078	\U0001f3cb\U0001f3fc\u200d\u2640\ufe0f	🏋🏼‍♀️	woman lifting weights: medium-light skin tone
+1079	\U0001f3cb\U0001f3fd\u200d\u2640\ufe0f	🏋🏽‍♀️	woman lifting weights: medium skin tone
+1080	\U0001f3cb\U0001f3fe\u200d\u2640\ufe0f	🏋🏾‍♀️	woman lifting weights: medium-dark skin tone
+1081	\U0001f3cb\U0001f3ff\u200d\u2640\ufe0f	🏋🏿‍♀️	woman lifting weights: dark skin tone
+1082	\U0001f6b4	🚴	person biking
+1083	\U0001f6b4\U0001f3fb	🚴🏻	person biking: light skin tone
+1084	\U0001f6b4\U0001f3fc	🚴🏼	person biking: medium-light skin tone
+1085	\U0001f6b4\U0001f3fd	🚴🏽	person biking: medium skin tone
+1086	\U0001f6b4\U0001f3fe	🚴🏾	person biking: medium-dark skin tone
+1087	\U0001f6b4\U0001f3ff	🚴🏿	person biking: dark skin tone
+1088	\U0001f6b4\u200d\u2642\ufe0f	🚴‍♂️	man biking
+1089	\U0001f6b4\U0001f3fb\u200d\u2642\ufe0f	🚴🏻‍♂️	man biking: light skin tone
+1090	\U0001f6b4\U0001f3fc\u200d\u2642\ufe0f	🚴🏼‍♂️	man biking: medium-light skin tone
+1091	\U0001f6b4\U0001f3fd\u200d\u2642\ufe0f	🚴🏽‍♂️	man biking: medium skin tone
+1092	\U0001f6b4\U0001f3fe\u200d\u2642\ufe0f	🚴🏾‍♂️	man biking: medium-dark skin tone
+1093	\U0001f6b4\U0001f3ff\u200d\u2642\ufe0f	🚴🏿‍♂️	man biking: dark skin tone
+1094	\U0001f6b4\u200d\u2640\ufe0f	🚴‍♀️	woman biking
+1095	\U0001f6b4\U0001f3fb\u200d\u2640\ufe0f	🚴🏻‍♀️	woman biking: light skin tone
+1096	\U0001f6b4\U0001f3fc\u200d\u2640\ufe0f	🚴🏼‍♀️	woman biking: medium-light skin tone
+1097	\U0001f6b4\U0001f3fd\u200d\u2640\ufe0f	🚴🏽‍♀️	woman biking: medium skin tone
+1098	\U0001f6b4\U0001f3fe\u200d\u2640\ufe0f	🚴🏾‍♀️	woman biking: medium-dark skin tone
+1099	\U0001f6b4\U0001f3ff\u200d\u2640\ufe0f	🚴🏿‍♀️	woman biking: dark skin tone
+1100	\U0001f6b5	🚵	person mountain biking
+1101	\U0001f6b5\U0001f3fb	🚵🏻	person mountain biking: light skin tone
+1102	\U0001f6b5\U0001f3fc	🚵🏼	person mountain biking: medium-light skin tone
+1103	\U0001f6b5\U0001f3fd	🚵🏽	person mountain biking: medium skin tone
+1104	\U0001f6b5\U0001f3fe	🚵🏾	person mountain biking: medium-dark skin tone
+1105	\U0001f6b5\U0001f3ff	🚵🏿	person mountain biking: dark skin tone
+1106	\U0001f6b5\u200d\u2642\ufe0f	🚵‍♂️	man mountain biking
+1107	\U0001f6b5\U0001f3fb\u200d\u2642\ufe0f	🚵🏻‍♂️	man mountain biking: light skin tone
+1108	\U0001f6b5\U0001f3fc\u200d\u2642\ufe0f	🚵🏼‍♂️	man mountain biking: medium-light skin tone
+1109	\U0001f6b5\U0001f3fd\u200d\u2642\ufe0f	🚵🏽‍♂️	man mountain biking: medium skin tone
+1110	\U0001f6b5\U0001f3fe\u200d\u2642\ufe0f	🚵🏾‍♂️	man mountain biking: medium-dark skin tone
+1111	\U0001f6b5\U0001f3ff\u200d\u2642\ufe0f	🚵🏿‍♂️	man mountain biking: dark skin tone
+1112	\U0001f6b5\u200d\u2640\ufe0f	🚵‍♀️	woman mountain biking
+1113	\U0001f6b5\U0001f3fb\u200d\u2640\ufe0f	🚵🏻‍♀️	woman mountain biking: light skin tone
+1114	\U0001f6b5\U0001f3fc\u200d\u2640\ufe0f	🚵🏼‍♀️	woman mountain biking: medium-light skin tone
+1115	\U0001f6b5\U0001f3fd\u200d\u2640\ufe0f	🚵🏽‍♀️	woman mountain biking: medium skin tone
+1116	\U0001f6b5\U0001f3fe\u200d\u2640\ufe0f	🚵🏾‍♀️	woman mountain biking: medium-dark skin tone
+1117	\U0001f6b5\U0001f3ff\u200d\u2640\ufe0f	🚵🏿‍♀️	woman mountain biking: dark skin tone
+1118	\U0001f3ce	🏎	racing car
+1119	\U0001f3cd	🏍	motorcycle
+1120	\U0001f938	🤸	person cartwheeling
+1121	\U0001f938\U0001f3fb	🤸🏻	person cartwheeling: light skin tone
+1122	\U0001f938\U0001f3fc	🤸🏼	person cartwheeling: medium-light skin tone
+1123	\U0001f938\U0001f3fd	🤸🏽	person cartwheeling: medium skin tone
+1124	\U0001f938\U0001f3fe	🤸🏾	person cartwheeling: medium-dark skin tone
+1125	\U0001f938\U0001f3ff	🤸🏿	person cartwheeling: dark skin tone
+1126	\U0001f938\u200d\u2642\ufe0f	🤸‍♂️	man cartwheeling
+1127	\U0001f938\U0001f3fb\u200d\u2642\ufe0f	🤸🏻‍♂️	man cartwheeling: light skin tone
+1128	\U0001f938\U0001f3fc\u200d\u2642\ufe0f	🤸🏼‍♂️	man cartwheeling: medium-light skin tone
+1129	\U0001f938\U0001f3fd\u200d\u2642\ufe0f	🤸🏽‍♂️	man cartwheeling: medium skin tone
+1130	\U0001f938\U0001f3fe\u200d\u2642\ufe0f	🤸🏾‍♂️	man cartwheeling: medium-dark skin tone
+1131	\U0001f938\U0001f3ff\u200d\u2642\ufe0f	🤸🏿‍♂️	man cartwheeling: dark skin tone
+1132	\U0001f938\u200d\u2640\ufe0f	🤸‍♀️	woman cartwheeling
+1133	\U0001f938\U0001f3fb\u200d\u2640\ufe0f	🤸🏻‍♀️	woman cartwheeling: light skin tone
+1134	\U0001f938\U0001f3fc\u200d\u2640\ufe0f	🤸🏼‍♀️	woman cartwheeling: medium-light skin tone
+1135	\U0001f938\U0001f3fd\u200d\u2640\ufe0f	🤸🏽‍♀️	woman cartwheeling: medium skin tone
+1136	\U0001f938\U0001f3fe\u200d\u2640\ufe0f	🤸🏾‍♀️	woman cartwheeling: medium-dark skin tone
+1137	\U0001f938\U0001f3ff\u200d\u2640\ufe0f	🤸🏿‍♀️	woman cartwheeling: dark skin tone
+1138	\U0001f93c	🤼	people wrestling
+1139	\U0001f93c\u200d\u2642\ufe0f	🤼‍♂️	men wrestling
+1140	\U0001f93c\u200d\u2640\ufe0f	🤼‍♀️	women wrestling
+1141	\U0001f93d	🤽	person playing water polo
+1142	\U0001f93d\U0001f3fb	🤽🏻	person playing water polo: light skin tone
+1143	\U0001f93d\U0001f3fc	🤽🏼	person playing water polo: medium-light skin tone
+1144	\U0001f93d\U0001f3fd	🤽🏽	person playing water polo: medium skin tone
+1145	\U0001f93d\U0001f3fe	🤽🏾	person playing water polo: medium-dark skin tone
+1146	\U0001f93d\U0001f3ff	🤽🏿	person playing water polo: dark skin tone
+1147	\U0001f93d\u200d\u2642\ufe0f	🤽‍♂️	man playing water polo
+1148	\U0001f93d\U0001f3fb\u200d\u2642\ufe0f	🤽🏻‍♂️	man playing water polo: light skin tone
+1149	\U0001f93d\U0001f3fc\u200d\u2642\ufe0f	🤽🏼‍♂️	man playing water polo: medium-light skin tone
+1150	\U0001f93d\U0001f3fd\u200d\u2642\ufe0f	🤽🏽‍♂️	man playing water polo: medium skin tone
+1151	\U0001f93d\U0001f3fe\u200d\u2642\ufe0f	🤽🏾‍♂️	man playing water polo: medium-dark skin tone
+1152	\U0001f93d\U0001f3ff\u200d\u2642\ufe0f	🤽🏿‍♂️	man playing water polo: dark skin tone
+1153	\U0001f93d\u200d\u2640\ufe0f	🤽‍♀️	woman playing water polo
+1154	\U0001f93d\U0001f3fb\u200d\u2640\ufe0f	🤽🏻‍♀️	woman playing water polo: light skin tone
+1155	\U0001f93d\U0001f3fc\u200d\u2640\ufe0f	🤽🏼‍♀️	woman playing water polo: medium-light skin tone
+1156	\U0001f93d\U0001f3fd\u200d\u2640\ufe0f	🤽🏽‍♀️	woman playing water polo: medium skin tone
+1157	\U0001f93d\U0001f3fe\u200d\u2640\ufe0f	🤽🏾‍♀️	woman playing water polo: medium-dark skin tone
+1158	\U0001f93d\U0001f3ff\u200d\u2640\ufe0f	🤽🏿‍♀️	woman playing water polo: dark skin tone
+1159	\U0001f93e	🤾	person playing handball
+1160	\U0001f93e\U0001f3fb	🤾🏻	person playing handball: light skin tone
+1161	\U0001f93e\U0001f3fc	🤾🏼	person playing handball: medium-light skin tone
+1162	\U0001f93e\U0001f3fd	🤾🏽	person playing handball: medium skin tone
+1163	\U0001f93e\U0001f3fe	🤾🏾	person playing handball: medium-dark skin tone
+1164	\U0001f93e\U0001f3ff	🤾🏿	person playing handball: dark skin tone
+1165	\U0001f93e\u200d\u2642\ufe0f	🤾‍♂️	man playing handball
+1166	\U0001f93e\U0001f3fb\u200d\u2642\ufe0f	🤾🏻‍♂️	man playing handball: light skin tone
+1167	\U0001f93e\U0001f3fc\u200d\u2642\ufe0f	🤾🏼‍♂️	man playing handball: medium-light skin tone
+1168	\U0001f93e\U0001f3fd\u200d\u2642\ufe0f	🤾🏽‍♂️	man playing handball: medium skin tone
+1169	\U0001f93e\U0001f3fe\u200d\u2642\ufe0f	🤾🏾‍♂️	man playing handball: medium-dark skin tone
+1170	\U0001f93e\U0001f3ff\u200d\u2642\ufe0f	🤾🏿‍♂️	man playing handball: dark skin tone
+1171	\U0001f93e\u200d\u2640\ufe0f	🤾‍♀️	woman playing handball
+1172	\U0001f93e\U0001f3fb\u200d\u2640\ufe0f	🤾🏻‍♀️	woman playing handball: light skin tone
+1173	\U0001f93e\U0001f3fc\u200d\u2640\ufe0f	🤾🏼‍♀️	woman playing handball: medium-light skin tone
+1174	\U0001f93e\U0001f3fd\u200d\u2640\ufe0f	🤾🏽‍♀️	woman playing handball: medium skin tone
+1175	\U0001f93e\U0001f3fe\u200d\u2640\ufe0f	🤾🏾‍♀️	woman playing handball: medium-dark skin tone
+1176	\U0001f93e\U0001f3ff\u200d\u2640\ufe0f	🤾🏿‍♀️	woman playing handball: dark skin tone
+1177	\U0001f939	🤹	person juggling
+1178	\U0001f939\U0001f3fb	🤹🏻	person juggling: light skin tone
+1179	\U0001f939\U0001f3fc	🤹🏼	person juggling: medium-light skin tone
+1180	\U0001f939\U0001f3fd	🤹🏽	person juggling: medium skin tone
+1181	\U0001f939\U0001f3fe	🤹🏾	person juggling: medium-dark skin tone
+1182	\U0001f939\U0001f3ff	🤹🏿	person juggling: dark skin tone
+1183	\U0001f939\u200d\u2642\ufe0f	🤹‍♂️	man juggling
+1184	\U0001f939\U0001f3fb\u200d\u2642\ufe0f	🤹🏻‍♂️	man juggling: light skin tone
+1185	\U0001f939\U0001f3fc\u200d\u2642\ufe0f	🤹🏼‍♂️	man juggling: medium-light skin tone
+1186	\U0001f939\U0001f3fd\u200d\u2642\ufe0f	🤹🏽‍♂️	man juggling: medium skin tone
+1187	\U0001f939\U0001f3fe\u200d\u2642\ufe0f	🤹🏾‍♂️	man juggling: medium-dark skin tone
+1188	\U0001f939\U0001f3ff\u200d\u2642\ufe0f	🤹🏿‍♂️	man juggling: dark skin tone
+1189	\U0001f939\u200d\u2640\ufe0f	🤹‍♀️	woman juggling
+1190	\U0001f939\U0001f3fb\u200d\u2640\ufe0f	🤹🏻‍♀️	woman juggling: light skin tone
+1191	\U0001f939\U0001f3fc\u200d\u2640\ufe0f	🤹🏼‍♀️	woman juggling: medium-light skin tone
+1192	\U0001f939\U0001f3fd\u200d\u2640\ufe0f	🤹🏽‍♀️	woman juggling: medium skin tone
+1193	\U0001f939\U0001f3fe\u200d\u2640\ufe0f	🤹🏾‍♀️	woman juggling: medium-dark skin tone
+1194	\U0001f939\U0001f3ff\u200d\u2640\ufe0f	🤹🏿‍♀️	woman juggling: dark skin tone
+1195	\U0001f46b	👫	man and woman holding hands
+1196	\U0001f46c	👬	two men holding hands
+1197	\U0001f46d	👭	two women holding hands
+1198	\U0001f48f	💏	kiss
+1199	\U0001f469\u200d\u2764\ufe0f\u200d\U0001f48b\u200d\U0001f468	👩‍❤️‍💋‍👨	kiss: woman, man
+1200	\U0001f468\u200d\u2764\ufe0f\u200d\U0001f48b\u200d\U0001f468	👨‍❤️‍💋‍👨	kiss: man, man
+1201	\U0001f469\u200d\u2764\ufe0f\u200d\U0001f48b\u200d\U0001f469	👩‍❤️‍💋‍👩	kiss: woman, woman
+1202	\U0001f491	💑	couple with heart
+1203	\U0001f469\u200d\u2764\ufe0f\u200d\U0001f468	👩‍❤️‍👨	couple with heart: woman, man
+1204	\U0001f468\u200d\u2764\ufe0f\u200d\U0001f468	👨‍❤️‍👨	couple with heart: man, man
+1205	\U0001f469\u200d\u2764\ufe0f\u200d\U0001f469	👩‍❤️‍👩	couple with heart: woman, woman
+1206	\U0001f46a	👪	family
+1207	\U0001f468\u200d\U0001f469\u200d\U0001f466	👨‍👩‍👦	family: man, woman, boy
+1208	\U0001f468\u200d\U0001f469\u200d\U0001f467	👨‍👩‍👧	family: man, woman, girl
+1209	\U0001f468\u200d\U0001f469\u200d\U0001f467\u200d\U0001f466	👨‍👩‍👧‍👦	family: man, woman, girl, boy
+1210	\U0001f468\u200d\U0001f469\u200d\U0001f466\u200d\U0001f466	👨‍👩‍👦‍👦	family: man, woman, boy, boy
+1211	\U0001f468\u200d\U0001f469\u200d\U0001f467\u200d\U0001f467	👨‍👩‍👧‍👧	family: man, woman, girl, girl
+1212	\U0001f468\u200d\U0001f468\u200d\U0001f466	👨‍👨‍👦	family: man, man, boy
+1213	\U0001f468\u200d\U0001f468\u200d\U0001f467	👨‍👨‍👧	family: man, man, girl
+1214	\U0001f468\u200d\U0001f468\u200d\U0001f467\u200d\U0001f466	👨‍👨‍👧‍👦	family: man, man, girl, boy
+1215	\U0001f468\u200d\U0001f468\u200d\U0001f466\u200d\U0001f466	👨‍👨‍👦‍👦	family: man, man, boy, boy
+1216	\U0001f468\u200d\U0001f468\u200d\U0001f467\u200d\U0001f467	👨‍👨‍👧‍👧	family: man, man, girl, girl
+1217	\U0001f469\u200d\U0001f469\u200d\U0001f466	👩‍👩‍👦	family: woman, woman, boy
+1218	\U0001f469\u200d\U0001f469\u200d\U0001f467	👩‍👩‍👧	family: woman, woman, girl
+1219	\U0001f469\u200d\U0001f469\u200d\U0001f467\u200d\U0001f466	👩‍👩‍👧‍👦	family: woman, woman, girl, boy
+1220	\U0001f469\u200d\U0001f469\u200d\U0001f466\u200d\U0001f466	👩‍👩‍👦‍👦	family: woman, woman, boy, boy
+1221	\U0001f469\u200d\U0001f469\u200d\U0001f467\u200d\U0001f467	👩‍👩‍👧‍👧	family: woman, woman, girl, girl
+1222	\U0001f468\u200d\U0001f466	👨‍👦	family: man, boy
+1223	\U0001f468\u200d\U0001f466\u200d\U0001f466	👨‍👦‍👦	family: man, boy, boy
+1224	\U0001f468\u200d\U0001f467	👨‍👧	family: man, girl
+1225	\U0001f468\u200d\U0001f467\u200d\U0001f466	👨‍👧‍👦	family: man, girl, boy
+1226	\U0001f468\u200d\U0001f467\u200d\U0001f467	👨‍👧‍👧	family: man, girl, girl
+1227	\U0001f469\u200d\U0001f466	👩‍👦	family: woman, boy
+1228	\U0001f469\u200d\U0001f466\u200d\U0001f466	👩‍👦‍👦	family: woman, boy, boy
+1229	\U0001f469\u200d\U0001f467	👩‍👧	family: woman, girl
+1230	\U0001f469\u200d\U0001f467\u200d\U0001f466	👩‍👧‍👦	family: woman, girl, boy
+1231	\U0001f469\u200d\U0001f467\u200d\U0001f467	👩‍👧‍👧	family: woman, girl, girl
+1232	\U0001f933	🤳	selfie
+1233	\U0001f933\U0001f3fb	🤳🏻	selfie: light skin tone
+1234	\U0001f933\U0001f3fc	🤳🏼	selfie: medium-light skin tone
+1235	\U0001f933\U0001f3fd	🤳🏽	selfie: medium skin tone
+1236	\U0001f933\U0001f3fe	🤳🏾	selfie: medium-dark skin tone
+1237	\U0001f933\U0001f3ff	🤳🏿	selfie: dark skin tone
+1238	\U0001f4aa	💪	flexed biceps
+1239	\U0001f4aa\U0001f3fb	💪🏻	flexed biceps: light skin tone
+1240	\U0001f4aa\U0001f3fc	💪🏼	flexed biceps: medium-light skin tone
+1241	\U0001f4aa\U0001f3fd	💪🏽	flexed biceps: medium skin tone
+1242	\U0001f4aa\U0001f3fe	💪🏾	flexed biceps: medium-dark skin tone
+1243	\U0001f4aa\U0001f3ff	💪🏿	flexed biceps: dark skin tone
+1244	\U0001f448	👈	backhand index pointing left
+1245	\U0001f448\U0001f3fb	👈🏻	backhand index pointing left: light skin tone
+1246	\U0001f448\U0001f3fc	👈🏼	backhand index pointing left: medium-light skin tone
+1247	\U0001f448\U0001f3fd	👈🏽	backhand index pointing left: medium skin tone
+1248	\U0001f448\U0001f3fe	👈🏾	backhand index pointing left: medium-dark skin tone
+1249	\U0001f448\U0001f3ff	👈🏿	backhand index pointing left: dark skin tone
+1250	\U0001f449	👉	backhand index pointing right
+1251	\U0001f449\U0001f3fb	👉🏻	backhand index pointing right: light skin tone
+1252	\U0001f449\U0001f3fc	👉🏼	backhand index pointing right: medium-light skin tone
+1253	\U0001f449\U0001f3fd	👉🏽	backhand index pointing right: medium skin tone
+1254	\U0001f449\U0001f3fe	👉🏾	backhand index pointing right: medium-dark skin tone
+1255	\U0001f449\U0001f3ff	👉🏿	backhand index pointing right: dark skin tone
+1256	\u261d	☝	index pointing up
+1257	\u261d\U0001f3fb	☝🏻	index pointing up: light skin tone
+1258	\u261d\U0001f3fc	☝🏼	index pointing up: medium-light skin tone
+1259	\u261d\U0001f3fd	☝🏽	index pointing up: medium skin tone
+1260	\u261d\U0001f3fe	☝🏾	index pointing up: medium-dark skin tone
+1261	\u261d\U0001f3ff	☝🏿	index pointing up: dark skin tone
+1262	\U0001f446	👆	backhand index pointing up
+1263	\U0001f446\U0001f3fb	👆🏻	backhand index pointing up: light skin tone
+1264	\U0001f446\U0001f3fc	👆🏼	backhand index pointing up: medium-light skin tone
+1265	\U0001f446\U0001f3fd	👆🏽	backhand index pointing up: medium skin tone
+1266	\U0001f446\U0001f3fe	👆🏾	backhand index pointing up: medium-dark skin tone
+1267	\U0001f446\U0001f3ff	👆🏿	backhand index pointing up: dark skin tone
+1268	\U0001f595	🖕	middle finger
+1269	\U0001f595\U0001f3fb	🖕🏻	middle finger: light skin tone
+1270	\U0001f595\U0001f3fc	🖕🏼	middle finger: medium-light skin tone
+1271	\U0001f595\U0001f3fd	🖕🏽	middle finger: medium skin tone
+1272	\U0001f595\U0001f3fe	🖕🏾	middle finger: medium-dark skin tone
+1273	\U0001f595\U0001f3ff	🖕🏿	middle finger: dark skin tone
+1274	\U0001f447	👇	backhand index pointing down
+1275	\U0001f447\U0001f3fb	👇🏻	backhand index pointing down: light skin tone
+1276	\U0001f447\U0001f3fc	👇🏼	backhand index pointing down: medium-light skin tone
+1277	\U0001f447\U0001f3fd	👇🏽	backhand index pointing down: medium skin tone
+1278	\U0001f447\U0001f3fe	👇🏾	backhand index pointing down: medium-dark skin tone
+1279	\U0001f447\U0001f3ff	👇🏿	backhand index pointing down: dark skin tone
+1280	\u270c	✌	victory hand
+1281	\u270c\U0001f3fb	✌🏻	victory hand: light skin tone
+1282	\u270c\U0001f3fc	✌🏼	victory hand: medium-light skin tone
+1283	\u270c\U0001f3fd	✌🏽	victory hand: medium skin tone
+1284	\u270c\U0001f3fe	✌🏾	victory hand: medium-dark skin tone
+1285	\u270c\U0001f3ff	✌🏿	victory hand: dark skin tone
+1286	\U0001f91e	🤞	crossed fingers
+1287	\U0001f91e\U0001f3fb	🤞🏻	crossed fingers: light skin tone
+1288	\U0001f91e\U0001f3fc	🤞🏼	crossed fingers: medium-light skin tone
+1289	\U0001f91e\U0001f3fd	🤞🏽	crossed fingers: medium skin tone
+1290	\U0001f91e\U0001f3fe	🤞🏾	crossed fingers: medium-dark skin tone
+1291	\U0001f91e\U0001f3ff	🤞🏿	crossed fingers: dark skin tone
+1292	\U0001f596	🖖	vulcan salute
+1293	\U0001f596\U0001f3fb	🖖🏻	vulcan salute: light skin tone
+1294	\U0001f596\U0001f3fc	🖖🏼	vulcan salute: medium-light skin tone
+1295	\U0001f596\U0001f3fd	🖖🏽	vulcan salute: medium skin tone
+1296	\U0001f596\U0001f3fe	🖖🏾	vulcan salute: medium-dark skin tone
+1297	\U0001f596\U0001f3ff	🖖🏿	vulcan salute: dark skin tone
+1298	\U0001f918	🤘	sign of the horns
+1299	\U0001f918\U0001f3fb	🤘🏻	sign of the horns: light skin tone
+1300	\U0001f918\U0001f3fc	🤘🏼	sign of the horns: medium-light skin tone
+1301	\U0001f918\U0001f3fd	🤘🏽	sign of the horns: medium skin tone
+1302	\U0001f918\U0001f3fe	🤘🏾	sign of the horns: medium-dark skin tone
+1303	\U0001f918\U0001f3ff	🤘🏿	sign of the horns: dark skin tone
+1304	\U0001f919	🤙	call me hand
+1305	\U0001f919\U0001f3fb	🤙🏻	call me hand: light skin tone
+1306	\U0001f919\U0001f3fc	🤙🏼	call me hand: medium-light skin tone
+1307	\U0001f919\U0001f3fd	🤙🏽	call me hand: medium skin tone
+1308	\U0001f919\U0001f3fe	🤙🏾	call me hand: medium-dark skin tone
+1309	\U0001f919\U0001f3ff	🤙🏿	call me hand: dark skin tone
+1310	\U0001f590	🖐	hand with fingers splayed
+1311	\U0001f590\U0001f3fb	🖐🏻	hand with fingers splayed: light skin tone
+1312	\U0001f590\U0001f3fc	🖐🏼	hand with fingers splayed: medium-light skin tone
+1313	\U0001f590\U0001f3fd	🖐🏽	hand with fingers splayed: medium skin tone
+1314	\U0001f590\U0001f3fe	🖐🏾	hand with fingers splayed: medium-dark skin tone
+1315	\U0001f590\U0001f3ff	🖐🏿	hand with fingers splayed: dark skin tone
+1316	\u270b	✋	raised hand
+1317	\u270b\U0001f3fb	✋🏻	raised hand: light skin tone
+1318	\u270b\U0001f3fc	✋🏼	raised hand: medium-light skin tone
+1319	\u270b\U0001f3fd	✋🏽	raised hand: medium skin tone
+1320	\u270b\U0001f3fe	✋🏾	raised hand: medium-dark skin tone
+1321	\u270b\U0001f3ff	✋🏿	raised hand: dark skin tone
+1322	\U0001f44c	👌	OK hand
+1323	\U0001f44c\U0001f3fb	👌🏻	OK hand: light skin tone
+1324	\U0001f44c\U0001f3fc	👌🏼	OK hand: medium-light skin tone
+1325	\U0001f44c\U0001f3fd	👌🏽	OK hand: medium skin tone
+1326	\U0001f44c\U0001f3fe	👌🏾	OK hand: medium-dark skin tone
+1327	\U0001f44c\U0001f3ff	👌🏿	OK hand: dark skin tone
+1328	\U0001f44d	👍	thumbs up
+1329	\U0001f44d\U0001f3fb	👍🏻	thumbs up: light skin tone
+1330	\U0001f44d\U0001f3fc	👍🏼	thumbs up: medium-light skin tone
+1331	\U0001f44d\U0001f3fd	👍🏽	thumbs up: medium skin tone
+1332	\U0001f44d\U0001f3fe	👍🏾	thumbs up: medium-dark skin tone
+1333	\U0001f44d\U0001f3ff	👍🏿	thumbs up: dark skin tone
+1334	\U0001f44e	👎	thumbs down
+1335	\U0001f44e\U0001f3fb	👎🏻	thumbs down: light skin tone
+1336	\U0001f44e\U0001f3fc	👎🏼	thumbs down: medium-light skin tone
+1337	\U0001f44e\U0001f3fd	👎🏽	thumbs down: medium skin tone
+1338	\U0001f44e\U0001f3fe	👎🏾	thumbs down: medium-dark skin tone
+1339	\U0001f44e\U0001f3ff	👎🏿	thumbs down: dark skin tone
+1340	\u270a	✊	raised fist
+1341	\u270a\U0001f3fb	✊🏻	raised fist: light skin tone
+1342	\u270a\U0001f3fc	✊🏼	raised fist: medium-light skin tone
+1343	\u270a\U0001f3fd	✊🏽	raised fist: medium skin tone
+1344	\u270a\U0001f3fe	✊🏾	raised fist: medium-dark skin tone
+1345	\u270a\U0001f3ff	✊🏿	raised fist: dark skin tone
+1346	\U0001f44a	👊	oncoming fist
+1347	\U0001f44a\U0001f3fb	👊🏻	oncoming fist: light skin tone
+1348	\U0001f44a\U0001f3fc	👊🏼	oncoming fist: medium-light skin tone
+1349	\U0001f44a\U0001f3fd	👊🏽	oncoming fist: medium skin tone
+1350	\U0001f44a\U0001f3fe	👊🏾	oncoming fist: medium-dark skin tone
+1351	\U0001f44a\U0001f3ff	👊🏿	oncoming fist: dark skin tone
+1352	\U0001f91b	🤛	left-facing fist
+1353	\U0001f91b\U0001f3fb	🤛🏻	left-facing fist: light skin tone
+1354	\U0001f91b\U0001f3fc	🤛🏼	left-facing fist: medium-light skin tone
+1355	\U0001f91b\U0001f3fd	🤛🏽	left-facing fist: medium skin tone
+1356	\U0001f91b\U0001f3fe	🤛🏾	left-facing fist: medium-dark skin tone
+1357	\U0001f91b\U0001f3ff	🤛🏿	left-facing fist: dark skin tone
+1358	\U0001f91c	🤜	right-facing fist
+1359	\U0001f91c\U0001f3fb	🤜🏻	right-facing fist: light skin tone
+1360	\U0001f91c\U0001f3fc	🤜🏼	right-facing fist: medium-light skin tone
+1361	\U0001f91c\U0001f3fd	🤜🏽	right-facing fist: medium skin tone
+1362	\U0001f91c\U0001f3fe	🤜🏾	right-facing fist: medium-dark skin tone
+1363	\U0001f91c\U0001f3ff	🤜🏿	right-facing fist: dark skin tone
+1364	\U0001f91a	🤚	raised back of hand
+1365	\U0001f91a\U0001f3fb	🤚🏻	raised back of hand: light skin tone
+1366	\U0001f91a\U0001f3fc	🤚🏼	raised back of hand: medium-light skin tone
+1367	\U0001f91a\U0001f3fd	🤚🏽	raised back of hand: medium skin tone
+1368	\U0001f91a\U0001f3fe	🤚🏾	raised back of hand: medium-dark skin tone
+1369	\U0001f91a\U0001f3ff	🤚🏿	raised back of hand: dark skin tone
+1370	\U0001f44b	👋	waving hand
+1371	\U0001f44b\U0001f3fb	👋🏻	waving hand: light skin tone
+1372	\U0001f44b\U0001f3fc	👋🏼	waving hand: medium-light skin tone
+1373	\U0001f44b\U0001f3fd	👋🏽	waving hand: medium skin tone
+1374	\U0001f44b\U0001f3fe	👋🏾	waving hand: medium-dark skin tone
+1375	\U0001f44b\U0001f3ff	👋🏿	waving hand: dark skin tone
+1376	\U0001f91f	🤟	⊛ love-you gesture
+1377	\U0001f91f\U0001f3fb	🤟🏻	⊛ love-you gesture: light skin tone
+1378	\U0001f91f\U0001f3fc	🤟🏼	⊛ love-you gesture: medium-light skin tone
+1379	\U0001f91f\U0001f3fd	🤟🏽	⊛ love-you gesture: medium skin tone
+1380	\U0001f91f\U0001f3fe	🤟🏾	⊛ love-you gesture: medium-dark skin tone
+1381	\U0001f91f\U0001f3ff	🤟🏿	⊛ love-you gesture: dark skin tone
+1382	\u270d	✍	writing hand
+1383	\u270d\U0001f3fb	✍🏻	writing hand: light skin tone
+1384	\u270d\U0001f3fc	✍🏼	writing hand: medium-light skin tone
+1385	\u270d\U0001f3fd	✍🏽	writing hand: medium skin tone
+1386	\u270d\U0001f3fe	✍🏾	writing hand: medium-dark skin tone
+1387	\u270d\U0001f3ff	✍🏿	writing hand: dark skin tone
+1388	\U0001f44f	👏	clapping hands
+1389	\U0001f44f\U0001f3fb	👏🏻	clapping hands: light skin tone
+1390	\U0001f44f\U0001f3fc	👏🏼	clapping hands: medium-light skin tone
+1391	\U0001f44f\U0001f3fd	👏🏽	clapping hands: medium skin tone
+1392	\U0001f44f\U0001f3fe	👏🏾	clapping hands: medium-dark skin tone
+1393	\U0001f44f\U0001f3ff	👏🏿	clapping hands: dark skin tone
+1394	\U0001f450	👐	open hands
+1395	\U0001f450\U0001f3fb	👐🏻	open hands: light skin tone
+1396	\U0001f450\U0001f3fc	👐🏼	open hands: medium-light skin tone
+1397	\U0001f450\U0001f3fd	👐🏽	open hands: medium skin tone
+1398	\U0001f450\U0001f3fe	👐🏾	open hands: medium-dark skin tone
+1399	\U0001f450\U0001f3ff	👐🏿	open hands: dark skin tone
+1400	\U0001f64c	🙌	raising hands
+1401	\U0001f64c\U0001f3fb	🙌🏻	raising hands: light skin tone
+1402	\U0001f64c\U0001f3fc	🙌🏼	raising hands: medium-light skin tone
+1403	\U0001f64c\U0001f3fd	🙌🏽	raising hands: medium skin tone
+1404	\U0001f64c\U0001f3fe	🙌🏾	raising hands: medium-dark skin tone
+1405	\U0001f64c\U0001f3ff	🙌🏿	raising hands: dark skin tone
+1406	\U0001f932	🤲	⊛ palms up together
+1407	\U0001f932\U0001f3fb	🤲🏻	⊛ palms up together: light skin tone
+1408	\U0001f932\U0001f3fc	🤲🏼	⊛ palms up together: medium-light skin tone
+1409	\U0001f932\U0001f3fd	🤲🏽	⊛ palms up together: medium skin tone
+1410	\U0001f932\U0001f3fe	🤲🏾	⊛ palms up together: medium-dark skin tone
+1411	\U0001f932\U0001f3ff	🤲🏿	⊛ palms up together: dark skin tone
+1412	\U0001f64f	🙏	folded hands
+1413	\U0001f64f\U0001f3fb	🙏🏻	folded hands: light skin tone
+1414	\U0001f64f\U0001f3fc	🙏🏼	folded hands: medium-light skin tone
+1415	\U0001f64f\U0001f3fd	🙏🏽	folded hands: medium skin tone
+1416	\U0001f64f\U0001f3fe	🙏🏾	folded hands: medium-dark skin tone
+1417	\U0001f64f\U0001f3ff	🙏🏿	folded hands: dark skin tone
+1418	\U0001f91d	🤝	handshake
+1419	\U0001f485	💅	nail polish
+1420	\U0001f485\U0001f3fb	💅🏻	nail polish: light skin tone
+1421	\U0001f485\U0001f3fc	💅🏼	nail polish: medium-light skin tone
+1422	\U0001f485\U0001f3fd	💅🏽	nail polish: medium skin tone
+1423	\U0001f485\U0001f3fe	💅🏾	nail polish: medium-dark skin tone
+1424	\U0001f485\U0001f3ff	💅🏿	nail polish: dark skin tone
+1425	\U0001f442	👂	ear
+1426	\U0001f442\U0001f3fb	👂🏻	ear: light skin tone
+1427	\U0001f442\U0001f3fc	👂🏼	ear: medium-light skin tone
+1428	\U0001f442\U0001f3fd	👂🏽	ear: medium skin tone
+1429	\U0001f442\U0001f3fe	👂🏾	ear: medium-dark skin tone
+1430	\U0001f442\U0001f3ff	👂🏿	ear: dark skin tone
+1431	\U0001f443	👃	nose
+1432	\U0001f443\U0001f3fb	👃🏻	nose: light skin tone
+1433	\U0001f443\U0001f3fc	👃🏼	nose: medium-light skin tone
+1434	\U0001f443\U0001f3fd	👃🏽	nose: medium skin tone
+1435	\U0001f443\U0001f3fe	👃🏾	nose: medium-dark skin tone
+1436	\U0001f443\U0001f3ff	👃🏿	nose: dark skin tone
+1437	\U0001f463	👣	footprints
+1438	\U0001f440	👀	eyes
+1439	\U0001f441	👁	eye
+1440	\U0001f441\ufe0f\u200d\U0001f5e8\ufe0f	👁️‍🗨️	eye in speech bubble
+1441	\U0001f9e0	🧠	⊛ brain
+1442	\U0001f445	👅	tongue
+1443	\U0001f444	👄	mouth
+1444	\U0001f48b	💋	kiss mark
+1445	\U0001f498	💘	heart with arrow
+1446	\u2764	❤	red heart
+1447	\U0001f493	💓	beating heart
+1448	\U0001f494	💔	broken heart
+1449	\U0001f495	💕	two hearts
+1450	\U0001f496	💖	sparkling heart
+1451	\U0001f497	💗	growing heart
+1452	\U0001f499	💙	blue heart
+1453	\U0001f49a	💚	green heart
+1454	\U0001f49b	💛	yellow heart
+1455	\U0001f9e1	🧡	⊛ orange heart
+1456	\U0001f49c	💜	purple heart
+1457	\U0001f5a4	🖤	black heart
+1458	\U0001f49d	💝	heart with ribbon
+1459	\U0001f49e	💞	revolving hearts
+1460	\U0001f49f	💟	heart decoration
+1461	\u2763	❣	heavy heart exclamation
+1462	\U0001f48c	💌	love letter
+1463	\U0001f4a4	💤	zzz
+1464	\U0001f4a2	💢	anger symbol
+1465	\U0001f4a3	💣	bomb
+1466	\U0001f4a5	💥	collision
+1467	\U0001f4a6	💦	sweat droplets
+1468	\U0001f4a8	💨	dashing away
+1469	\U0001f4ab	💫	dizzy
+1470	\U0001f4ac	💬	speech balloon
+1471	\U0001f5e8	🗨	left speech bubble
+1472	\U0001f5ef	🗯	right anger bubble
+1473	\U0001f4ad	💭	thought balloon
+1474	\U0001f573	🕳	hole
+1475	\U0001f453	👓	glasses
+1476	\U0001f576	🕶	sunglasses
+1477	\U0001f454	👔	necktie
+1478	\U0001f455	👕	t-shirt
+1479	\U0001f456	👖	jeans
+1480	\U0001f9e3	🧣	⊛ scarf
+1481	\U0001f9e4	🧤	⊛ gloves
+1482	\U0001f9e5	🧥	⊛ coat
+1483	\U0001f9e6	🧦	⊛ socks
+1484	\U0001f457	👗	dress
+1485	\U0001f458	👘	kimono
+1486	\U0001f459	👙	bikini
+1487	\U0001f45a	👚	woman’s clothes
+1488	\U0001f45b	👛	purse
+1489	\U0001f45c	👜	handbag
+1490	\U0001f45d	👝	clutch bag
+1491	\U0001f6cd	🛍	shopping bags
+1492	\U0001f392	🎒	school backpack
+1493	\U0001f45e	👞	man’s shoe
+1494	\U0001f45f	👟	running shoe
+1495	\U0001f460	👠	high-heeled shoe
+1496	\U0001f461	👡	woman’s sandal
+1497	\U0001f462	👢	woman’s boot
+1498	\U0001f451	👑	crown
+1499	\U0001f452	👒	woman’s hat
+1500	\U0001f3a9	🎩	top hat
+1501	\U0001f393	🎓	graduation cap
+1502	\U0001f9e2	🧢	⊛ billed cap
+1503	\u26d1	⛑	rescue worker’s helmet
+1504	\U0001f4ff	📿	prayer beads
+1505	\U0001f484	💄	lipstick
+1506	\U0001f48d	💍	ring
+1507	\U0001f48e	💎	gem stone
+1508	\U0001f435	🐵	monkey face
+1509	\U0001f412	🐒	monkey
+1510	\U0001f98d	🦍	gorilla
+1511	\U0001f436	🐶	dog face
+1512	\U0001f415	🐕	dog
+1513	\U0001f429	🐩	poodle
+1514	\U0001f43a	🐺	wolf face
+1515	\U0001f98a	🦊	fox face
+1516	\U0001f431	🐱	cat face
+1517	\U0001f408	🐈	cat
+1518	\U0001f981	🦁	lion face
+1519	\U0001f42f	🐯	tiger face
+1520	\U0001f405	🐅	tiger
+1521	\U0001f406	🐆	leopard
+1522	\U0001f434	🐴	horse face
+1523	\U0001f40e	🐎	horse
+1524	\U0001f984	🦄	unicorn face
+1525	\U0001f993	🦓	⊛ zebra
+1526	\U0001f98c	🦌	deer
+1527	\U0001f42e	🐮	cow face
+1528	\U0001f402	🐂	ox
+1529	\U0001f403	🐃	water buffalo
+1530	\U0001f404	🐄	cow
+1531	\U0001f437	🐷	pig face
+1532	\U0001f416	🐖	pig
+1533	\U0001f417	🐗	boar
+1534	\U0001f43d	🐽	pig nose
+1535	\U0001f40f	🐏	ram
+1536	\U0001f411	🐑	ewe
+1537	\U0001f410	🐐	goat
+1538	\U0001f42a	🐪	camel
+1539	\U0001f42b	🐫	two-hump camel
+1540	\U0001f992	🦒	⊛ giraffe
+1541	\U0001f418	🐘	elephant
+1542	\U0001f98f	🦏	rhinoceros
+1543	\U0001f42d	🐭	mouse face
+1544	\U0001f401	🐁	mouse
+1545	\U0001f400	🐀	rat
+1546	\U0001f439	🐹	hamster face
+1547	\U0001f430	🐰	rabbit face
+1548	\U0001f407	🐇	rabbit
+1549	\U0001f43f	🐿	chipmunk
+1550	\U0001f994	🦔	⊛ hedgehog
+1551	\U0001f987	🦇	bat
+1552	\U0001f43b	🐻	bear face
+1553	\U0001f428	🐨	koala
+1554	\U0001f43c	🐼	panda face
+1555	\U0001f43e	🐾	paw prints
+1556	\U0001f983	🦃	turkey
+1557	\U0001f414	🐔	chicken
+1558	\U0001f413	🐓	rooster
+1559	\U0001f423	🐣	hatching chick
+1560	\U0001f424	🐤	baby chick
+1561	\U0001f425	🐥	front-facing baby chick
+1562	\U0001f426	🐦	bird
+1563	\U0001f427	🐧	penguin
+1564	\U0001f54a	🕊	dove
+1565	\U0001f985	🦅	eagle
+1566	\U0001f986	🦆	duck
+1567	\U0001f989	🦉	owl
+1568	\U0001f438	🐸	frog face
+1569	\U0001f40a	🐊	crocodile
+1570	\U0001f422	🐢	turtle
+1571	\U0001f98e	🦎	lizard
+1572	\U0001f40d	🐍	snake
+1573	\U0001f432	🐲	dragon face
+1574	\U0001f409	🐉	dragon
+1575	\U0001f995	🦕	⊛ sauropod
+1576	\U0001f996	🦖	⊛ T-Rex
+1577	\U0001f433	🐳	spouting whale
+1578	\U0001f40b	🐋	whale
+1579	\U0001f42c	🐬	dolphin
+1580	\U0001f41f	🐟	fish
+1581	\U0001f420	🐠	tropical fish
+1582	\U0001f421	🐡	blowfish
+1583	\U0001f988	🦈	shark
+1584	\U0001f419	🐙	octopus
+1585	\U0001f41a	🐚	spiral shell
+1586	\U0001f980	🦀	crab
+1587	\U0001f990	🦐	shrimp
+1588	\U0001f991	🦑	squid
+1589	\U0001f40c	🐌	snail
+1590	\U0001f98b	🦋	butterfly
+1591	\U0001f41b	🐛	bug
+1592	\U0001f41c	🐜	ant
+1593	\U0001f41d	🐝	honeybee
+1594	\U0001f41e	🐞	lady beetle
+1595	\U0001f997	🦗	⊛ cricket
+1596	\U0001f577	🕷	spider
+1597	\U0001f578	🕸	spider web
+1598	\U0001f982	🦂	scorpion
+1599	\U0001f490	💐	bouquet
+1600	\U0001f338	🌸	cherry blossom
+1601	\U0001f4ae	💮	white flower
+1602	\U0001f3f5	🏵	rosette
+1603	\U0001f339	🌹	rose
+1604	\U0001f940	🥀	wilted flower
+1605	\U0001f33a	🌺	hibiscus
+1606	\U0001f33b	🌻	sunflower
+1607	\U0001f33c	🌼	blossom
+1608	\U0001f337	🌷	tulip
+1609	\U0001f331	🌱	seedling
+1610	\U0001f332	🌲	evergreen tree
+1611	\U0001f333	🌳	deciduous tree
+1612	\U0001f334	🌴	palm tree
+1613	\U0001f335	🌵	cactus
+1614	\U0001f33e	🌾	sheaf of rice
+1615	\U0001f33f	🌿	herb
+1616	\u2618	☘	shamrock
+1617	\U0001f340	🍀	four leaf clover
+1618	\U0001f341	🍁	maple leaf
+1619	\U0001f342	🍂	fallen leaf
+1620	\U0001f343	🍃	leaf fluttering in wind
+1621	\U0001f347	🍇	grapes
+1622	\U0001f348	🍈	melon
+1623	\U0001f349	🍉	watermelon
+1624	\U0001f34a	🍊	tangerine
+1625	\U0001f34b	🍋	lemon
+1626	\U0001f34c	🍌	banana
+1627	\U0001f34d	🍍	pineapple
+1628	\U0001f34e	🍎	red apple
+1629	\U0001f34f	🍏	green apple
+1630	\U0001f350	🍐	pear
+1631	\U0001f351	🍑	peach
+1632	\U0001f352	🍒	cherries
+1633	\U0001f353	🍓	strawberry
+1634	\U0001f95d	🥝	kiwi fruit
+1635	\U0001f345	🍅	tomato
+1636	\U0001f965	🥥	⊛ coconut
+1637	\U0001f951	🥑	avocado
+1638	\U0001f346	🍆	eggplant
+1639	\U0001f954	🥔	potato
+1640	\U0001f955	🥕	carrot
+1641	\U0001f33d	🌽	ear of corn
+1642	\U0001f336	🌶	hot pepper
+1643	\U0001f952	🥒	cucumber
+1644	\U0001f966	🥦	⊛ broccoli
+1645	\U0001f344	🍄	mushroom
+1646	\U0001f95c	🥜	peanuts
+1647	\U0001f330	🌰	chestnut
+1648	\U0001f35e	🍞	bread
+1649	\U0001f950	🥐	croissant
+1650	\U0001f956	🥖	baguette bread
+1651	\U0001f968	🥨	⊛ pretzel
+1652	\U0001f95e	🥞	pancakes
+1653	\U0001f9c0	🧀	cheese wedge
+1654	\U0001f356	🍖	meat on bone
+1655	\U0001f357	🍗	poultry leg
+1656	\U0001f969	🥩	⊛ cut of meat
+1657	\U0001f953	🥓	bacon
+1658	\U0001f354	🍔	hamburger
+1659	\U0001f35f	🍟	french fries
+1660	\U0001f355	🍕	pizza
+1661	\U0001f32d	🌭	hot dog
+1662	\U0001f96a	🥪	⊛ sandwich
+1663	\U0001f32e	🌮	taco
+1664	\U0001f32f	🌯	burrito
+1665	\U0001f959	🥙	stuffed flatbread
+1666	\U0001f95a	🥚	egg
+1667	\U0001f373	🍳	cooking
+1668	\U0001f958	🥘	shallow pan of food
+1669	\U0001f372	🍲	pot of food
+1670	\U0001f963	🥣	⊛ bowl with spoon
+1671	\U0001f957	🥗	green salad
+1672	\U0001f37f	🍿	popcorn
+1673	\U0001f96b	🥫	⊛ canned food
+1674	\U0001f371	🍱	bento box
+1675	\U0001f358	🍘	rice cracker
+1676	\U0001f359	🍙	rice ball
+1677	\U0001f35a	🍚	cooked rice
+1678	\U0001f35b	🍛	curry rice
+1679	\U0001f35c	🍜	steaming bowl
+1680	\U0001f35d	🍝	spaghetti
+1681	\U0001f360	🍠	roasted sweet potato
+1682	\U0001f362	🍢	oden
+1683	\U0001f363	🍣	sushi
+1684	\U0001f364	🍤	fried shrimp
+1685	\U0001f365	🍥	fish cake with swirl
+1686	\U0001f361	🍡	dango
+1687	\U0001f95f	🥟	⊛ dumpling
+1688	\U0001f960	🥠	⊛ fortune cookie
+1689	\U0001f961	🥡	⊛ takeout box
+1690	\U0001f366	🍦	soft ice cream
+1691	\U0001f367	🍧	shaved ice
+1692	\U0001f368	🍨	ice cream
+1693	\U0001f369	🍩	doughnut
+1694	\U0001f36a	🍪	cookie
+1695	\U0001f382	🎂	birthday cake
+1696	\U0001f370	🍰	shortcake
+1697	\U0001f967	🥧	⊛ pie
+1698	\U0001f36b	🍫	chocolate bar
+1699	\U0001f36c	🍬	candy
+1700	\U0001f36d	🍭	lollipop
+1701	\U0001f36e	🍮	custard
+1702	\U0001f36f	🍯	honey pot
+1703	\U0001f37c	🍼	baby bottle
+1704	\U0001f95b	🥛	glass of milk
+1705	\u2615	☕	hot beverage
+1706	\U0001f375	🍵	teacup without handle
+1707	\U0001f376	🍶	sake
+1708	\U0001f37e	🍾	bottle with popping cork
+1709	\U0001f377	🍷	wine glass
+1710	\U0001f378	🍸	cocktail glass
+1711	\U0001f379	🍹	tropical drink
+1712	\U0001f37a	🍺	beer mug
+1713	\U0001f37b	🍻	clinking beer mugs
+1714	\U0001f942	🥂	clinking glasses
+1715	\U0001f943	🥃	tumbler glass
+1716	\U0001f964	🥤	⊛ cup with straw
+1717	\U0001f962	🥢	⊛ chopsticks
+1718	\U0001f37d	🍽	fork and knife with plate
+1719	\U0001f374	🍴	fork and knife
+1720	\U0001f944	🥄	spoon
+1721	\U0001f52a	🔪	kitchen knife
+1722	\U0001f3fa	🏺	amphora
+1723	\U0001f30d	🌍	globe showing Europe-Africa
+1724	\U0001f30e	🌎	globe showing Americas
+1725	\U0001f30f	🌏	globe showing Asia-Australia
+1726	\U0001f310	🌐	globe with meridians
+1727	\U0001f5fa	🗺	world map
+1728	\U0001f5fe	🗾	map of Japan
+1729	\U0001f3d4	🏔	snow-capped mountain
+1730	\u26f0	⛰	mountain
+1731	\U0001f30b	🌋	volcano
+1732	\U0001f5fb	🗻	mount fuji
+1733	\U0001f3d5	🏕	camping
+1734	\U0001f3d6	🏖	beach with umbrella
+1735	\U0001f3dc	🏜	desert
+1736	\U0001f3dd	🏝	desert island
+1737	\U0001f3de	🏞	national park
+1738	\U0001f3df	🏟	stadium
+1739	\U0001f3db	🏛	classical building
+1740	\U0001f3d7	🏗	building construction
+1741	\U0001f3d8	🏘	houses
+1742	\U0001f3d9	🏙	cityscape
+1743	\U0001f3da	🏚	derelict house
+1744	\U0001f3e0	🏠	house
+1745	\U0001f3e1	🏡	house with garden
+1746	\U0001f3e2	🏢	office building
+1747	\U0001f3e3	🏣	Japanese post office
+1748	\U0001f3e4	🏤	post office
+1749	\U0001f3e5	🏥	hospital
+1750	\U0001f3e6	🏦	bank
+1751	\U0001f3e8	🏨	hotel
+1752	\U0001f3e9	🏩	love hotel
+1753	\U0001f3ea	🏪	convenience store
+1754	\U0001f3eb	🏫	school
+1755	\U0001f3ec	🏬	department store
+1756	\U0001f3ed	🏭	factory
+1757	\U0001f3ef	🏯	Japanese castle
+1758	\U0001f3f0	🏰	castle
+1759	\U0001f492	💒	wedding
+1760	\U0001f5fc	🗼	Tokyo tower
+1761	\U0001f5fd	🗽	Statue of Liberty
+1762	\u26ea	⛪	church
+1763	\U0001f54c	🕌	mosque
+1764	\U0001f54d	🕍	synagogue
+1765	\u26e9	⛩	shinto shrine
+1766	\U0001f54b	🕋	kaaba
+1767	\u26f2	⛲	fountain
+1768	\u26fa	⛺	tent
+1769	\U0001f301	🌁	foggy
+1770	\U0001f303	🌃	night with stars
+1771	\U0001f304	🌄	sunrise over mountains
+1772	\U0001f305	🌅	sunrise
+1773	\U0001f306	🌆	cityscape at dusk
+1774	\U0001f307	🌇	sunset
+1775	\U0001f309	🌉	bridge at night
+1776	\u2668	♨	hot springs
+1777	\U0001f30c	🌌	milky way
+1778	\U0001f3a0	🎠	carousel horse
+1779	\U0001f3a1	🎡	ferris wheel
+1780	\U0001f3a2	🎢	roller coaster
+1781	\U0001f488	💈	barber pole
+1782	\U0001f3aa	🎪	circus tent
+1783	\U0001f3ad	🎭	performing arts
+1784	\U0001f5bc	🖼	framed picture
+1785	\U0001f3a8	🎨	artist palette
+1786	\U0001f3b0	🎰	slot machine
+1787	\U0001f682	🚂	locomotive
+1788	\U0001f683	🚃	railway car
+1789	\U0001f684	🚄	high-speed train
+1790	\U0001f685	🚅	bullet train
+1791	\U0001f686	🚆	train
+1792	\U0001f687	🚇	metro
+1793	\U0001f688	🚈	light rail
+1794	\U0001f689	🚉	station
+1795	\U0001f68a	🚊	tram
+1796	\U0001f69d	🚝	monorail
+1797	\U0001f69e	🚞	mountain railway
+1798	\U0001f68b	🚋	tram car
+1799	\U0001f68c	🚌	bus
+1800	\U0001f68d	🚍	oncoming bus
+1801	\U0001f68e	🚎	trolleybus
+1802	\U0001f690	🚐	minibus
+1803	\U0001f691	🚑	ambulance
+1804	\U0001f692	🚒	fire engine
+1805	\U0001f693	🚓	police car
+1806	\U0001f694	🚔	oncoming police car
+1807	\U0001f695	🚕	taxi
+1808	\U0001f696	🚖	oncoming taxi
+1809	\U0001f697	🚗	automobile
+1810	\U0001f698	🚘	oncoming automobile
+1811	\U0001f699	🚙	sport utility vehicle
+1812	\U0001f69a	🚚	delivery truck
+1813	\U0001f69b	🚛	articulated lorry
+1814	\U0001f69c	🚜	tractor
+1815	\U0001f6b2	🚲	bicycle
+1816	\U0001f6f4	🛴	kick scooter
+1817	\U0001f6f5	🛵	motor scooter
+1818	\U0001f68f	🚏	bus stop
+1819	\U0001f6e3	🛣	motorway
+1820	\U0001f6e4	🛤	railway track
+1821	\u26fd	⛽	fuel pump
+1822	\U0001f6a8	🚨	police car light
+1823	\U0001f6a5	🚥	horizontal traffic light
+1824	\U0001f6a6	🚦	vertical traffic light
+1825	\U0001f6a7	🚧	construction
+1826	\U0001f6d1	🛑	stop sign
+1827	\u2693	⚓	anchor
+1828	\u26f5	⛵	sailboat
+1829	\U0001f6f6	🛶	canoe
+1830	\U0001f6a4	🚤	speedboat
+1831	\U0001f6f3	🛳	passenger ship
+1832	\u26f4	⛴	ferry
+1833	\U0001f6e5	🛥	motor boat
+1834	\U0001f6a2	🚢	ship
+1835	\u2708	✈	airplane
+1836	\U0001f6e9	🛩	small airplane
+1837	\U0001f6eb	🛫	airplane departure
+1838	\U0001f6ec	🛬	airplane arrival
+1839	\U0001f4ba	💺	seat
+1840	\U0001f681	🚁	helicopter
+1841	\U0001f69f	🚟	suspension railway
+1842	\U0001f6a0	🚠	mountain cableway
+1843	\U0001f6a1	🚡	aerial tramway
+1844	\U0001f6f0	🛰	satellite
+1845	\U0001f680	🚀	rocket
+1846	\U0001f6f8	🛸	⊛ flying saucer
+1847	\U0001f6ce	🛎	bellhop bell
+1848	\U0001f6aa	🚪	door
+1849	\U0001f6cf	🛏	bed
+1850	\U0001f6cb	🛋	couch and lamp
+1851	\U0001f6bd	🚽	toilet
+1852	\U0001f6bf	🚿	shower
+1853	\U0001f6c1	🛁	bathtub
+1854	\u231b	⌛	hourglass done
+1855	\u23f3	⏳	hourglass not done
+1856	\u231a	⌚	watch
+1857	\u23f0	⏰	alarm clock
+1858	\u23f1	⏱	stopwatch
+1859	\u23f2	⏲	timer clock
+1860	\U0001f570	🕰	mantelpiece clock
+1861	\U0001f55b	🕛	twelve o’clock
+1862	\U0001f567	🕧	twelve-thirty
+1863	\U0001f550	🕐	one o’clock
+1864	\U0001f55c	🕜	one-thirty
+1865	\U0001f551	🕑	two o’clock
+1866	\U0001f55d	🕝	two-thirty
+1867	\U0001f552	🕒	three o’clock
+1868	\U0001f55e	🕞	three-thirty
+1869	\U0001f553	🕓	four o’clock
+1870	\U0001f55f	🕟	four-thirty
+1871	\U0001f554	🕔	five o’clock
+1872	\U0001f560	🕠	five-thirty
+1873	\U0001f555	🕕	six o’clock
+1874	\U0001f561	🕡	six-thirty
+1875	\U0001f556	🕖	seven o’clock
+1876	\U0001f562	🕢	seven-thirty
+1877	\U0001f557	🕗	eight o’clock
+1878	\U0001f563	🕣	eight-thirty
+1879	\U0001f558	🕘	nine o’clock
+1880	\U0001f564	🕤	nine-thirty
+1881	\U0001f559	🕙	ten o’clock
+1882	\U0001f565	🕥	ten-thirty
+1883	\U0001f55a	🕚	eleven o’clock
+1884	\U0001f566	🕦	eleven-thirty
+1885	\U0001f311	🌑	new moon
+1886	\U0001f312	🌒	waxing crescent moon
+1887	\U0001f313	🌓	first quarter moon
+1888	\U0001f314	🌔	waxing gibbous moon
+1889	\U0001f315	🌕	full moon
+1890	\U0001f316	🌖	waning gibbous moon
+1891	\U0001f317	🌗	last quarter moon
+1892	\U0001f318	🌘	waning crescent moon
+1893	\U0001f319	🌙	crescent moon
+1894	\U0001f31a	🌚	new moon face
+1895	\U0001f31b	🌛	first quarter moon face
+1896	\U0001f31c	🌜	last quarter moon face
+1897	\U0001f321	🌡	thermometer
+1898	\u2600	☀	sun
+1899	\U0001f31d	🌝	full moon face
+1900	\U0001f31e	🌞	sun with face
+1901	\u2b50	⭐	white medium star
+1902	\U0001f31f	🌟	glowing star
+1903	\U0001f320	🌠	shooting star
+1904	\u2601	☁	cloud
+1905	\u26c5	⛅	sun behind cloud
+1906	\u26c8	⛈	cloud with lightning and rain
+1907	\U0001f324	🌤	sun behind small cloud
+1908	\U0001f325	🌥	sun behind large cloud
+1909	\U0001f326	🌦	sun behind rain cloud
+1910	\U0001f327	🌧	cloud with rain
+1911	\U0001f328	🌨	cloud with snow
+1912	\U0001f329	🌩	cloud with lightning
+1913	\U0001f32a	🌪	tornado
+1914	\U0001f32b	🌫	fog
+1915	\U0001f32c	🌬	wind face
+1916	\U0001f300	🌀	cyclone
+1917	\U0001f308	🌈	rainbow
+1918	\U0001f302	🌂	closed umbrella
+1919	\u2602	☂	umbrella
+1920	\u2614	☔	umbrella with rain drops
+1921	\u26f1	⛱	umbrella on ground
+1922	\u26a1	⚡	high voltage
+1923	\u2744	❄	snowflake
+1924	\u2603	☃	snowman
+1925	\u26c4	⛄	snowman without snow
+1926	\u2604	☄	comet
+1927	\U0001f525	🔥	fire
+1928	\U0001f4a7	💧	droplet
+1929	\U0001f30a	🌊	water wave
+1930	\U0001f383	🎃	jack-o-lantern
+1931	\U0001f384	🎄	Christmas tree
+1932	\U0001f386	🎆	fireworks
+1933	\U0001f387	🎇	sparkler
+1934	\u2728	✨	sparkles
+1935	\U0001f388	🎈	balloon
+1936	\U0001f389	🎉	party popper
+1937	\U0001f38a	🎊	confetti ball
+1938	\U0001f38b	🎋	tanabata tree
+1939	\U0001f38d	🎍	pine decoration
+1940	\U0001f38e	🎎	Japanese dolls
+1941	\U0001f38f	🎏	carp streamer
+1942	\U0001f390	🎐	wind chime
+1943	\U0001f391	🎑	moon viewing ceremony
+1944	\U0001f380	🎀	ribbon
+1945	\U0001f381	🎁	wrapped gift
+1946	\U0001f397	🎗	reminder ribbon
+1947	\U0001f39f	🎟	admission tickets
+1948	\U0001f3ab	🎫	ticket
+1949	\U0001f396	🎖	military medal
+1950	\U0001f3c6	🏆	trophy
+1951	\U0001f3c5	🏅	sports medal
+1952	\U0001f947	🥇	1st place medal
+1953	\U0001f948	🥈	2nd place medal
+1954	\U0001f949	🥉	3rd place medal
+1955	\u26bd	⚽	soccer ball
+1956	\u26be	⚾	baseball
+1957	\U0001f3c0	🏀	basketball
+1958	\U0001f3d0	🏐	volleyball
+1959	\U0001f3c8	🏈	american football
+1960	\U0001f3c9	🏉	rugby football
+1961	\U0001f3be	🎾	tennis
+1962	\U0001f3b1	🎱	pool 8 ball
+1963	\U0001f3b3	🎳	bowling
+1964	\U0001f3cf	🏏	cricket game
+1965	\U0001f3d1	🏑	field hockey
+1966	\U0001f3d2	🏒	ice hockey
+1967	\U0001f3d3	🏓	ping pong
+1968	\U0001f3f8	🏸	badminton
+1969	\U0001f94a	🥊	boxing glove
+1970	\U0001f94b	🥋	martial arts uniform
+1971	\U0001f945	🥅	goal net
+1972	\U0001f3af	🎯	direct hit
+1973	\u26f3	⛳	flag in hole
+1974	\u26f8	⛸	ice skate
+1975	\U0001f3a3	🎣	fishing pole
+1976	\U0001f3bd	🎽	running shirt
+1977	\U0001f3bf	🎿	skis
+1978	\U0001f6f7	🛷	⊛ sled
+1979	\U0001f94c	🥌	⊛ curling stone
+1980	\U0001f3ae	🎮	video game
+1981	\U0001f579	🕹	joystick
+1982	\U0001f3b2	🎲	game die
+1983	\u2660	♠	spade suit
+1984	\u2665	♥	heart suit
+1985	\u2666	♦	diamond suit
+1986	\u2663	♣	club suit
+1987	\U0001f0cf	🃏	joker
+1988	\U0001f004	🀄	mahjong red dragon
+1989	\U0001f3b4	🎴	flower playing cards
+1990	\U0001f507	🔇	muted speaker
+1991	\U0001f508	🔈	speaker low volume
+1992	\U0001f509	🔉	speaker medium volume
+1993	\U0001f50a	🔊	speaker high volume
+1994	\U0001f4e2	📢	loudspeaker
+1995	\U0001f4e3	📣	megaphone
+1996	\U0001f4ef	📯	postal horn
+1997	\U0001f514	🔔	bell
+1998	\U0001f515	🔕	bell with slash
+1999	\U0001f3bc	🎼	musical score
+2000	\U0001f3b5	🎵	musical note
+2001	\U0001f3b6	🎶	musical notes
+2002	\U0001f399	🎙	studio microphone
+2003	\U0001f39a	🎚	level slider
+2004	\U0001f39b	🎛	control knobs
+2005	\U0001f3a4	🎤	microphone
+2006	\U0001f3a7	🎧	headphone
+2007	\U0001f4fb	📻	radio
+2008	\U0001f3b7	🎷	saxophone
+2009	\U0001f3b8	🎸	guitar
+2010	\U0001f3b9	🎹	musical keyboard
+2011	\U0001f3ba	🎺	trumpet
+2012	\U0001f3bb	🎻	violin
+2013	\U0001f941	🥁	drum
+2014	\U0001f4f1	📱	mobile phone
+2015	\U0001f4f2	📲	mobile phone with arrow
+2016	\u260e	☎	telephone
+2017	\U0001f4de	📞	telephone receiver
+2018	\U0001f4df	📟	pager
+2019	\U0001f4e0	📠	fax machine
+2020	\U0001f50b	🔋	battery
+2021	\U0001f50c	🔌	electric plug
+2022	\U0001f4bb	💻	laptop computer
+2023	\U0001f5a5	🖥	desktop computer
+2024	\U0001f5a8	🖨	printer
+2025	\u2328	⌨	keyboard
+2026	\U0001f5b1	🖱	computer mouse
+2027	\U0001f5b2	🖲	trackball
+2028	\U0001f4bd	💽	computer disk
+2029	\U0001f4be	💾	floppy disk
+2030	\U0001f4bf	💿	optical disk
+2031	\U0001f4c0	📀	dvd
+2032	\U0001f3a5	🎥	movie camera
+2033	\U0001f39e	🎞	film frames
+2034	\U0001f4fd	📽	film projector
+2035	\U0001f3ac	🎬	clapper board
+2036	\U0001f4fa	📺	television
+2037	\U0001f4f7	📷	camera
+2038	\U0001f4f8	📸	camera with flash
+2039	\U0001f4f9	📹	video camera
+2040	\U0001f4fc	📼	videocassette
+2041	\U0001f50d	🔍	magnifying glass tilted left
+2042	\U0001f50e	🔎	magnifying glass tilted right
+2043	\U0001f52c	🔬	microscope
+2044	\U0001f52d	🔭	telescope
+2045	\U0001f4e1	📡	satellite antenna
+2046	\U0001f56f	🕯	candle
+2047	\U0001f4a1	💡	light bulb
+2048	\U0001f526	🔦	flashlight
+2049	\U0001f3ee	🏮	red paper lantern
+2050	\U0001f4d4	📔	notebook with decorative cover
+2051	\U0001f4d5	📕	closed book
+2052	\U0001f4d6	📖	open book
+2053	\U0001f4d7	📗	green book
+2054	\U0001f4d8	📘	blue book
+2055	\U0001f4d9	📙	orange book
+2056	\U0001f4da	📚	books
+2057	\U0001f4d3	📓	notebook
+2058	\U0001f4d2	📒	ledger
+2059	\U0001f4c3	📃	page with curl
+2060	\U0001f4dc	📜	scroll
+2061	\U0001f4c4	📄	page facing up
+2062	\U0001f4f0	📰	newspaper
+2063	\U0001f5de	🗞	rolled-up newspaper
+2064	\U0001f4d1	📑	bookmark tabs
+2065	\U0001f516	🔖	bookmark
+2066	\U0001f3f7	🏷	label
+2067	\U0001f4b0	💰	money bag
+2068	\U0001f4b4	💴	yen banknote
+2069	\U0001f4b5	💵	dollar banknote
+2070	\U0001f4b6	💶	euro banknote
+2071	\U0001f4b7	💷	pound banknote
+2072	\U0001f4b8	💸	money with wings
+2073	\U0001f4b3	💳	credit card
+2074	\U0001f4b9	💹	chart increasing with yen
+2075	\U0001f4b1	💱	currency exchange
+2076	\U0001f4b2	💲	heavy dollar sign
+2077	\u2709	✉	envelope
+2078	\U0001f4e7	📧	e-mail
+2079	\U0001f4e8	📨	incoming envelope
+2080	\U0001f4e9	📩	envelope with arrow
+2081	\U0001f4e4	📤	outbox tray
+2082	\U0001f4e5	📥	inbox tray
+2083	\U0001f4e6	📦	package
+2084	\U0001f4eb	📫	closed mailbox with raised flag
+2085	\U0001f4ea	📪	closed mailbox with lowered flag
+2086	\U0001f4ec	📬	open mailbox with raised flag
+2087	\U0001f4ed	📭	open mailbox with lowered flag
+2088	\U0001f4ee	📮	postbox
+2089	\U0001f5f3	🗳	ballot box with ballot
+2090	\u270f	✏	pencil
+2091	\u2712	✒	black nib
+2092	\U0001f58b	🖋	fountain pen
+2093	\U0001f58a	🖊	pen
+2094	\U0001f58c	🖌	paintbrush
+2095	\U0001f58d	🖍	crayon
+2096	\U0001f4dd	📝	memo
+2097	\U0001f4bc	💼	briefcase
+2098	\U0001f4c1	📁	file folder
+2099	\U0001f4c2	📂	open file folder
+2100	\U0001f5c2	🗂	card index dividers
+2101	\U0001f4c5	📅	calendar
+2102	\U0001f4c6	📆	tear-off calendar
+2103	\U0001f5d2	🗒	spiral notepad
+2104	\U0001f5d3	🗓	spiral calendar
+2105	\U0001f4c7	📇	card index
+2106	\U0001f4c8	📈	chart increasing
+2107	\U0001f4c9	📉	chart decreasing
+2108	\U0001f4ca	📊	bar chart
+2109	\U0001f4cb	📋	clipboard
+2110	\U0001f4cc	📌	pushpin
+2111	\U0001f4cd	📍	round pushpin
+2112	\U0001f4ce	📎	paperclip
+2113	\U0001f587	🖇	linked paperclips
+2114	\U0001f4cf	📏	straight ruler
+2115	\U0001f4d0	📐	triangular ruler
+2116	\u2702	✂	scissors
+2117	\U0001f5c3	🗃	card file box
+2118	\U0001f5c4	🗄	file cabinet
+2119	\U0001f5d1	🗑	wastebasket
+2120	\U0001f512	🔒	locked
+2121	\U0001f513	🔓	unlocked
+2122	\U0001f50f	🔏	locked with pen
+2123	\U0001f510	🔐	locked with key
+2124	\U0001f511	🔑	key
+2125	\U0001f5dd	🗝	old key
+2126	\U0001f528	🔨	hammer
+2127	\u26cf	⛏	pick
+2128	\u2692	⚒	hammer and pick
+2129	\U0001f6e0	🛠	hammer and wrench
+2130	\U0001f5e1	🗡	dagger
+2131	\u2694	⚔	crossed swords
+2132	\U0001f52b	🔫	pistol
+2133	\U0001f3f9	🏹	bow and arrow
+2134	\U0001f6e1	🛡	shield
+2135	\U0001f527	🔧	wrench
+2136	\U0001f529	🔩	nut and bolt
+2137	\u2699	⚙	gear
+2138	\U0001f5dc	🗜	clamp
+2139	\u2697	⚗	alembic
+2140	\u2696	⚖	balance scale
+2141	\U0001f517	🔗	link
+2142	\u26d3	⛓	chains
+2143	\U0001f489	💉	syringe
+2144	\U0001f48a	💊	pill
+2145	\U0001f6ac	🚬	cigarette
+2146	\u26b0	⚰	coffin
+2147	\u26b1	⚱	funeral urn
+2148	\U0001f5ff	🗿	moai
+2149	\U0001f6e2	🛢	oil drum
+2150	\U0001f52e	🔮	crystal ball
+2151	\U0001f6d2	🛒	shopping cart
+2152	\U0001f3e7	🏧	ATM sign
+2153	\U0001f6ae	🚮	litter in bin sign
+2154	\U0001f6b0	🚰	potable water
+2155	\u267f	♿	wheelchair symbol
+2156	\U0001f6b9	🚹	men’s room
+2157	\U0001f6ba	🚺	women’s room
+2158	\U0001f6bb	🚻	restroom
+2159	\U0001f6bc	🚼	baby symbol
+2160	\U0001f6be	🚾	water closet
+2161	\U0001f6c2	🛂	passport control
+2162	\U0001f6c3	🛃	customs
+2163	\U0001f6c4	🛄	baggage claim
+2164	\U0001f6c5	🛅	left luggage
+2165	\u26a0	⚠	warning
+2166	\U0001f6b8	🚸	children crossing
+2167	\u26d4	⛔	no entry
+2168	\U0001f6ab	🚫	prohibited
+2169	\U0001f6b3	🚳	no bicycles
+2170	\U0001f6ad	🚭	no smoking
+2171	\U0001f6af	🚯	no littering
+2172	\U0001f6b1	🚱	non-potable water
+2173	\U0001f6b7	🚷	no pedestrians
+2174	\U0001f4f5	📵	no mobile phones
+2175	\U0001f51e	🔞	no one under eighteen
+2176	\u2622	☢	radioactive
+2177	\u2623	☣	biohazard
+2178	\u2b06	⬆	up arrow
+2179	\u2197	↗	up-right arrow
+2180	\u27a1	➡	right arrow
+2181	\u2198	↘	down-right arrow
+2182	\u2b07	⬇	down arrow
+2183	\u2199	↙	down-left arrow
+2184	\u2b05	⬅	left arrow
+2185	\u2196	↖	up-left arrow
+2186	\u2195	↕	up-down arrow
+2187	\u2194	↔	left-right arrow
+2188	\u21a9	↩	right arrow curving left
+2189	\u21aa	↪	left arrow curving right
+2190	\u2934	⤴	right arrow curving up
+2191	\u2935	⤵	right arrow curving down
+2192	\U0001f503	🔃	clockwise vertical arrows
+2193	\U0001f504	🔄	counterclockwise arrows button
+2194	\U0001f519	🔙	BACK arrow
+2195	\U0001f51a	🔚	END arrow
+2196	\U0001f51b	🔛	ON! arrow
+2197	\U0001f51c	🔜	SOON arrow
+2198	\U0001f51d	🔝	TOP arrow
+2199	\U0001f6d0	🛐	place of worship
+2200	\u269b	⚛	atom symbol
+2201	\U0001f549	🕉	om
+2202	\u2721	✡	star of David
+2203	\u2638	☸	wheel of dharma
+2204	\u262f	☯	yin yang
+2205	\u271d	✝	latin cross
+2206	\u2626	☦	orthodox cross
+2207	\u262a	☪	star and crescent
+2208	\u262e	☮	peace symbol
+2209	\U0001f54e	🕎	menorah
+2210	\U0001f52f	🔯	dotted six-pointed star
+2211	\u2648	♈	Aries
+2212	\u2649	♉	Taurus
+2213	\u264a	♊	Gemini
+2214	\u264b	♋	Cancer
+2215	\u264c	♌	Leo
+2216	\u264d	♍	Virgo
+2217	\u264e	♎	Libra
+2218	\u264f	♏	Scorpio
+2219	\u2650	♐	Sagittarius
+2220	\u2651	♑	Capricorn
+2221	\u2652	♒	Aquarius
+2222	\u2653	♓	Pisces
+2223	\u26ce	⛎	Ophiuchus
+2224	\U0001f500	🔀	shuffle tracks button
+2225	\U0001f501	🔁	repeat button
+2226	\U0001f502	🔂	repeat single button
+2227	\u25b6	▶	play button
+2228	\u23e9	⏩	fast-forward button
+2229	\u23ed	⏭	next track button
+2230	\u23ef	⏯	play or pause button
+2231	\u25c0	◀	reverse button
+2232	\u23ea	⏪	fast reverse button
+2233	\u23ee	⏮	last track button
+2234	\U0001f53c	🔼	upwards button
+2235	\u23eb	⏫	fast up button
+2236	\U0001f53d	🔽	downwards button
+2237	\u23ec	⏬	fast down button
+2238	\u23f8	⏸	pause button
+2239	\u23f9	⏹	stop button
+2240	\u23fa	⏺	record button
+2241	\u23cf	⏏	eject button
+2242	\U0001f3a6	🎦	cinema
+2243	\U0001f505	🔅	dim button
+2244	\U0001f506	🔆	bright button
+2245	\U0001f4f6	📶	antenna bars
+2246	\U0001f4f3	📳	vibration mode
+2247	\U0001f4f4	📴	mobile phone off
+2248	\u2640	♀	female sign
+2249	\u2642	♂	male sign
+2250	\u2695	⚕	medical symbol
+2251	\u267b	♻	recycling symbol
+2252	\u269c	⚜	fleur-de-lis
+2253	\U0001f531	🔱	trident emblem
+2254	\U0001f4db	📛	name badge
+2255	\U0001f530	🔰	Japanese symbol for beginner
+2256	\u2b55	⭕	heavy large circle
+2257	\u2705	✅	white heavy check mark
+2258	\u2611	☑	ballot box with check
+2259	\u2714	✔	heavy check mark
+2260	\u2716	✖	heavy multiplication x
+2261	\u274c	❌	cross mark
+2262	\u274e	❎	cross mark button
+2263	\u2795	➕	heavy plus sign
+2264	\u2796	➖	heavy minus sign
+2265	\u2797	➗	heavy division sign
+2266	\u27b0	➰	curly loop
+2267	\u27bf	➿	double curly loop
+2268	\u303d	〽	part alternation mark
+2269	\u2733	✳	eight-spoked asterisk
+2270	\u2734	✴	eight-pointed star
+2271	\u2747	❇	sparkle
+2272	\u203c	‼	double exclamation mark
+2273	\u2049	⁉	exclamation question mark
+2274	\u2753	❓	question mark
+2275	\u2754	❔	white question mark
+2276	\u2755	❕	white exclamation mark
+2277	\u2757	❗	exclamation mark
+2278	\u3030	〰	wavy dash
+2279	\u00a9	©	copyright
+2280	\u00ae	®	registered
+2281	\u2122	™	trade mark
+2282	\u0023\ufe0f\u20e3	#️⃣	keycap: #
+2283	\u002a\ufe0f\u20e3	*️⃣	keycap: *
+2284	\u0030\ufe0f\u20e3	0️⃣	keycap: 0
+2285	\u0031\ufe0f\u20e3	1️⃣	keycap: 1
+2286	\u0032\ufe0f\u20e3	2️⃣	keycap: 2
+2287	\u0033\ufe0f\u20e3	3️⃣	keycap: 3
+2288	\u0034\ufe0f\u20e3	4️⃣	keycap: 4
+2289	\u0035\ufe0f\u20e3	5️⃣	keycap: 5
+2290	\u0036\ufe0f\u20e3	6️⃣	keycap: 6
+2291	\u0037\ufe0f\u20e3	7️⃣	keycap: 7
+2292	\u0038\ufe0f\u20e3	8️⃣	keycap: 8
+2293	\u0039\ufe0f\u20e3	9️⃣	keycap: 9
+2294	\U0001f51f	🔟	keycap: 10
+2295	\U0001f4af	💯	hundred points
+2296	\U0001f520	🔠	input latin uppercase
+2297	\U0001f521	🔡	input latin lowercase
+2298	\U0001f522	🔢	input numbers
+2299	\U0001f523	🔣	input symbols
+2300	\U0001f524	🔤	input latin letters
+2301	\U0001f170	🅰	A button (blood type)
+2302	\U0001f18e	🆎	AB button (blood type)
+2303	\U0001f171	🅱	B button (blood type)
+2304	\U0001f191	🆑	CL button
+2305	\U0001f192	🆒	COOL button
+2306	\U0001f193	🆓	FREE button
+2307	\u2139	ℹ	information
+2308	\U0001f194	🆔	ID button
+2309	\u24c2	Ⓜ	circled M
+2310	\U0001f195	🆕	NEW button
+2311	\U0001f196	🆖	NG button
+2312	\U0001f17e	🅾	O button (blood type)
+2313	\U0001f197	🆗	OK button
+2314	\U0001f17f	🅿	P button
+2315	\U0001f198	🆘	SOS button
+2316	\U0001f199	🆙	UP! button
+2317	\U0001f19a	🆚	VS button
+2318	\U0001f201	🈁	Japanese “here” button
+2319	\U0001f202	🈂	Japanese “service charge” button
+2320	\U0001f237	🈷	Japanese “monthly amount” button
+2321	\U0001f236	🈶	Japanese “not free of charge” button
+2322	\U0001f22f	🈯	Japanese “reserved” button
+2323	\U0001f250	🉐	Japanese “bargain” button
+2324	\U0001f239	🈹	Japanese “discount” button
+2325	\U0001f21a	🈚	Japanese “free of charge” button
+2326	\U0001f232	🈲	Japanese “prohibited” button
+2327	\U0001f251	🉑	Japanese “acceptable” button
+2328	\U0001f238	🈸	Japanese “application” button
+2329	\U0001f234	🈴	Japanese “passing grade” button
+2330	\U0001f233	🈳	Japanese “vacancy” button
+2331	\u3297	㊗	Japanese “congratulations” button
+2332	\u3299	㊙	Japanese “secret” button
+2333	\U0001f23a	🈺	Japanese “open for business” button
+2334	\U0001f235	🈵	Japanese “no vacancy” button
+2335	\u25aa	▪	black small square
+2336	\u25ab	▫	white small square
+2337	\u25fb	◻	white medium square
+2338	\u25fc	◼	black medium square
+2339	\u25fd	◽	white medium-small square
+2340	\u25fe	◾	black medium-small square
+2341	\u2b1b	⬛	black large square
+2342	\u2b1c	⬜	white large square
+2343	\U0001f536	🔶	large orange diamond
+2344	\U0001f537	🔷	large blue diamond
+2345	\U0001f538	🔸	small orange diamond
+2346	\U0001f539	🔹	small blue diamond
+2347	\U0001f53a	🔺	red triangle pointed up
+2348	\U0001f53b	🔻	red triangle pointed down
+2349	\U0001f4a0	💠	diamond with a dot
+2350	\U0001f518	🔘	radio button
+2351	\U0001f532	🔲	black square button
+2352	\U0001f533	🔳	white square button
+2353	\u26aa	⚪	white circle
+2354	\u26ab	⚫	black circle
+2355	\U0001f534	🔴	red circle
+2356	\U0001f535	🔵	blue circle
+2357	\U0001f3c1	🏁	chequered flag
+2358	\U0001f6a9	🚩	triangular flag
+2359	\U0001f38c	🎌	crossed flags
+2360	\U0001f3f4	🏴	black flag
+2361	\U0001f3f3	🏳	white flag
+2362	\U0001f3f3\ufe0f\u200d\U0001f308	🏳️‍🌈	rainbow flag
+2363	\U0001f1e6\U0001f1e8	🇦🇨	Ascension Island
+2364	\U0001f1e6\U0001f1e9	🇦🇩	Andorra
+2365	\U0001f1e6\U0001f1ea	🇦🇪	United Arab Emirates
+2366	\U0001f1e6\U0001f1eb	🇦🇫	Afghanistan
+2367	\U0001f1e6\U0001f1ec	🇦🇬	Antigua & Barbuda
+2368	\U0001f1e6\U0001f1ee	🇦🇮	Anguilla
+2369	\U0001f1e6\U0001f1f1	🇦🇱	Albania
+2370	\U0001f1e6\U0001f1f2	🇦🇲	Armenia
+2371	\U0001f1e6\U0001f1f4	🇦🇴	Angola
+2372	\U0001f1e6\U0001f1f6	🇦🇶	Antarctica
+2373	\U0001f1e6\U0001f1f7	🇦🇷	Argentina
+2374	\U0001f1e6\U0001f1f8	🇦🇸	American Samoa
+2375	\U0001f1e6\U0001f1f9	🇦🇹	Austria
+2376	\U0001f1e6\U0001f1fa	🇦🇺	Australia
+2377	\U0001f1e6\U0001f1fc	🇦🇼	Aruba
+2378	\U0001f1e6\U0001f1fd	🇦🇽	Åland Islands
+2379	\U0001f1e6\U0001f1ff	🇦🇿	Azerbaijan
+2380	\U0001f1e7\U0001f1e6	🇧🇦	Bosnia & Herzegovina
+2381	\U0001f1e7\U0001f1e7	🇧🇧	Barbados
+2382	\U0001f1e7\U0001f1e9	🇧🇩	Bangladesh
+2383	\U0001f1e7\U0001f1ea	🇧🇪	Belgium
+2384	\U0001f1e7\U0001f1eb	🇧🇫	Burkina Faso
+2385	\U0001f1e7\U0001f1ec	🇧🇬	Bulgaria
+2386	\U0001f1e7\U0001f1ed	🇧🇭	Bahrain
+2387	\U0001f1e7\U0001f1ee	🇧🇮	Burundi
+2388	\U0001f1e7\U0001f1ef	🇧🇯	Benin
+2389	\U0001f1e7\U0001f1f1	🇧🇱	St. Barthélemy
+2390	\U0001f1e7\U0001f1f2	🇧🇲	Bermuda
+2391	\U0001f1e7\U0001f1f3	🇧🇳	Brunei
+2392	\U0001f1e7\U0001f1f4	🇧🇴	Bolivia
+2393	\U0001f1e7\U0001f1f6	🇧🇶	Caribbean Netherlands
+2394	\U0001f1e7\U0001f1f7	🇧🇷	Brazil
+2395	\U0001f1e7\U0001f1f8	🇧🇸	Bahamas
+2396	\U0001f1e7\U0001f1f9	🇧🇹	Bhutan
+2397	\U0001f1e7\U0001f1fb	🇧🇻	Bouvet Island
+2398	\U0001f1e7\U0001f1fc	🇧🇼	Botswana
+2399	\U0001f1e7\U0001f1fe	🇧🇾	Belarus
+2400	\U0001f1e7\U0001f1ff	🇧🇿	Belize
+2401	\U0001f1e8\U0001f1e6	🇨🇦	Canada
+2402	\U0001f1e8\U0001f1e8	🇨🇨	Cocos (Keeling) Islands
+2403	\U0001f1e8\U0001f1e9	🇨🇩	Congo - Kinshasa
+2404	\U0001f1e8\U0001f1eb	🇨🇫	Central African Republic
+2405	\U0001f1e8\U0001f1ec	🇨🇬	Congo - Brazzaville
+2406	\U0001f1e8\U0001f1ed	🇨🇭	Switzerland
+2407	\U0001f1e8\U0001f1ee	🇨🇮	Côte d’Ivoire
+2408	\U0001f1e8\U0001f1f0	🇨🇰	Cook Islands
+2409	\U0001f1e8\U0001f1f1	🇨🇱	Chile
+2410	\U0001f1e8\U0001f1f2	🇨🇲	Cameroon
+2411	\U0001f1e8\U0001f1f3	🇨🇳	China
+2412	\U0001f1e8\U0001f1f4	🇨🇴	Colombia
+2413	\U0001f1e8\U0001f1f5	🇨🇵	Clipperton Island
+2414	\U0001f1e8\U0001f1f7	🇨🇷	Costa Rica
+2415	\U0001f1e8\U0001f1fa	🇨🇺	Cuba
+2416	\U0001f1e8\U0001f1fb	🇨🇻	Cape Verde
+2417	\U0001f1e8\U0001f1fc	🇨🇼	Curaçao
+2418	\U0001f1e8\U0001f1fd	🇨🇽	Christmas Island
+2419	\U0001f1e8\U0001f1fe	🇨🇾	Cyprus
+2420	\U0001f1e8\U0001f1ff	🇨🇿	Czechia
+2421	\U0001f1e9\U0001f1ea	🇩🇪	Germany
+2422	\U0001f1e9\U0001f1ec	🇩🇬	Diego Garcia
+2423	\U0001f1e9\U0001f1ef	🇩🇯	Djibouti
+2424	\U0001f1e9\U0001f1f0	🇩🇰	Denmark
+2425	\U0001f1e9\U0001f1f2	🇩🇲	Dominica
+2426	\U0001f1e9\U0001f1f4	🇩🇴	Dominican Republic
+2427	\U0001f1e9\U0001f1ff	🇩🇿	Algeria
+2428	\U0001f1ea\U0001f1e6	🇪🇦	Ceuta & Melilla
+2429	\U0001f1ea\U0001f1e8	🇪🇨	Ecuador
+2430	\U0001f1ea\U0001f1ea	🇪🇪	Estonia
+2431	\U0001f1ea\U0001f1ec	🇪🇬	Egypt
+2432	\U0001f1ea\U0001f1ed	🇪🇭	Western Sahara
+2433	\U0001f1ea\U0001f1f7	🇪🇷	Eritrea
+2434	\U0001f1ea\U0001f1f8	🇪🇸	Spain
+2435	\U0001f1ea\U0001f1f9	🇪🇹	Ethiopia
+2436	\U0001f1ea\U0001f1fa	🇪🇺	European Union
+2437	\U0001f1eb\U0001f1ee	🇫🇮	Finland
+2438	\U0001f1eb\U0001f1ef	🇫🇯	Fiji
+2439	\U0001f1eb\U0001f1f0	🇫🇰	Falkland Islands
+2440	\U0001f1eb\U0001f1f2	🇫🇲	Micronesia
+2441	\U0001f1eb\U0001f1f4	🇫🇴	Faroe Islands
+2442	\U0001f1eb\U0001f1f7	🇫🇷	France
+2443	\U0001f1ec\U0001f1e6	🇬🇦	Gabon
+2444	\U0001f1ec\U0001f1e7	🇬🇧	United Kingdom
+2445	\U0001f1ec\U0001f1e9	🇬🇩	Grenada
+2446	\U0001f1ec\U0001f1ea	🇬🇪	Georgia
+2447	\U0001f1ec\U0001f1eb	🇬🇫	French Guiana
+2448	\U0001f1ec\U0001f1ec	🇬🇬	Guernsey
+2449	\U0001f1ec\U0001f1ed	🇬🇭	Ghana
+2450	\U0001f1ec\U0001f1ee	🇬🇮	Gibraltar
+2451	\U0001f1ec\U0001f1f1	🇬🇱	Greenland
+2452	\U0001f1ec\U0001f1f2	🇬🇲	Gambia
+2453	\U0001f1ec\U0001f1f3	🇬🇳	Guinea
+2454	\U0001f1ec\U0001f1f5	🇬🇵	Guadeloupe
+2455	\U0001f1ec\U0001f1f6	🇬🇶	Equatorial Guinea
+2456	\U0001f1ec\U0001f1f7	🇬🇷	Greece
+2457	\U0001f1ec\U0001f1f8	🇬🇸	South Georgia & South Sandwich Islands
+2458	\U0001f1ec\U0001f1f9	🇬🇹	Guatemala
+2459	\U0001f1ec\U0001f1fa	🇬🇺	Guam
+2460	\U0001f1ec\U0001f1fc	🇬🇼	Guinea-Bissau
+2461	\U0001f1ec\U0001f1fe	🇬🇾	Guyana
+2462	\U0001f1ed\U0001f1f0	🇭🇰	Hong Kong SAR China
+2463	\U0001f1ed\U0001f1f2	🇭🇲	Heard & McDonald Islands
+2464	\U0001f1ed\U0001f1f3	🇭🇳	Honduras
+2465	\U0001f1ed\U0001f1f7	🇭🇷	Croatia
+2466	\U0001f1ed\U0001f1f9	🇭🇹	Haiti
+2467	\U0001f1ed\U0001f1fa	🇭🇺	Hungary
+2468	\U0001f1ee\U0001f1e8	🇮🇨	Canary Islands
+2469	\U0001f1ee\U0001f1e9	🇮🇩	Indonesia
+2470	\U0001f1ee\U0001f1ea	🇮🇪	Ireland
+2471	\U0001f1ee\U0001f1f1	🇮🇱	Israel
+2472	\U0001f1ee\U0001f1f2	🇮🇲	Isle of Man
+2473	\U0001f1ee\U0001f1f3	🇮🇳	India
+2474	\U0001f1ee\U0001f1f4	🇮🇴	British Indian Ocean Territory
+2475	\U0001f1ee\U0001f1f6	🇮🇶	Iraq
+2476	\U0001f1ee\U0001f1f7	🇮🇷	Iran
+2477	\U0001f1ee\U0001f1f8	🇮🇸	Iceland
+2478	\U0001f1ee\U0001f1f9	🇮🇹	Italy
+2479	\U0001f1ef\U0001f1ea	🇯🇪	Jersey
+2480	\U0001f1ef\U0001f1f2	🇯🇲	Jamaica
+2481	\U0001f1ef\U0001f1f4	🇯🇴	Jordan
+2482	\U0001f1ef\U0001f1f5	🇯🇵	Japan
+2483	\U0001f1f0\U0001f1ea	🇰🇪	Kenya
+2484	\U0001f1f0\U0001f1ec	🇰🇬	Kyrgyzstan
+2485	\U0001f1f0\U0001f1ed	🇰🇭	Cambodia
+2486	\U0001f1f0\U0001f1ee	🇰🇮	Kiribati
+2487	\U0001f1f0\U0001f1f2	🇰🇲	Comoros
+2488	\U0001f1f0\U0001f1f3	🇰🇳	St. Kitts & Nevis
+2489	\U0001f1f0\U0001f1f5	🇰🇵	North Korea
+2490	\U0001f1f0\U0001f1f7	🇰🇷	South Korea
+2491	\U0001f1f0\U0001f1fc	🇰🇼	Kuwait
+2492	\U0001f1f0\U0001f1fe	🇰🇾	Cayman Islands
+2493	\U0001f1f0\U0001f1ff	🇰🇿	Kazakhstan
+2494	\U0001f1f1\U0001f1e6	🇱🇦	Laos
+2495	\U0001f1f1\U0001f1e7	🇱🇧	Lebanon
+2496	\U0001f1f1\U0001f1e8	🇱🇨	St. Lucia
+2497	\U0001f1f1\U0001f1ee	🇱🇮	Liechtenstein
+2498	\U0001f1f1\U0001f1f0	🇱🇰	Sri Lanka
+2499	\U0001f1f1\U0001f1f7	🇱🇷	Liberia
+2500	\U0001f1f1\U0001f1f8	🇱🇸	Lesotho
+2501	\U0001f1f1\U0001f1f9	🇱🇹	Lithuania
+2502	\U0001f1f1\U0001f1fa	🇱🇺	Luxembourg
+2503	\U0001f1f1\U0001f1fb	🇱🇻	Latvia
+2504	\U0001f1f1\U0001f1fe	🇱🇾	Libya
+2505	\U0001f1f2\U0001f1e6	🇲🇦	Morocco
+2506	\U0001f1f2\U0001f1e8	🇲🇨	Monaco
+2507	\U0001f1f2\U0001f1e9	🇲🇩	Moldova
+2508	\U0001f1f2\U0001f1ea	🇲🇪	Montenegro
+2509	\U0001f1f2\U0001f1eb	🇲🇫	St. Martin
+2510	\U0001f1f2\U0001f1ec	🇲🇬	Madagascar
+2511	\U0001f1f2\U0001f1ed	🇲🇭	Marshall Islands
+2512	\U0001f1f2\U0001f1f0	🇲🇰	Macedonia
+2513	\U0001f1f2\U0001f1f1	🇲🇱	Mali
+2514	\U0001f1f2\U0001f1f2	🇲🇲	Myanmar (Burma)
+2515	\U0001f1f2\U0001f1f3	🇲🇳	Mongolia
+2516	\U0001f1f2\U0001f1f4	🇲🇴	Macau SAR China
+2517	\U0001f1f2\U0001f1f5	🇲🇵	Northern Mariana Islands
+2518	\U0001f1f2\U0001f1f6	🇲🇶	Martinique
+2519	\U0001f1f2\U0001f1f7	🇲🇷	Mauritania
+2520	\U0001f1f2\U0001f1f8	🇲🇸	Montserrat
+2521	\U0001f1f2\U0001f1f9	🇲🇹	Malta
+2522	\U0001f1f2\U0001f1fa	🇲🇺	Mauritius
+2523	\U0001f1f2\U0001f1fb	🇲🇻	Maldives
+2524	\U0001f1f2\U0001f1fc	🇲🇼	Malawi
+2525	\U0001f1f2\U0001f1fd	🇲🇽	Mexico
+2526	\U0001f1f2\U0001f1fe	🇲🇾	Malaysia
+2527	\U0001f1f2\U0001f1ff	🇲🇿	Mozambique
+2528	\U0001f1f3\U0001f1e6	🇳🇦	Namibia
+2529	\U0001f1f3\U0001f1e8	🇳🇨	New Caledonia
+2530	\U0001f1f3\U0001f1ea	🇳🇪	Niger
+2531	\U0001f1f3\U0001f1eb	🇳🇫	Norfolk Island
+2532	\U0001f1f3\U0001f1ec	🇳🇬	Nigeria
+2533	\U0001f1f3\U0001f1ee	🇳🇮	Nicaragua
+2534	\U0001f1f3\U0001f1f1	🇳🇱	Netherlands
+2535	\U0001f1f3\U0001f1f4	🇳🇴	Norway
+2536	\U0001f1f3\U0001f1f5	🇳🇵	Nepal
+2537	\U0001f1f3\U0001f1f7	🇳🇷	Nauru
+2538	\U0001f1f3\U0001f1fa	🇳🇺	Niue
+2539	\U0001f1f3\U0001f1ff	🇳🇿	New Zealand
+2540	\U0001f1f4\U0001f1f2	🇴🇲	Oman
+2541	\U0001f1f5\U0001f1e6	🇵🇦	Panama
+2542	\U0001f1f5\U0001f1ea	🇵🇪	Peru
+2543	\U0001f1f5\U0001f1eb	🇵🇫	French Polynesia
+2544	\U0001f1f5\U0001f1ec	🇵🇬	Papua New Guinea
+2545	\U0001f1f5\U0001f1ed	🇵🇭	Philippines
+2546	\U0001f1f5\U0001f1f0	🇵🇰	Pakistan
+2547	\U0001f1f5\U0001f1f1	🇵🇱	Poland
+2548	\U0001f1f5\U0001f1f2	🇵🇲	St. Pierre & Miquelon
+2549	\U0001f1f5\U0001f1f3	🇵🇳	Pitcairn Islands
+2550	\U0001f1f5\U0001f1f7	🇵🇷	Puerto Rico
+2551	\U0001f1f5\U0001f1f8	🇵🇸	Palestinian Territories
+2552	\U0001f1f5\U0001f1f9	🇵🇹	Portugal
+2553	\U0001f1f5\U0001f1fc	🇵🇼	Palau
+2554	\U0001f1f5\U0001f1fe	🇵🇾	Paraguay
+2555	\U0001f1f6\U0001f1e6	🇶🇦	Qatar
+2556	\U0001f1f7\U0001f1ea	🇷🇪	Réunion
+2557	\U0001f1f7\U0001f1f4	🇷🇴	Romania
+2558	\U0001f1f7\U0001f1f8	🇷🇸	Serbia
+2559	\U0001f1f7\U0001f1fa	🇷🇺	Russia
+2560	\U0001f1f7\U0001f1fc	🇷🇼	Rwanda
+2561	\U0001f1f8\U0001f1e6	🇸🇦	Saudi Arabia
+2562	\U0001f1f8\U0001f1e7	🇸🇧	Solomon Islands
+2563	\U0001f1f8\U0001f1e8	🇸🇨	Seychelles
+2564	\U0001f1f8\U0001f1e9	🇸🇩	Sudan
+2565	\U0001f1f8\U0001f1ea	🇸🇪	Sweden
+2566	\U0001f1f8\U0001f1ec	🇸🇬	Singapore
+2567	\U0001f1f8\U0001f1ed	🇸🇭	St. Helena
+2568	\U0001f1f8\U0001f1ee	🇸🇮	Slovenia
+2569	\U0001f1f8\U0001f1ef	🇸🇯	Svalbard & Jan Mayen
+2570	\U0001f1f8\U0001f1f0	🇸🇰	Slovakia
+2571	\U0001f1f8\U0001f1f1	🇸🇱	Sierra Leone
+2572	\U0001f1f8\U0001f1f2	🇸🇲	San Marino
+2573	\U0001f1f8\U0001f1f3	🇸🇳	Senegal
+2574	\U0001f1f8\U0001f1f4	🇸🇴	Somalia
+2575	\U0001f1f8\U0001f1f7	🇸🇷	Suriname
+2576	\U0001f1f8\U0001f1f8	🇸🇸	South Sudan
+2577	\U0001f1f8\U0001f1f9	🇸🇹	São Tomé & Príncipe
+2578	\U0001f1f8\U0001f1fb	🇸🇻	El Salvador
+2579	\U0001f1f8\U0001f1fd	🇸🇽	Sint Maarten
+2580	\U0001f1f8\U0001f1fe	🇸🇾	Syria
+2581	\U0001f1f8\U0001f1ff	🇸🇿	Swaziland
+2582	\U0001f1f9\U0001f1e6	🇹🇦	Tristan da Cunha
+2583	\U0001f1f9\U0001f1e8	🇹🇨	Turks & Caicos Islands
+2584	\U0001f1f9\U0001f1e9	🇹🇩	Chad
+2585	\U0001f1f9\U0001f1eb	🇹🇫	French Southern Territories
+2586	\U0001f1f9\U0001f1ec	🇹🇬	Togo
+2587	\U0001f1f9\U0001f1ed	🇹🇭	Thailand
+2588	\U0001f1f9\U0001f1ef	🇹🇯	Tajikistan
+2589	\U0001f1f9\U0001f1f0	🇹🇰	Tokelau
+2590	\U0001f1f9\U0001f1f1	🇹🇱	Timor-Leste
+2591	\U0001f1f9\U0001f1f2	🇹🇲	Turkmenistan
+2592	\U0001f1f9\U0001f1f3	🇹🇳	Tunisia
+2593	\U0001f1f9\U0001f1f4	🇹🇴	Tonga
+2594	\U0001f1f9\U0001f1f7	🇹🇷	Turkey
+2595	\U0001f1f9\U0001f1f9	🇹🇹	Trinidad & Tobago
+2596	\U0001f1f9\U0001f1fb	🇹🇻	Tuvalu
+2597	\U0001f1f9\U0001f1fc	🇹🇼	Taiwan
+2598	\U0001f1f9\U0001f1ff	🇹🇿	Tanzania
+2599	\U0001f1fa\U0001f1e6	🇺🇦	Ukraine
+2600	\U0001f1fa\U0001f1ec	🇺🇬	Uganda
+2601	\U0001f1fa\U0001f1f2	🇺🇲	U.S. Outlying Islands
+2602	\U0001f1fa\U0001f1f3	🇺🇳	United Nations
+2603	\U0001f1fa\U0001f1f8	🇺🇸	United States
+2604	\U0001f1fa\U0001f1fe	🇺🇾	Uruguay
+2605	\U0001f1fa\U0001f1ff	🇺🇿	Uzbekistan
+2606	\U0001f1fb\U0001f1e6	🇻🇦	Vatican City
+2607	\U0001f1fb\U0001f1e8	🇻🇨	St. Vincent & Grenadines
+2608	\U0001f1fb\U0001f1ea	🇻🇪	Venezuela
+2609	\U0001f1fb\U0001f1ec	🇻🇬	British Virgin Islands
+2610	\U0001f1fb\U0001f1ee	🇻🇮	U.S. Virgin Islands
+2611	\U0001f1fb\U0001f1f3	🇻🇳	Vietnam
+2612	\U0001f1fb\U0001f1fa	🇻🇺	Vanuatu
+2613	\U0001f1fc\U0001f1eb	🇼🇫	Wallis & Futuna
+2614	\U0001f1fc\U0001f1f8	🇼🇸	Samoa
+2615	\U0001f1fd\U0001f1f0	🇽🇰	Kosovo
+2616	\U0001f1fe\U0001f1ea	🇾🇪	Yemen
+2617	\U0001f1fe\U0001f1f9	🇾🇹	Mayotte
+2618	\U0001f1ff\U0001f1e6	🇿🇦	South Africa
+2619	\U0001f1ff\U0001f1f2	🇿🇲	Zambia
+2620	\U0001f1ff\U0001f1fc	🇿🇼	Zimbabwe

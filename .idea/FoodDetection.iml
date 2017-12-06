@@ -10,7 +10,7 @@
     <content url="file://$MODULE_DIR$/../Utils">
       <sourceFolder url="file://$MODULE_DIR$/../Utils" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.5.4 (C:\Users\yespindola\Documents\Anaconda\envs\FoodDetection\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">

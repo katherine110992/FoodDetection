@@ -2,15 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ff6d207-976a-40ae-bf37-9f9a61e966b6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/seed_list_generation/generate_what_food_stemmed_list.py" afterPath="$PROJECT_DIR$/list_generation/generate_what_food_stemmed_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/list_generation/complementary_characters_list_generation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/list_generation/emoji_list_assignation_generation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/list_generation/emoji_list_generation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/list_generation/emoji_with_sentiment_generation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/list_generation/emoticon_list_generation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/accents_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/complete_text_analysis_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/detect_emoticon_with_match.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/emoji_library_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/emoji_raw_data_text.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/emoji_recognition_with_spaCy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/emoji_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/emoticon_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/lang_raw_data_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regex_emoticon_detection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regex_emoticon_detection_raw_data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regex_emoticon_faces_detection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spaCy_matcher_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spacymoji_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/special_characters_raw_data_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/FoodDetection.iml" afterPath="$PROJECT_DIR$/.idea/FoodDetection.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extraction/batch.py" afterPath="$PROJECT_DIR$/extraction/batch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extraction/streaming.py" afterPath="$PROJECT_DIR$/extraction/streaming.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extraction/twitter_extraction.py" afterPath="$PROJECT_DIR$/extraction/twitter_extraction.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/food_detector/food_detector_service.py" afterPath="$PROJECT_DIR$/food_detector/food_detector_service.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/food_detector/food_detector_thread.py" afterPath="$PROJECT_DIR$/food_detector/food_detector_thread.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configuration/configuration.ini" afterPath="$PROJECT_DIR$/configuration/configuration.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/list_generation/generate_final_lists.py" afterPath="$PROJECT_DIR$/list_generation/generate_final_lists.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/detect_food_spacy_test.py" afterPath="$PROJECT_DIR$/test/detect_food_spacy_test.py" />
     </list>
     <ignored path="FoodDetection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,10 +40,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/FoodDetection$batch.coverage" NAME="batch Coverage Results" MODIFIED="1507680565291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extraction" />
+    <SUITE FILE_PATH="coverage/FoodDetection$generate_what_food_POS_list.coverage" NAME="generate_what_food_POS_list Coverage Results" MODIFIED="1509477052954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_generation" />
+    <SUITE FILE_PATH="coverage/FoodDetection$batch__1_.coverage" NAME="batch (1) Coverage Results" MODIFIED="1508118319090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extraction" />
+    <SUITE FILE_PATH="coverage/FoodDetection$tree_tagger_test.coverage" NAME="tree_tagger_test Coverage Results" MODIFIED="1508387429750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$generate_what_food_original_and_stemmed_list.coverage" NAME="generate_what_food_original_and_stemmed_list Coverage Results" MODIFIED="1509539065521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_generation" />
+    <SUITE FILE_PATH="coverage/FoodDetection$emoticon_list_generation.coverage" NAME="emoticon_list_generation Coverage Results" MODIFIED="1509678195065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_generation" />
+    <SUITE FILE_PATH="coverage/FoodDetection$generate_what_food_stemmed_list.coverage" NAME="generate_what_food_stemmed_list Coverage Results" MODIFIED="1508129184723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_generation" />
+    <SUITE FILE_PATH="coverage/FoodDetection$generate_final_lists.coverage" NAME="generate_final_lists Coverage Results" MODIFIED="1508136526234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_generation" />
+    <SUITE FILE_PATH="coverage/FoodDetection$complete_text_analysis_test.coverage" NAME="complete_text_analysis_test Coverage Results" MODIFIED="1510998431775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$generate_what_food_Snowball_stemmed_list.coverage" NAME="generate_what_food_Snowball_stemmed_list Coverage Results" MODIFIED="1509477048330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_generation" />
+    <SUITE FILE_PATH="coverage/FoodDetection$detect_food_spacy_test.coverage" NAME="detect_food_spacy_test Coverage Results" MODIFIED="1510728868612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$emoji_raw_data_text.coverage" NAME="emoji_raw_data_text Coverage Results" MODIFIED="1511707714470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$user_generated_content_batch.coverage" NAME="user_generated_content_batch Coverage Results" MODIFIED="1508178646928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extraction" />
+    <SUITE FILE_PATH="coverage/FoodDetection$emoji_recognition_with_spaCy.coverage" NAME="emoji_recognition_with_spaCy Coverage Results" MODIFIED="1511570422405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$emoji_with_sentiment_generation.coverage" NAME="emoji_with_sentiment_generation Coverage Results" MODIFIED="1511965164549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_generation" />
+    <SUITE FILE_PATH="coverage/FoodDetection$process_days_test.coverage" NAME="process_days_test Coverage Results" MODIFIED="1508177160402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$Doctests_in_tree_tagger_test.coverage" NAME="Doctests in tree_tagger_test Coverage Results" MODIFIED="1508387364756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$detect_emoticon_with_match.coverage" NAME="detect_emoticon_with_match Coverage Results" MODIFIED="1511764893909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$spaCy_matcher_test.coverage" NAME="spaCy_matcher_test Coverage Results" MODIFIED="1511570542453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$dict_test.coverage" NAME="dict_test Coverage Results" MODIFIED="1509522011962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$textblob_test.coverage" NAME="textblob_test Coverage Results" MODIFIED="1508956828609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$accents_test.coverage" NAME="accents_test Coverage Results" MODIFIED="1510735641904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$lang_raw_data_test.coverage" NAME="lang_raw_data_test Coverage Results" MODIFIED="1510995416146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$spacy_tag_map_test.coverage" NAME="spacy_tag_map_test Coverage Results" MODIFIED="1509418816271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$complementary_characters_list_generation.coverage" NAME="complementary_characters_list_generation Coverage Results" MODIFIED="1510977506171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_generation" />
+    <SUITE FILE_PATH="coverage/FoodDetection$special_characters_raw_data_test.coverage" NAME="special_characters_raw_data_test Coverage Results" MODIFIED="1511572152079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$regex_emoticon_detection.coverage" NAME="regex_emoticon_detection Coverage Results" MODIFIED="1512499328259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$get_user_mentions_and_hashtags.coverage" NAME="get_user_mentions_and_hashtags Coverage Results" MODIFIED="1507734238454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$get_eagles_standard.coverage" NAME="get_eagles_standard Coverage Results" MODIFIED="1509378370718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$emoji_test.coverage" NAME="emoji_test Coverage Results" MODIFIED="1510954381026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$regex_emoticon_detection_raw_data.coverage" NAME="regex_emoticon_detection_raw_data Coverage Results" MODIFIED="1512005904387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$regex_emoticon_faces_detection.coverage" NAME="regex_emoticon_faces_detection Coverage Results" MODIFIED="1512499262964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$batch.coverage" NAME="batch Coverage Results" MODIFIED="1509528368528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extraction" />
+    <SUITE FILE_PATH="coverage/FoodDetection$emoji_list_generation.coverage" NAME="emoji_list_generation Coverage Results" MODIFIED="1510341053513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_generation" />
     <SUITE FILE_PATH="coverage/FoodDetection$what_food_stemmed_list.coverage" NAME="what_food_stemmed_list Coverage Results" MODIFIED="1507648395575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seed_list_generation" />
-    <SUITE FILE_PATH="coverage/FoodDetection$get_user_mentions_and_hashtags.coverage" NAME="get_user_mentions_and_hashtags Coverage Results" MODIFIED="1507562917983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/FoodDetection$get_eagles_standard.coverage" NAME="get_eagles_standard Coverage Results" MODIFIED="1507679566082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$emoji_list_assignation_generation.coverage" NAME="emoji_list_assignation_generation Coverage Results" MODIFIED="1510370204833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_generation" />
+    <SUITE FILE_PATH="coverage/FoodDetection$spacy_test.coverage" NAME="spacy_test Coverage Results" MODIFIED="1509509287994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/FoodDetection$spacymoji_test.coverage" NAME="spacymoji_test Coverage Results" MODIFIED="1511743957876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -37,103 +87,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="text_analysis.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/text_analysis/text_analysis.py">
+      <file leaf-file-name="regex_emoticon_detection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/regex_emoticon_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-542">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="88">
+              <caret line="25" column="63" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="63" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="batch.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extraction/batch.py">
+      <file leaf-file-name="regex_emoticon_faces_detection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/regex_emoticon_faces_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="170">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regex_emoticon_detection_raw_data.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/regex_emoticon_detection_raw_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="streaming.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extraction/streaming.py">
+      <file leaf-file-name="emoticon_list_generation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list_generation/emoticon_list_generation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="twitter_extraction.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extraction/twitter_extraction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="105" column="45" selection-start-line="105" selection-start-column="45" selection-end-line="105" selection-end-column="45" />
+            <state relative-caret-position="187">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="food_detector.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/food_detector/food_detector.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="food_detector_thread.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/food_detector/food_detector_thread.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generate_what_food_stemmed_list.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list_generation/generate_what_food_stemmed_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="configuration.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configuration/configuration.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="food_detector_service.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/food_detector/food_detector_service.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,37 +148,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Extraction/batch.py" />
-        <option value="$PROJECT_DIR$/Configuration/configuration.ini" />
-        <option value="$PROJECT_DIR$/food_detection_root.py" />
-        <option value="$PROJECT_DIR$/Extraction/streaming.py" />
-        <option value="$PROJECT_DIR$/extraction/streaming.py" />
-        <option value="$PROJECT_DIR$/food_detector/POS.py" />
-        <option value="$PROJECT_DIR$/extraction/twitter_extraction.py" />
-        <option value="$PROJECT_DIR$/test/get_user_mentions_and_hashtags.py" />
-        <option value="$PROJECT_DIR$/test/pos_test.py" />
-        <option value="$PROJECT_DIR$/seed_list_generation/what_food_stemmed_list.py" />
-        <option value="$PROJECT_DIR$/extraction/2017_10_10-13_56_50 - FoodDetection_Performance.txt" />
-        <option value="$PROJECT_DIR$/extraction/2017_10_10-14_01_03 - FoodDetection_Performance.txt" />
-        <option value="$PROJECT_DIR$/extraction/2017_10_10-14_12_59 - FoodDetection_Performance.txt" />
-        <option value="$PROJECT_DIR$/test/get_eagles_standard.py" />
-        <option value="$PROJECT_DIR$/temporal_files/user_mentions_about_food.txt" />
         <option value="$PROJECT_DIR$/data/list - what_food.txt" />
-        <option value="$PROJECT_DIR$/data/list - stemmed_what_food.txt" />
-        <option value="$PROJECT_DIR$/temporal_files/hashtags_about_food.txt" />
-        <option value="$PROJECT_DIR$/temporal_files/text_about_food.txt" />
-        <option value="$PROJECT_DIR$/temporal_files/what_words.txt" />
-        <option value="$PROJECT_DIR$/temporal_files/text_not_about_food.txt" />
-        <option value="$PROJECT_DIR$/temporal_files/anagrams_with_food_words.txt" />
-        <option value="$PROJECT_DIR$/extraction/2017_10_10-16_21_07 - FoodDetection_Performance.txt" />
-        <option value="$PROJECT_DIR$/text_analysis/text_analysis.py" />
-        <option value="$PROJECT_DIR$/food_detector/food_detector.py" />
-        <option value="$PROJECT_DIR$/configuration/configuration.ini" />
-        <option value="$PROJECT_DIR$/food_detector/food_detector_thread.py" />
-        <option value="$PROJECT_DIR$/batch.py" />
-        <option value="$PROJECT_DIR$/food_detector_service.py" />
+        <option value="$PROJECT_DIR$/test/dict_test.py" />
         <option value="$PROJECT_DIR$/food_detector/food_detector_service.py" />
-        <option value="$PROJECT_DIR$/extraction/batch.py" />
+        <option value="$PROJECT_DIR$/food_detector/food_detector.py" />
+        <option value="$PROJECT_DIR$/list_generation/generate_final_lists.py" />
+        <option value="$PROJECT_DIR$/test/emoticon_test.py" />
+        <option value="$PROJECT_DIR$/list_generation/emoticon_list_generation.py" />
+        <option value="$PROJECT_DIR$/test/2017_11_02-23_55_10 - DetectEmoticonsAndEmojis_Performance.txt" />
+        <option value="$PROJECT_DIR$/test/2017_11_07-16_41_23 - DetectEmoticonsAndEmojis_Performance.txt" />
+        <option value="$PROJECT_DIR$/data/list - raw_emojis.txt" />
+        <option value="$PROJECT_DIR$/test/2017_11_07-21_52_15 - DetectEmoticonsAndEmojis_Performance.txt" />
+        <option value="$PROJECT_DIR$/list_generation/emoji_list_generation.py" />
+        <option value="$PROJECT_DIR$/data/list - assignation_unicode_emojis.txt" />
+        <option value="$PROJECT_DIR$/data/list - what_food_emojis.txt" />
+        <option value="$PROJECT_DIR$/data/list - assignation_of_4_to_review_3_unicode_emojis.txt" />
+        <option value="$PROJECT_DIR$/list_generation/emoji_list_assignation_generation.py" />
+        <option value="$PROJECT_DIR$/test/2017_11_14-23_09_41 - DetectEmoticonsAndEmojis_Performance.txt" />
+        <option value="$PROJECT_DIR$/test/detect_food_spacy_test.py" />
+        <option value="$PROJECT_DIR$/test/2017_11_15-03_18_59 - DetectEmoticonsAndEmojis_Performance.txt" />
+        <option value="$PROJECT_DIR$/test/accents_test.py" />
+        <option value="$PROJECT_DIR$/test/emoji_test.py" />
+        <option value="$PROJECT_DIR$/list_generation/complementary_characters_list_generation.py" />
+        <option value="$PROJECT_DIR$/data/list - complementary_characters.txt" />
+        <option value="$PROJECT_DIR$/configuration/configuration.ini" />
+        <option value="$PROJECT_DIR$/data/list - unicode_emojis.txt" />
+        <option value="$PROJECT_DIR$/data/list - emoticons.txt" />
+        <option value="$PROJECT_DIR$/test/2017_11_15-03_05_28 - DetectEmoticonsAndEmojis_Performance.txt" />
+        <option value="$PROJECT_DIR$/test/2017_11_18-02_33_13 - LanguageDetection.txt" />
+        <option value="$PROJECT_DIR$/test/2017_11_18-02_38_55 - LanguageDetection.txt" />
+        <option value="$PROJECT_DIR$/test/2017_11_18-02_53_44 - LanguageDetection.txt" />
+        <option value="$PROJECT_DIR$/test/lang_raw_data_test.py" />
+        <option value="$PROJECT_DIR$/test/2017_11_18-04_18_55 - DetectEmoticonsAndEmojis_Performance.txt" />
+        <option value="$PROJECT_DIR$/test/complete_analysis_text_test.py" />
+        <option value="$PROJECT_DIR$/test/complete_text_analysis_test.py" />
+        <option value="$PROJECT_DIR$/test/2017_11_18-05_01_37 - DetectEmoticonsAndEmojis_Performance.txt" />
+        <option value="$PROJECT_DIR$/test/2017_11_18-11_18_59 - DetectEmoticonsAndEmojis_Performance.txt" />
+        <option value="$USER_HOME$/Google Drive/CAOBA/2017_11_20 - safegropings-unionfind-multi.py" />
+        <option value="$PROJECT_DIR$/test/2017_11_20-19_38_00 - DetectEmoticonsAndEmojis_Performance.txt" />
+        <option value="$PROJECT_DIR$/test/emoji_recognition_with_spaCy.py" />
+        <option value="$PROJECT_DIR$/test/spaCy_matcher_test.py" />
+        <option value="$PROJECT_DIR$/test/special_characters_raw_data_test.py" />
+        <option value="$PROJECT_DIR$/test/emoji_library_test.py" />
+        <option value="$PROJECT_DIR$/test/2017_11_24-21_09_14 - DetectEmojisWithSpacymoji_Performance.txt" />
+        <option value="$PROJECT_DIR$/test/emoji_raw_data_text.py" />
+        <option value="$PROJECT_DIR$/test/spacymoji_test.py" />
+        <option value="$PROJECT_DIR$/test/detect_emoticon_with_match.py" />
+        <option value="$PROJECT_DIR$/list_generation/emoji_with_polarity_generation.py" />
+        <option value="$PROJECT_DIR$/list_generation/emoji_with_sentiment_generation.py" />
+        <option value="$PROJECT_DIR$/test/regex_emoticon_detection.py" />
+        <option value="$PROJECT_DIR$/test/regex_emoticon_faces_detection.py" />
+        <option value="$PROJECT_DIR$/test/regex_emoticon_detection_raw_data.py" />
       </list>
     </option>
   </component>
@@ -195,9 +209,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1378" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -325,24 +340,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="food_detector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDetection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDetection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDetection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="extraction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -389,10 +386,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MonthlyTaskReportGeneration" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -402,20 +400,21 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\yespindola\Documents\GitHub\FoodDetection\data" />
-      <recent name="C:\Users\yespindola\Documents\GitHub\FoodDetection\data_test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yespindola\Documents\GitHub\FoodDetection" />
       <recent name="C:\Users\yespindola\Documents\GitHub\FoodDetection\data" />
       <recent name="C:\Users\yespindola\Documents\GitHub\FoodDetection\list_generation" />
       <recent name="C:\Users\yespindola\Documents\GitHub\FoodDetection\extraction" />
       <recent name="C:\Users\yespindola\Documents\GitHub\FoodDetection\configuration" />
-      <recent name="C:\Users\yespindola\Documents\GitHub\FoodDetection\food_detector" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yespindola\Documents\GitHub\FoodDetection\list_generation" />
+      <recent name="C:\Users\yespindola\Documents\GitHub\FoodDetection\data" />
+      <recent name="C:\Users\yespindola\Documents\GitHub\FoodDetection\data_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.batch">
-    <configuration default="false" name="get_user_mentions_and_hashtags" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.regex_emoticon_detection">
+    <configuration default="false" name="detect_emoticon_with_match" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -428,12 +427,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="FoodDetection" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/get_user_mentions_and_hashtags.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/detect_emoticon_with_match.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="get_eagles_standard" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="regex_emoticon_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -446,43 +445,61 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="FoodDetection" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/get_eagles_standard.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/regex_emoticon_detection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="what_food_stemmed_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="emoji_with_sentiment_generation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seed_list_generation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list_generation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="FoodDetection" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\yespindola\Documents\GitHub\FoodDetection\list_generation\generate_what_food_stemmed_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list_generation/emoji_with_sentiment_generation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="batch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="regex_emoticon_detection_raw_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extraction" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="FoodDetection" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\yespindola\Documents\GitHub\FoodDetection\extraction\batch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/regex_emoticon_detection_raw_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="regex_emoticon_faces_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FoodDetection" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/regex_emoticon_faces_detection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -738,18 +755,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python.get_user_mentions_and_hashtags" />
-      <item index="1" class="java.lang.String" itemvalue="Python.get_eagles_standard" />
-      <item index="2" class="java.lang.String" itemvalue="Python.what_food_stemmed_list" />
-      <item index="3" class="java.lang.String" itemvalue="Python.batch" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.detect_emoticon_with_match" />
+      <item index="1" class="java.lang.String" itemvalue="Python.regex_emoticon_detection" />
+      <item index="2" class="java.lang.String" itemvalue="Python.emoji_with_sentiment_generation" />
+      <item index="3" class="java.lang.String" itemvalue="Python.regex_emoticon_detection_raw_data" />
+      <item index="4" class="java.lang.String" itemvalue="Python.regex_emoticon_faces_detection" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.batch" />
-        <item index="1" class="java.lang.String" itemvalue="Python.get_eagles_standard" />
-        <item index="2" class="java.lang.String" itemvalue="Python.what_food_stemmed_list" />
-        <item index="3" class="java.lang.String" itemvalue="Python.get_user_mentions_and_hashtags" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.regex_emoticon_detection" />
+        <item index="1" class="java.lang.String" itemvalue="Python.regex_emoticon_faces_detection" />
+        <item index="2" class="java.lang.String" itemvalue="Python.regex_emoticon_detection_raw_data" />
+        <item index="3" class="java.lang.String" itemvalue="Python.emoji_with_sentiment_generation" />
+        <item index="4" class="java.lang.String" itemvalue="Python.detect_emoticon_with_match" />
       </list>
     </recent_temporary>
   </component>
@@ -769,50 +788,41 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Doctests_in_tree_tagger_test - 2017.10.18 at 23h 22m 40s.xml">
+      <configuration name="Doctests in tree_tagger_test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_tree_tagger_test - 2017.10.18 at 23h 22m 49s.xml">
+      <configuration name="Doctests in tree_tagger_test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_tree_tagger_test - 2017.10.18 at 23h 29m 25s.xml">
+      <configuration name="Doctests in tree_tagger_test" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27996966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5030349" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44786325" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15104167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21428572" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3982906" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.203125" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.4969743" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.4969743" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39930555" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5030349" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22916667" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27162367" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.4969743" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39930555" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -826,316 +836,394 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/food_detector/food_detector_service.py">
+    <entry file="file://$PROJECT_DIR$/data/list - complementary_characters.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="80359">
+          <caret line="4727" column="0" selection-start-line="4727" selection-start-column="0" selection-end-line="4727" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extraction/twitter_extraction.py">
+    <entry file="file://$PROJECT_DIR$/data/list - emojis_sentiment.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="105" column="64" selection-start-line="105" selection-start-column="64" selection-end-line="105" selection-end-column="64" />
+        <state relative-caret-position="128">
+          <caret line="658" column="58" selection-start-line="658" selection-start-column="58" selection-end-line="658" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/food_detection_root.py">
+    <entry file="file://$PROJECT_DIR$/list_generation/emoji_with_sentiment_generation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        <state relative-caret-position="204">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/detect_food_spacy_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3621">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/configuration/configuration.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-1224">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extraction/batch.py">
+    <entry file="file://$PROJECT_DIR$/test/2017_11_29-11_24_14 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-731">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Anaconda/envs/FoodDetection/Lib/site-packages/spacy/es/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_29-12_05_55 - DetectRegexEmoticonsRawData_Performance.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extraction/streaming.py">
+    <entry file="file://$PROJECT_DIR$/test/2017_11_29-12_12_57 - DetectRegexEmoticonsRawData_Performance.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/food_detector/food_detector.py">
+    <entry file="file://$PROJECT_DIR$/test/2017_11_29-20_18_16 - DetectRegexEmoticonsRawData_Performance.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_29-20_19_23 - DetectRegexEmoticonsRawData_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_29-20_26_03 - DetectRegexEmoticonsRawData_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_29-20_38_28 - DetectRegexEmoticonsRawData_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="449" column="80" selection-start-line="449" selection-start-column="78" selection-end-line="449" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_29-21_17_54 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_29-21_21_41 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_29-21_22_32 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_29-21_24_22 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/emoji_raw_data_text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="138" column="30" selection-start-line="138" selection-start-column="30" selection-end-line="138" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_29-22_36_48 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1071">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_29-22_37_20 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_30-05_40_19 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_30-05_40_50 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1071">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_30-05_41_42 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_30-05_42_33 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_30-05_48_15 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_30-05_50_21 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_30-05_52_22 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_30-05_53_00 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_30-05_53_43 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_30-05_55_02 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_30-05_56_42 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configure_sys_path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_11_30-05_51_53 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list_generation/emoticon_list_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
-            <element signature="e#0#52#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text_analysis/text_analysis.py">
+    <entry file="file://$PROJECT_DIR$/test/2017_11_30-05_57_19 - DetectEmoticonsWithRegex_Performance.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/food_detector/food_detector_thread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/food_detector/food_detector_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extraction/twitter_extraction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1717">
-          <caret line="105" column="64" selection-start-line="105" selection-start-column="64" selection-end-line="105" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/food_detection_root.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/configuration.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="390">
+          <caret line="97" column="666" selection-start-line="97" selection-start-column="666" selection-end-line="97" selection-end-column="669" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extraction/batch.py">
+    <entry file="file://$PROJECT_DIR$/test/2017_11_30-05_59_30 - DetectEmoticonsWithRegex_Performance.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="361">
+          <caret line="96" column="603" selection-start-line="96" selection-start-column="598" selection-end-line="96" selection-end-column="603" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_12_05-11_04_58 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_12_05-11_04_05 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extraction/streaming.py">
+    <entry file="file://$PROJECT_DIR$/test/2017_12_05-11_11_06 - DetectEmoticonsWithRegex_Performance.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extraction/twitter_extraction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/food_detection_root.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/configuration.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extraction/batch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-450">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/text_about_food.txt" />
-    <entry file="file://$PROJECT_DIR$/food_detection_root.py">
+    <entry file="file://$PROJECT_DIR$/test/2017_12_05-11_11_48 - DetectEmoticonsWithRegex_Performance.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pos_test.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/envs/VariableDerivation/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="861" column="4" selection-start-line="861" selection-start-column="4" selection-end-line="861" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/get_user_mentions_and_hashtags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extraction/2017_10_10-13_56_50 - FoodDetection_Performance.txt" />
-    <entry file="file://$PROJECT_DIR$/extraction/2017_10_10-14_01_03 - FoodDetection_Performance.txt" />
-    <entry file="file://$PROJECT_DIR$/extraction/2017_10_10-14_12_59 - FoodDetection_Performance.txt" />
-    <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/envs/VariableDerivation/Lib/site-packages/nltk-3.2.5-py3.5.egg/nltk/tag/stanford.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/envs/VariableDerivation/Lib/site-packages/sklearn/feature_extraction/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="659" column="64" selection-start-line="659" selection-start-column="34" selection-end-line="659" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/get_eagles_standard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="959">
-          <caret line="89" column="92" selection-start-line="89" selection-start-column="60" selection-end-line="89" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/list - what_food.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="693" column="8" selection-start-line="693" selection-start-column="8" selection-end-line="693" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/list - stemmed_what_food.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="694" column="0" selection-start-line="694" selection-start-column="0" selection-end-line="694" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temporal_files/what_words.txt" />
-    <entry file="file://$PROJECT_DIR$/temporal_files/user_mentions_with_food_words.txt" />
-    <entry file="file://$PROJECT_DIR$/temporal_files/user_mentions_about_food.txt" />
-    <entry file="file://$PROJECT_DIR$/temporal_files/text_not_about_food.txt" />
-    <entry file="file://$PROJECT_DIR$/temporal_files/hashtags_with_food_words.txt" />
-    <entry file="file://$PROJECT_DIR$/temporal_files/hashtags_about_food.txt" />
-    <entry file="file://$PROJECT_DIR$/extraction/2017_10_10-16_21_07 - FoodDetection_Performance.txt" />
-    <entry file="file://$PROJECT_DIR$/temporal_files/text_about_food.txt" />
-    <entry file="file://$PROJECT_DIR$/temporal_files/anagrams_with_food_words.txt" />
-    <entry file="file://$PROJECT_DIR$/extraction/2017_10_10-19_09_26 - FoodDetection_Performance.txt" />
-    <entry file="file://$PROJECT_DIR$/configuration/configuration.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="-612">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/food_detector/food_detector.py">
+    <entry file="file://$PROJECT_DIR$/test/2017_12_05-11_24_32 - DetectEmoticonsWithRegex_Performance.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="88">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extraction/batch.py">
+    <entry file="file://$PROJECT_DIR$/test/2017_12_05-11_26_35 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_12_05-11_31_21 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="114" column="2717" selection-start-line="114" selection-start-column="2715" selection-end-line="114" selection-end-column="2717" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_12_05-11_39_17 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_12_05-12_55_35 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_12_05-12_56_48 - DetectEmoticonsWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="124" column="1352" selection-start-line="124" selection-start-column="1350" selection-end-line="124" selection-end-column="1352" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_12_05-13_33_38 - DetectEmoticonsFacesWithRegex_Performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2017_12_05-13_35_54 - DetectEmoticonsFacesWithRegex_Performance.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <caret line="42" column="64" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extraction/streaming.py">
+    <entry file="file://$PROJECT_DIR$/test/regex_emoticon_detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="88">
+          <caret line="25" column="63" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/regex_emoticon_faces_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/regex_emoticon_detection_raw_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extraction/twitter_extraction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="105" column="45" selection-start-line="105" selection-start-column="45" selection-end-line="105" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/food_detector/food_detector_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/food_detector/food_detector_thread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list_generation/generate_what_food_stemmed_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text_analysis/text_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-542">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

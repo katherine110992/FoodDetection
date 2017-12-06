@@ -1,0 +1,104 @@
+1621	\U0001f347	🍇	grapes	uva
+1622	\U0001f348	🍈	melon	melon
+1623	\U0001f349	🍉	watermelon	patilla
+1623	\U0001f349	🍉	watermelon	sandia
+1624	\U0001f34a	🍊	tangerine	mandarina
+1625	\U0001f34b	🍋	lemon	limon
+1626	\U0001f34c	🍌	banana	banana
+1626	\U0001f34c	🍌	banana	banano
+1627	\U0001f34d	🍍	pineapple	piña
+1628	\U0001f34e	🍎	red apple	manzana verde
+1629	\U0001f34f	🍏	green apple	manzana roja
+1630	\U0001f350	🍐	pear	pera
+1631	\U0001f351	🍑	peach	durazno
+1632	\U0001f352	🍒	cherries	cereza
+1633	\U0001f353	🍓	strawberry	fresa
+1634	\U0001f95d	🥝	kiwi fruit	kiwi
+1635	\U0001f345	🍅	tomato	tomate
+1636	\U0001f965	🥥	⊛ coconut	coco
+1637	\U0001f951	🥑	avocado	aguacate
+1638	\U0001f346	🍆	eggplant	berenjena
+1639	\U0001f954	🥔	potato	papa
+1640	\U0001f955	🥕	carrot	zanahoria
+1641	\U0001f33d	🌽	ear of corn	mazorca de maiz
+1642	\U0001f336	🌶	hot pepper	pimiento picante
+1643	\U0001f952	🥒	cucumber	pepino
+1644	\U0001f966	🥦	⊛ broccoli	brocoli
+1645	\U0001f344	🍄	mushroom	champiñon
+1646	\U0001f95c	🥜	peanuts	mani
+1647	\U0001f330	🌰	chestnut	castaña
+1648	\U0001f35e	🍞	bread	pan
+1649	\U0001f950	🥐	croissant	croissant
+1650	\U0001f956	🥖	baguette bread	baguette
+1651	\U0001f968	🥨	⊛ pretzel	pretzel
+1652	\U0001f95e	🥞	pancakes	panqueque
+1653	\U0001f9c0	🧀	cheese wedge	queso
+1654	\U0001f356	🍖	meat on bone	carne
+1655	\U0001f357	🍗	poultry leg	pierna de pollo
+1656	\U0001f969	🥩	⊛ cut of meat	carne
+1657	\U0001f953	🥓	bacon	tocino
+1658	\U0001f354	🍔	hamburger	hamburguesa
+1659	\U0001f35f	🍟	french fries	papas a la francesa
+1660	\U0001f355	🍕	pizza	pizza
+1661	\U0001f32d	🌭	hot dog	perro caliente
+1662	\U0001f96a	🥪	⊛ sandwich	sandwich
+1662	\U0001f96a	🥪	⊛ sandwich	sanduche
+1663	\U0001f32e	🌮	taco	taco
+1664	\U0001f32f	🌯	burrito	burrito
+1665	\U0001f959	🥙	stuffed flatbread	Not apply
+1666	\U0001f95a	🥚	egg	huevo
+1667	\U0001f373	🍳	cooking	cocinar
+1668	\U0001f958	🥘	shallow pan of food	bandeja de comida
+1669	\U0001f372	🍲	pot of food	olla de comida
+1670	\U0001f963	🥣	⊛ bowl with spoon	bowl de comida
+1671	\U0001f957	🥗	green salad	ensalada verde
+1672	\U0001f37f	🍿	popcorn	palomitas de maiz
+1672	\U0001f37f	🍿	popcorn	crispetas
+1672	\U0001f37f	🍿	popcorn	maiz pira
+1673	\U0001f96b	🥫	⊛ canned food	comida enlatada
+1674	\U0001f371	🍱	bento box	caja bento
+1675	\U0001f358	🍘	rice cracker	galleta de arroz
+1676	\U0001f359	🍙	rice ball	bola de arroz
+1677	\U0001f35a	🍚	cooked rice	arroz
+1678	\U0001f35b	🍛	curry rice	arroz curry
+1679	\U0001f35c	🍜	steaming bowl	nuddles
+1680	\U0001f35d	🍝	spaghetti	spaghetti
+1680	\U0001f35d	🍝	spaghetti	pasta
+1681	\U0001f360	🍠	roasted sweet potato	batata
+1682	\U0001f362	🍢	oden	oden
+1683	\U0001f363	🍣	sushi	sushi
+1684	\U0001f364	🍤	fried shrimp	camaron
+1685	\U0001f365	🍥	fish cake with swirl	torta de pescado
+1686	\U0001f361	🍡	dango	dango
+1687	\U0001f95f	🥟	⊛ dumpling	dumpling
+1688	\U0001f960	🥠	⊛ fortune cookie	galleta de la fortuna
+1689	\U0001f961	🥡	⊛ takeout box	comida para llevar
+1690	\U0001f366	🍦	soft ice cream	cono de helado
+1691	\U0001f367	🍧	shaved ice	raspado
+1692	\U0001f368	🍨	ice cream	helado
+1693	\U0001f369	🍩	doughnut	dona
+1694	\U0001f36a	🍪	cookie	galleta
+1695	\U0001f382	🎂	birthday cake	torta de cumpleaños
+1696	\U0001f370	🍰	shortcake	torta
+1697	\U0001f967	🥧	⊛ pie	tarta
+1698	\U0001f36b	🍫	chocolate bar	chocolatina
+1699	\U0001f36c	🍬	candy	dulce
+1700	\U0001f36d	🍭	lollipop	colombina
+1701	\U0001f36e	🍮	custard	flan
+1702	\U0001f36f	🍯	honey pot	miel
+1703	\U0001f37c	🍼	baby bottle	biberon
+1704	\U0001f95b	🥛	glass of milk	leche
+1705	\u2615	☕	hot beverage	bebida caliente
+1706	\U0001f375	🍵	teacup without handle	taza de te
+1707	\U0001f376	🍶	sake	sake
+1708	\U0001f37e	🍾	bottle with popping cork	champaña
+1708	\U0001f37e	🍾	bottle with popping cork	champagne
+1708	\U0001f37e	🍾	bottle with popping cork	champan
+1709	\U0001f377	🍷	wine glass	vino
+1710	\U0001f378	🍸	cocktail glass	coctel
+1711	\U0001f379	🍹	tropical drink	coctel
+1712	\U0001f37a	🍺	beer mug	cerveza
+1713	\U0001f37b	🍻	clinking beer mugs	cerveza
+1714	\U0001f942	🥂	clinking glasses	bebida alcoholica
+1715	\U0001f943	🥃	tumbler glass	whisky
+1716	\U0001f964	🥤	⊛ cup with straw	gaseosa
