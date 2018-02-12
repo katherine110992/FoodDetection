@@ -13,22 +13,28 @@ p_file.flush()
 nlp = spacy.load('es')
 
 happy_pattern = r"[:;]\)+|[:;]-\)+|([:;]\))+|[:;]=\)+|(:=\))+|(:-\))+|=\)+|(=\))+|[xX][dD]+|:D+|=D+|:-D+"
-emoticon_pattern = r"([:;=]'?-?[\)D\(\C\coOpPDsS/\*\|\\]+)|[xX][dD]+|[:=][30]|:-?[\|!\$#\*vV\[]|<3|</3|" \
-                   r"([\)D\(\C\coOpPDsS/\*\|\\\\]+-?'?[:;=])|\^[-_.]\^"
+emoticon_pattern = r"([:;=]'?-?[\)D\(\CcoOpPDsS\/\*\|\\]+)" \
+                   r"|[xX][dD]+" \
+                   r"|[:=][30]" \
+                   r"|:-?[\|!\$#\*vV\[]" \
+                   r"|<3" \
+                   r"|<\/3" \
+                   r"|([\)D\(\C\coOpPDsS\/\*\|\\\\]+-?'?[:;=])" \
+                   r"|\^[-_.]\^"
 # emoticon_pattern = r"([:;=]-?([\)D\(\C\co]+|[xX][dD]+))|([:<][3])|(<\\3)|()"
 emoticons_characters = ['X', 'x', 'd', 'D', ')', '(', ':', ';', '\'', '*', '=', '/', '$', '#', '-', 'C', 'c',
-                        '<', '3', '0', 'O', 'o', 'p', 'P', '!', 's', 'S', '|', '\\', 'v', 'V']
+                        '<', '3', '0', 'O', 'o', 'p', 'P', '!', 's', 'S', '|', '\\', 'v', 'V', '[']
 
-faces_pattern = r"\^[-_.]?\^|[Oo][._][oO]"
-faces_characters = ['^', '-', '_', '.', 'o', 'O']
+faces_pattern = r"[uU]_[uU]|._."
+faces_characters = ['U', 'u', '_', '.']
 
 # \| ! $
 test_str = "Soy muy feliz!!!!! :-) :-) :-) :)))))):))))) )-: :\ :||| =| feliz;)=):D=)=/ xdxDXdXDxdXdxDxdxDxd =Dah! :-D " \
-           "XDDDDDDDDD DE XDIOS SIXDEGREES! =). :/ :-* :\ D= D=mi :s D: D:holla :Volar :v :[ :-S :-o =/ :-! :* :0 :3 " \
+           "XDDDDDDDDD DE XDIOS SIXDEGREES! =). _________ :/ :-* :\ D= D=mi :s D: D:holla :Volar :v :[ :-S :-o =/ :-! :* :0 :3 " \
            ":3000. Aunque a =P veces me da mucha melancolía :( :(((((( y " \
            "mas y mas:CCCCCCCCCC 10:00 a.m. ^^ ^.^ ^_^ ^-^ :c También C: :| :-| ;! :$ :'-( estoy como ;p :P </3 :p y como" \
            ":pelear, " \
-           "pero tambien <3:P :-PDonde"
+           "pero tambien <3:P :-PDonde </3"
 
 # test_str = "Te necesito en mi vida para ser feliz :) https://t.co/kcee5JDS7G"
 
@@ -80,6 +86,7 @@ for token in simple_tokens:
     else:
         # Try to look up for a suffix
         for matchNum, match in enumerate(matches):
+            print(matches)
             if token.endswith(match.group()):
                 print("it is a suffix emoticon", token)
                 is_emoticon = True
@@ -125,6 +132,7 @@ for token in simple_tokens:
                 break
             else:
                 is_emoticon = False
+                print('is not suffix: ' + token)
             """
             elif token.startswith(match.group()):
                 print("it is a prefix emoticon", token)
@@ -151,19 +159,19 @@ for token in simple_tokens:
                     if emoticon in entities.keys():
                         final_em = entities[match.group()]['token']
                     else:
-                        final_em = 'special_entity_' + str(emoticon_sequence)
-                        emoticon_sequence += 1
+                        final_em = 'special_entity_' + str(entity_sequence)
+                        entity_sequence += 1
                     clean_token += final_em + ' '
-                    final_tokens.append(final_em)
+                    final_emoticons.append(final_em)
                     entities[emoticon] = {
                         'token': final_em,
                         'tag_type': 'emoticon',
                         'morph': 'Polarity=1',
                         'pos': ''
                     }
-                final_tokens.append(t)
+                final_emoticons.append(t)
                 clean_text += ' ' + clean_token
-                emoticon_sequence += 1
+                entity_sequence += 1
                 break
             """
         if not is_emoticon:

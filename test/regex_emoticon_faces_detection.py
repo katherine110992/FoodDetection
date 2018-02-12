@@ -140,19 +140,19 @@ for token in simple_tokens:
                     if emoticon in entities.keys():
                         final_em = entities[match.group()]['token']
                     else:
-                        final_em = 'special_entity_' + str(emoticon_sequence)
-                        emoticon_sequence += 1
+                        final_em = 'special_entity_' + str(entity_sequence)
+                        entity_sequence += 1
                     clean_token += final_em + ' '
-                    final_tokens.append(final_em)
+                    final_emoticons.append(final_em)
                     entities[emoticon] = {
                         'token': final_em,
                         'tag_type': 'emoticon',
                         'morph': 'Polarity=1',
                         'pos': ''
                     }
-                final_tokens.append(t)
+                final_emoticons.append(t)
                 clean_text += ' ' + clean_token
-                emoticon_sequence += 1
+                entity_sequence += 1
                 break
             """
         if not is_emoticon:

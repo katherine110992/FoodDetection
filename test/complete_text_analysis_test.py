@@ -11,6 +11,8 @@ from textblob import TextBlob
 import ast
 import copy
 import re
+import spacy.lang.es.tag_map
+from spacy.lang.es import Spanish
 
 
 def complete_text_analysis():
@@ -75,10 +77,10 @@ def complete_text_analysis():
     variation_selectors = ast.literal_eval(config.get('TextAnalysis', 'variation_selectors'))
     # 3. Configure Spanish POS tagger
     spanish_pos_tagger = spacy.load('es')
-    tag_map = spacy.es.TAG_MAP
+    tag_map = spacy.lang.es.TAG_MAP
     all_from_tweets = coll_from.find()
     count = 0
-    stop = 1000
+    stop = 10
     p_file.write("Total data to process: " + str(stop) + "\n")
     emoticons = []
     emojis = []
@@ -111,7 +113,7 @@ def complete_text_analysis():
                                 emoticon_count = results[5]
                                 emojis_count = results[6]
                                 complementary_characters_count = results[7]
-                                if len(results[2]) == 0 and len(results[3]) == 0 and len(results[4]) == 0:
+                                if len(results[2]) != 0 or len(results[3]) != 0 or len(results[4]) != 0:
                                     texts.append(spaced_text + '\t' + final_clean_text)
                                 count += 1
                             else:
@@ -136,7 +138,7 @@ def complete_text_analysis():
                                         emoticon_count = results[5]
                                         emojis_count = results[6]
                                         complementary_characters_count = results[7]
-                                        if len(results[2]) == 0 and len(results[3]) == 0 and len(results[4]) == 0:
+                                        if len(results[2]) != 0 or len(results[3]) != 0 or len(results[4]) != 0:
                                             texts.append(spaced_text + '\t' + final_clean_text)
                                         count += 1
                             print(count)
@@ -163,7 +165,7 @@ def complete_text_analysis():
         p_file.write(str(cc[0]) + "\t" + str(cc[1]) + "\n")
     p_file.write("Total Complementary Characters: " + str(complementary_characters_count)
                  + ". Proportion: " + str(complementary_characters_count / stop) + "\n")
-    p_file.write("Texts without: " + "\n")
+    p_file.write("Texts with: " + "\n")
     for text in texts:
         p_file.write(text + "\n")
     p_file.write("Total elements in new list: " + str(count) + "\n")
@@ -226,8 +228,8 @@ def identify_special_characters(text, spanish_pos_tagger, tag_map, emoticons_dic
                 # print(tag_text)
         general_sc_detected = False
         initial_morph = tag.tag_
-        pos_morph = tag_map[initial_morph]
-        pos = pos_morph['pos']
+        # pos_morph = tag_map[initial_morph]
+        pos = tag.pos_
         for sp in second_special_characters:
             if sp in tag_text:
                 general_sc_detected = True
@@ -315,16 +317,7 @@ def identify_special_characters(text, spanish_pos_tagger, tag_map, emoticons_dic
                     if complementary_characters_in:
                         final_clean_text += no_complementary_characters_text + ' '
                     if not emoji_in and not complementary_characters_in:
-                        if pos == 'PUNCT':
-                            final_clean_text = final_clean_text[0:len(final_clean_text) - 1] + tag_text + " "
-                            p_side = pos_morph['morph']
-                        else:
-                            if 'PunctSide=Ini' in p_side:
-                                final_clean_text = final_clean_text[
-                                                   0:len(final_clean_text) - 1] + complete_tag_text + " "
-                            else:
-                                final_clean_text += complete_tag_text + ' '
-                            p_side = ''
+                        final_clean_text += complete_tag_text + ' '
 
     final_clean_text = delete_spaces(final_clean_text)
     spaced_text = final_clean_text

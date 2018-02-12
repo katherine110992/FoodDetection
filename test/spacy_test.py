@@ -6,19 +6,20 @@ start_time = time()
 nlp = spacy.load('es')
 execution_time = time() - start_time
 print(str(timedelta(seconds=execution_time)))
-print()
-
-# import es_core_web_md
-
-# nlp = es_core_web_md.load()
-print(spacy.es.TAG_MAP)
-
-print(spacy.es.STOP_WORDS)
 
 start_time = time()
-doc = nlp('no \\ entiendo a \' " % ; ¿? ! ¡ : \# $ & > < - _ ° | ¬ \\ * + [ ] { } = \n &amp &gt &lt @esas mujeres (y hombres) que les gusta que le lleguen con flores a mi que me enamoren con comida como torta, pizza, hamburguesas etc')
+
+doc = nlp('El mejor buenos días es cuando uno se encuentra dinero en alguna prenda del día.*Se encuentra 10lks en un calcetín.')
+clean_text = ''
 for word in doc:
     print(word.text, word.tag_, word.pos_)
+    clean_text += word.text + ' '
 execution_time = time() - start_time
 print(str(timedelta(seconds=execution_time)))
-print()
+print(clean_text)
+
+unaccented_text = 'El mejor buenos dias es cuando uno se encuentra dinero en alguna prenda del dia.*Se encuentra 10lks en un calcetin .'
+terms = {}
+doc = nlp(unaccented_text)
+for entity in doc:
+    print(entity)
